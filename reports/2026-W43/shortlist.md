@@ -2,248 +2,563 @@
 
 ## Luv Jain
 
-### 1. Durex India (BIK + Manifest, score 76.2)
-- **Play:** Feature pitch (BIK + Manifest): 5 of 28 modules in use, sell the remaining 23
-- **Why now:** Enterprise + Key accounts account paying $939/mo; BIK + Manifest; Manifest: 13,307 orders / $87,419 sales in Sep, 0/17 modules used; BIK: 333,099 messages sent in Sep, 5/11 modules used; 23 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Abandoned Checkout Recovery Nudge; Manifest: Add to Cart Popup Nudge; Manifest: Removed from Cart Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Collection Page Welcome Nudge; Manifest: Search Results Nudge; Manifest: Browsing-History Recommendations; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: AI Agents; Manifest: Lead Generation; Manifest: Integrations; BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: Lead/Offer Widgets; BIK: WhatsApp Calling
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (13,307 orders in Sep gives it room to pay back) | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | RCS Messaging: richer, branded messages on Android alongside WhatsApp
+### 1. I Destiny (BIK + Manifest, priority 79.9)
+- **Why now:** Enterprise/key account paying $600/mo; spend grew from $480 to $600, so there is appetite to buy more; 159 orders and $74,481 in sales through Manifest in Sep; 70,859 BIK messages sent in Sep.
+- **Where they stand:** BIK + Manifest: 14 of 28 features live. Lead with WhatsApp Campaigns.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 79% of 104 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, AI Agents:** Handles order status, returns and FAQs end to end, so support only sees the hard cases.
+  - Evidence: 487 support conversations in Sep and no AI Agent set up. 46% of 100 comparable stores already use it.
+  - Open with: "What share of your support chats are order status or returns?"
+- **Lead with #3, Email Campaigns and Journeys:** Runs the same flows on email, a lower-cost channel for customers who are not on WhatsApp.
+  - Evidence: 63,669 WhatsApp messages sent in Sep and no email at all. 66% of 104 comparable stores already use it.
+  - Open with: "Who do you reach by email today, and who do you reach only on WhatsApp?"
+- **Also on the table:** Home Page Welcome Nudge, Ask Me Anything Button, WhatsApp Calling, Search Results Nudge
 
-### 2. Love Depot (BIK only, score 76.0)
-- **Play:** Feature pitch (BIK only): 6 of 28 modules in use, sell the remaining 22
-- **Why now:** MM account paying $450/mo; subscription rose $165 to $450, showing appetite to spend more; BIK only; BIK: 124,691 messages sent in Sep, 6/11 modules used; 22 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Instagram Automation; BIK: RCS Messaging; BIK: Web Push; BIK: BIK AI Agent; BIK: WhatsApp Calling
-- **What to pitch:** AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 2. Silverfied Bik (BIK + Manifest, priority 78.8)
+- **Why now:** Mid-market account paying $485/mo; spend grew from $410 to $485, so there is appetite to buy more; 5,784 orders and $115,234 in sales through Manifest in Sep; 58,701 BIK messages sent in Sep.
+- **Where they stand:** BIK + Manifest: 8 of 28 features live. Lead with WhatsApp Campaigns.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 79% of 104 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 1,379 customer messages answered by the team in the inbox in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #3, Integrations:** Connects the helpdesk, shipping and reviews tools so the assistant answers from live data.
+  - Evidence: AI Agents are live but nothing connects them to live order or helpdesk data. 44% of 100 comparable stores already use it.
+  - Open with: "Which tools does your team open to answer a 'where is my order' question?"
+- **Also on the table:** Abandoned Checkout Recovery Nudge, Email Campaigns and Journeys, Home Page Welcome Nudge, Ask Me Anything Button
 
-### 3. FRENCH CROWN® Dom (BIK only, score 75.8)
-- **Play:** Feature pitch (BIK only): 3 of 28 modules in use, sell the remaining 25
-- **Why now:** Enterprise + Key accounts account paying $522/mo; BIK only; BIK: 1,176,295 messages sent in Sep, 3/11 modules used; 25 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: WhatsApp Journeys; BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: Lead/Offer Widgets; BIK: WhatsApp Calling
-- **What to pitch:** WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows | AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 3. FRENCH CROWN® Dom (BIK only, priority 78.1)
+- **Why now:** Enterprise/key account paying $522/mo; 1,176,295 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 3 of 11 features live. Lead with WhatsApp Journeys.
+- **Lead with #1, WhatsApp Journeys:** Automates abandoned-cart, order-update and post-purchase flows that run without a campaign each time.
+  - Evidence: WhatsApp campaigns already run; journeys would automate the repeat moments. 99% of 104 comparable stores already use it.
+  - Open with: "Which customer moments are you still messaging by hand?"
+- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 1,176,295 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #3, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 612 customer messages answered by the team in the inbox in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Also on the table:** On-site Widgets, WhatsApp Calling, Instagram DM Automation, RCS Messaging
 
-### 4. Silverfied Bik (BIK + Manifest, score 75.6)
-- **Play:** Feature pitch (BIK + Manifest): 8 of 28 modules in use, sell the remaining 20
-- **Why now:** MM account paying $485/mo; subscription rose $410 to $485, showing appetite to spend more; BIK + Manifest; Manifest: 5,784 orders / $115,234 sales in Sep, 5/17 modules used; BIK: 58,701 messages sent in Sep, 3/11 modules used; 20 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Abandoned Checkout Recovery Nudge; Manifest: Removed from Cart Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Browsing-History Recommendations; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: Integrations; BIK: WhatsApp Campaigns; BIK: Email Campaigns/Journeys; BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: WhatsApp Calling
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (5,784 orders in Sep gives it room to pay back) | Ask Me Anything Button: pre-purchase Q&A that cuts support load | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans
+### 4. Love Depot (BIK only, priority 77.7)
+- **Why now:** Mid-market account paying $450/mo; spend grew from $165 to $450, so there is appetite to buy more; 124,691 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 6 of 11 features live. Lead with AI Agent on WhatsApp and Instagram.
+- **Lead with #1, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 1,236 customer messages answered by the team in the inbox in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 124,691 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 104 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Also on the table:** Instagram DM Automation, RCS Messaging, Web Push
 
-### 5. Duroflex (BIK + Manifest, score 75.3)
-- **Play:** Feature pitch (BIK + Manifest): 9 of 28 modules in use, sell the remaining 19
-- **Why now:** Enterprise + Key accounts account paying $1,068/mo; BIK + Manifest; Manifest: 1,530 orders / $237,920 sales in Sep, 2/17 modules used; BIK: 1,053,299 messages sent in Sep, 7/11 modules used; 19 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Abandoned Checkout Recovery Nudge; Manifest: Add to Cart Popup Nudge; Manifest: Removed from Cart Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Collection Page Welcome Nudge; Manifest: Search Results Nudge; Manifest: Browsing-History Recommendations; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: Integrations; BIK: Email Campaigns/Journeys; BIK: Instagram Automation; BIK: Web Push; BIK: WhatsApp Calling
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (1,530 orders in Sep gives it room to pay back) | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Email Campaigns & Journeys: run the same flows on email for a cheaper channel
+### 5. Duroflex (BIK + Manifest, priority 77.4)
+- **Why now:** Enterprise/key account paying $1,068/mo; 1,530 orders and $237,920 in sales through Manifest in Sep; 1,053,299 BIK messages sent in Sep.
+- **Where they stand:** BIK + Manifest: 9 of 28 features live. Lead with Email Campaigns and Journeys.
+- **Lead with #1, Email Campaigns and Journeys:** Runs the same flows on email, a lower-cost channel for customers who are not on WhatsApp.
+  - Evidence: 983,207 WhatsApp messages sent in Sep and no email at all. 66% of 104 comparable stores already use it.
+  - Open with: "Who do you reach by email today, and who do you reach only on WhatsApp?"
+- **Lead with #2, Integrations:** Connects the helpdesk, shipping and reviews tools so the assistant answers from live data.
+  - Evidence: AI Agents are live but nothing connects them to live order or helpdesk data. 44% of 100 comparable stores already use it.
+  - Open with: "Which tools does your team open to answer a 'where is my order' question?"
+- **Lead with #3, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 1,530 orders in Sep at about $156 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Also on the table:** Add to Cart Popup Nudge, Collection Page Welcome Nudge, Home Page Welcome Nudge, Removed from Cart Nudge
 
-### 6. I Destiny (BIK + Manifest, score 74.4)
-- **Play:** Feature pitch (BIK + Manifest): 14 of 28 modules in use, sell the remaining 14
-- **Why now:** Enterprise + Key accounts account paying $600/mo; subscription rose $480 to $600, showing appetite to spend more; BIK + Manifest; Manifest: 159 orders / $74,481 sales in Sep, 10/17 modules used; BIK: 70,859 messages sent in Sep, 4/11 modules used; 14 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Search Results Nudge; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: AI Agents; BIK: WhatsApp Campaigns; BIK: Email Campaigns/Journeys; BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: WhatsApp Calling
-- **What to pitch:** AI Agents: automate support chats (order status, returns, FAQs) (159 orders in Sep gives it room to pay back) | Ask Me Anything Button: pre-purchase Q&A that cuts support load | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram
+### 6. Durex India (BIK + Manifest, priority 77.0)
+- **Why now:** Enterprise/key account paying $939/mo; 13,307 orders and $87,419 in sales through Manifest in Sep; 333,099 BIK messages sent in Sep.
+- **Where they stand:** BIK + Manifest: 5 of 28 features live. Lead with Abandoned Checkout Recovery Nudge.
+- **Lead with #1, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 13,307 orders in Sep at about $7 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Lead with #2, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
+  - Evidence: 13,307 orders in Sep at about $7 each. 36% of 100 comparable stores already use it.
+  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
+- **Lead with #3, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
+  - Evidence: 333,099 messages sent in Sep. 52% of 104 comparable stores already use it.
+  - Open with: "How do website visitors become WhatsApp subscribers today?"
+- **Also on the table:** Product Page Welcome Nudge, AI Product Assistant, Removed from Cart Nudge, Search Results Nudge
 
-### 7. Bio Basics (BIK only, score 73.1)
-- **Play:** Feature pitch (BIK only): 6 of 28 modules in use, sell the remaining 22
-- **Why now:** MM account paying $296/mo; subscription rose $249 to $296, showing appetite to spend more; BIK only; BIK: 38,304 messages sent in Sep, 6/11 modules used; 22 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: WhatsApp Calling
-- **What to pitch:** Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | RCS Messaging: richer, branded messages on Android alongside WhatsApp | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 7. Setu Nutrition (BIK only, priority 74.3)
+- **Why now:** Mid-market account paying $470/mo; 602,048 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 6 of 11 features live. Lead with Manifest AI shopping assistant.
+- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 602,048 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #2, Email Campaigns and Journeys:** Runs the same flows on email, a lower-cost channel for customers who are not on WhatsApp.
+  - Evidence: 371,019 WhatsApp messages sent in Sep and no email at all. 66% of 104 comparable stores already use it.
+  - Open with: "Who do you reach by email today, and who do you reach only on WhatsApp?"
+- **Lead with #3, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 38 customer messages answered by the team in the inbox in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Also on the table:** Instagram DM Automation, RCS Messaging, Web Push
 
-### 8. Setu Nutrition (BIK only, score 72.9)
-- **Play:** Feature pitch (BIK only): 6 of 28 modules in use, sell the remaining 22
-- **Why now:** MM account paying $470/mo; BIK only; BIK: 602,048 messages sent in Sep, 6/11 modules used; 22 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Email Campaigns/Journeys; BIK: Instagram Automation; BIK: RCS Messaging; BIK: Web Push; BIK: BIK AI Agent
-- **What to pitch:** AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 8. Fixderma Skincare (Manifest only, priority 73.9)
+- **Why now:** Mid-market account paying $250/mo; 33,506 orders and $157,746 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 10 of 17 features live. Lead with BIK WhatsApp messaging.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 33,506 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #2, Integrations:** Connects the helpdesk, shipping and reviews tools so the assistant answers from live data.
+  - Evidence: AI Agents are live but nothing connects them to live order or helpdesk data. 44% of 100 comparable stores already use it.
+  - Open with: "Which tools does your team open to answer a 'where is my order' question?"
+- **Lead with #3, Ask Me Anything Button:** Answers pre-purchase questions (sizing, shipping, returns) and takes them off your support queue.
+  - Evidence: 31,556 shopper chat messages in Sep. 11% of 100 comparable stores already use it.
+  - Open with: "Which pre-purchase questions does your support team answer again and again?"
+- **Also on the table:** Product Page Welcome Nudge, AI Floating Bar, Post-Checkout Nudge, Ask AI Bar
 
-### 9. IFFCO URBAN GARDENS (BIK only, score 71.5)
-- **Play:** Feature pitch (BIK only): 6 of 28 modules in use, sell the remaining 22
-- **Why now:** MM account paying $425/mo; BIK only; BIK: 238,993 messages sent in Sep, 6/11 modules used; 22 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Instagram Automation; BIK: SMS; BIK: Web Push; BIK: Lead/Offer Widgets; BIK: WhatsApp Calling
-- **What to pitch:** Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | On-site Widgets: capture leads and route them straight into WhatsApp | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 9. Jacked Nutrition (BIK + Manifest, priority 73.7)
+- **Why now:** Mid-market account paying $299/mo; 4,591 orders and $139,016 in sales through Manifest in Sep; 46,440 BIK messages sent in Sep.
+- **Where they stand:** BIK + Manifest: 11 of 28 features live. Lead with WhatsApp Campaigns.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 79% of 104 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, AI Agents:** Handles order status, returns and FAQs end to end, so support only sees the hard cases.
+  - Evidence: 3,173 support conversations in Sep and no AI Agent set up. 46% of 100 comparable stores already use it.
+  - Open with: "What share of your support chats are order status or returns?"
+- **Lead with #3, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 4,591 orders in Sep at about $30 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Also on the table:** Email Campaigns and Journeys, Home Page Welcome Nudge, Product Page Welcome Nudge, Removed from Cart Nudge
 
-### 10. Plan B (BIK only, score 71.0)
-- **Play:** Feature pitch (BIK only): 8 of 28 modules in use, sell the remaining 20
-- **Why now:** MM account paying $292/mo; BIK only; BIK: 319,744 messages sent in Sep, 8/11 modules used; 20 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: RCS Messaging; BIK: Web Push; BIK: WhatsApp Calling
-- **What to pitch:** RCS Messaging: richer, branded messages on Android alongside WhatsApp | Web Push: re-engage site visitors without a phone number | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 10. Recode Studios (BIK + Manifest, priority 73.4)
+- **Why now:** Mid-market account paying $464/mo; 5,705 orders and $70,953 in sales through Manifest in Sep; 163,212 BIK messages sent in Sep.
+- **Where they stand:** BIK + Manifest: 14 of 28 features live. Lead with AI Agents.
+- **Lead with #1, AI Agents:** Handles order status, returns and FAQs end to end, so support only sees the hard cases.
+  - Evidence: 3,306 support conversations in Sep and no AI Agent set up. 46% of 100 comparable stores already use it.
+  - Open with: "What share of your support chats are order status or returns?"
+- **Lead with #2, Home Page Welcome Nudge:** Greets first-time visitors on the landing page and steers them to what suits them.
+  - Evidence: 6,054 shopper chat messages in Sep. 8% of 100 comparable stores already use it.
+  - Open with: "How do new visitors find the right product when they land on your home page?"
+- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 104 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Also on the table:** Ask Me Anything Button, Product Page Welcome Nudge, Browsing-History Recommendations, AI Floating Bar
 
 ## Nishant Kurivella
 
-### 1. Healthfab (BIK only, score 83.0)
-- **Play:** Feature pitch (BIK only): 6 of 28 modules in use, sell the remaining 22
-- **Why now:** Enterprise + Key accounts account paying $779/mo; subscription rose $705 to $779, showing appetite to spend more; BIK only; BIK: 683,292 messages sent in Sep, 6/11 modules used; 22 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: WhatsApp Campaigns; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: WhatsApp Calling
-- **What to pitch:** WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | RCS Messaging: richer, branded messages on Android alongside WhatsApp | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 1. Healthfab (BIK only, priority 85.8)
+- **Why now:** Enterprise/key account paying $779/mo; spend grew from $705 to $779, so there is appetite to buy more; 683,292 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 6 of 11 features live. Lead with WhatsApp Campaigns.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 79% of 104 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 683,292 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 104 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Also on the table:** RCS Messaging, SMS, Web Push
 
-### 2. Zwende (BIK only, score 80.2)
-- **Play:** Feature pitch (BIK only): 5 of 28 modules in use, sell the remaining 23
-- **Why now:** Enterprise + Key accounts account paying $893/mo; subscription rose $734 to $893, showing appetite to spend more; BIK only; BIK: 44,778 messages sent in Sep, 5/11 modules used; 23 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: WhatsApp Calling
-- **What to pitch:** AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 2. Zwende (BIK only, priority 79.7)
+- **Why now:** Enterprise/key account paying $893/mo; spend grew from $734 to $893, so there is appetite to buy more; 44,778 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 5 of 11 features live. Lead with Manifest AI shopping assistant.
+- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 44,778 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 10 customer messages answered by the team in the inbox in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 104 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Also on the table:** Instagram DM Automation, SMS, RCS Messaging, Web Push
 
-### 3. Merch Garage (BIK only, score 76.7)
-- **Play:** Feature pitch (BIK only): 4 of 28 modules in use, sell the remaining 24
-- **Why now:** Enterprise + Key accounts account paying $1,500/mo; BIK only; BIK: 37,201 messages sent in Sep, 4/11 modules used; 24 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: Lead/Offer Widgets; BIK: WhatsApp Calling
-- **What to pitch:** AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 3. Underneat (BIK + Manifest, priority 78.6)
+- **Why now:** Mid-market account paying $417/mo; 188,320 orders and $3,922,564 in sales through Manifest in Sep; 6,554,058 BIK messages sent in Sep.
+- **Where they stand:** BIK + Manifest: 11 of 28 features live. Lead with AI Agent on WhatsApp and Instagram.
+- **Lead with #1, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 113,101 customer messages answered by the team in the inbox in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #2, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 188,320 orders in Sep at about $21 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Lead with #3, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
+  - Evidence: 188,320 orders in Sep at about $21 each. 36% of 100 comparable stores already use it.
+  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
+- **Also on the table:** Home Page Welcome Nudge, Product Page Welcome Nudge, Removed from Cart Nudge, Search Results Nudge
 
-### 4. The mom store (BIK only, score 76.0)
-- **Play:** Feature pitch (BIK only): 9 of 28 modules in use, sell the remaining 19
-- **Why now:** Enterprise + Key accounts account paying $530/mo; BIK only; BIK: 164,055 messages sent in Sep, 9/11 modules used; 19 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Web Push; BIK: WhatsApp Calling
-- **What to pitch:** Web Push: re-engage site visitors without a phone number | WhatsApp Calling: voice calls from the same inbox | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 4. Amydus (BIK + Manifest, priority 77.4)
+- **Why now:** Mid-market account paying $437/mo; spend grew from $350 to $437, so there is appetite to buy more; 3,542 orders and $134,673 in sales through Manifest in Sep; 489,369 BIK messages sent in Sep.
+- **Where they stand:** BIK + Manifest: 15 of 28 features live. Lead with Integrations.
+- **Lead with #1, Integrations:** Connects the helpdesk, shipping and reviews tools so the assistant answers from live data.
+  - Evidence: AI Agents are live but nothing connects them to live order or helpdesk data. 44% of 100 comparable stores already use it.
+  - Open with: "Which tools does your team open to answer a 'where is my order' question?"
+- **Lead with #2, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
+  - Evidence: 3,542 orders in Sep at about $38 each. 36% of 100 comparable stores already use it.
+  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
+- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 104 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Also on the table:** Home Page Welcome Nudge, Ask Me Anything Button, Product Page Welcome Nudge, AI Product Assistant
 
-### 5. Underneat (BIK + Manifest, score 74.8)
-- **Play:** Feature pitch (BIK + Manifest): 11 of 28 modules in use, sell the remaining 17
-- **Why now:** MM account paying $417/mo; BIK + Manifest; Manifest: 188,320 orders / $3,922,564 sales in Sep, 6/17 modules used; BIK: 6,554,058 messages sent in Sep, 5/11 modules used; 17 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Abandoned Checkout Recovery Nudge; Manifest: Add to Cart Popup Nudge; Manifest: Removed from Cart Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Search Results Nudge; Manifest: Browsing-History Recommendations; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: AI Shopping Page; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: Lead/Offer Widgets; BIK: WhatsApp Calling
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (188,320 orders in Sep gives it room to pay back) | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | RCS Messaging: richer, branded messages on Android alongside WhatsApp
+### 5. Merch Garage (BIK only, priority 75.7)
+- **Why now:** Enterprise/key account paying $1,500/mo; 37,201 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 4 of 11 features live. Lead with Manifest AI shopping assistant.
+- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 37,201 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 8 customer messages answered by the team in the inbox in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #3, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
+  - Evidence: 37,201 messages sent in Sep. 52% of 104 comparable stores already use it.
+  - Open with: "How do website visitors become WhatsApp subscribers today?"
+- **Also on the table:** WhatsApp Calling, Instagram DM Automation, SMS, RCS Messaging
 
-### 6. Amydus (BIK + Manifest, score 73.3)
-- **Play:** Feature pitch (BIK + Manifest): 15 of 28 modules in use, sell the remaining 13
-- **Why now:** MM account paying $437/mo; subscription rose $350 to $437, showing appetite to spend more; BIK + Manifest; Manifest: 3,542 orders / $134,673 sales in Sep, 8/17 modules used; BIK: 489,369 messages sent in Sep, 7/11 modules used; 13 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Add to Cart Popup Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Search Results Nudge; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: Integrations; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: WhatsApp Calling
-- **What to pitch:** Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart (3,542 orders in Sep gives it room to pay back) | Ask Me Anything Button: pre-purchase Q&A that cuts support load | RCS Messaging: richer, branded messages on Android alongside WhatsApp | Web Push: re-engage site visitors without a phone number
+### 6. The mom store (BIK only, priority 74.8)
+- **Why now:** Enterprise/key account paying $530/mo; 164,055 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 9 of 11 features live. Lead with Manifest AI shopping assistant.
+- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 164,055 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #2, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 104 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Lead with #3, Web Push:** Re-engages site visitors without needing their phone number.
+  - Evidence: 164,055 messages sent in Sep. 3% of 104 comparable stores already use it.
+  - Open with: "How do you bring back visitors who never shared a number?"
 
-### 7. MACKLY (BIK only, score 71.6)
-- **Play:** Feature pitch (BIK only): 10 of 28 modules in use, sell the remaining 18
-- **Why now:** MM account paying $287/mo; BIK only; BIK: 299,225 messages sent in Sep, 10/11 modules used; 18 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: WhatsApp Calling
-- **What to pitch:** WhatsApp Calling: voice calls from the same inbox | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | Collection Page Welcome Nudge: re-engage browsers stuck on collections | (BIK-only account: Manifest modules above are a cross-sell)
+### 7. The Formal Club (Manifest only, priority 72.0)
+- **Why now:** Mid-market account paying $275/mo; 3,515 orders and $97,022 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 11 of 17 features live. Lead with AI Agents.
+- **Lead with #1, AI Agents:** Handles order status, returns and FAQs end to end, so support only sees the hard cases.
+  - Evidence: 1,913 support conversations in Sep and no AI Agent set up. 46% of 100 comparable stores already use it.
+  - Open with: "What share of your support chats are order status or returns?"
+- **Lead with #2, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 3,515 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #3, Ask Me Anything Button:** Answers pre-purchase questions (sizing, shipping, returns) and takes them off your support queue.
+  - Evidence: 4,123 shopper chat messages in Sep. 11% of 100 comparable stores already use it.
+  - Open with: "Which pre-purchase questions does your support team answer again and again?"
+- **Also on the table:** Product Page Welcome Nudge, AI Product Assistant, Ask AI Bar, AI Shopping Page
 
-### 8. Urban Plant (BIK only, score 70.8)
-- **Play:** Feature pitch (BIK only): 6 of 28 modules in use, sell the remaining 22
-- **Why now:** MM account paying $368/mo; BIK only; BIK: 210,773 messages sent in Sep, 6/11 modules used; 22 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: WhatsApp Calling
-- **What to pitch:** Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | RCS Messaging: richer, branded messages on Android alongside WhatsApp | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 8. Flexnest (BIK only, priority 71.9)
+- **Why now:** Mid-market account paying $355/mo; 141,786 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 4 of 11 features live. Lead with WhatsApp Campaigns.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 79% of 104 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 3,327 customer messages answered by the team in the inbox in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #3, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 141,786 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Also on the table:** WhatsApp Calling, Instagram DM Automation, RCS Messaging, SMS
 
-### 9. Society Tea (BIK only, score 69.7)
-- **Play:** Feature pitch (BIK only): 5 of 28 modules in use, sell the remaining 23
-- **Why now:** MM account paying $250/mo; BIK only; BIK: 453,506 messages sent in Sep, 5/11 modules used; 23 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Email Campaigns/Journeys; BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: WhatsApp Calling
-- **What to pitch:** Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Email Campaigns & Journeys: run the same flows on email for a cheaper channel | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 9. BL Fabric (BIK only, priority 71.2)
+- **Why now:** Mid-market account paying $333/mo; 96,436 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 5 of 11 features live. Lead with WhatsApp Campaigns.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 79% of 104 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 96,436 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 104 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Also on the table:** Instagram DM Automation, RCS Messaging, SMS, Web Push
 
-### 10. HYPD Sports (BIK + Manifest, score 69.5)
-- **Play:** Feature pitch (BIK + Manifest): 9 of 28 modules in use, sell the remaining 19
-- **Why now:** MM account paying $493/mo; BIK + Manifest; Manifest: 1,836 orders / $27,960 sales in Sep, 4/17 modules used; BIK: 189,644 messages sent in Sep, 5/11 modules used; 19 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Abandoned Checkout Recovery Nudge; Manifest: Add to Cart Popup Nudge; Manifest: Removed from Cart Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Search Results Nudge; Manifest: Browsing-History Recommendations; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: Lead/Offer Widgets; BIK: WhatsApp Calling
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (1,836 orders in Sep gives it room to pay back) | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | RCS Messaging: richer, branded messages on Android alongside WhatsApp
+### 10. MACKLY (BIK only, priority 70.9)
+- **Why now:** Mid-market account paying $287/mo; 299,225 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 10 of 11 features live. Lead with Manifest AI shopping assistant.
+- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 299,225 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #2, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 104 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
 
 ## Rahul Singh
 
-### 1. Halo Ring (Manifest only, score 77.5)
-- **Play:** Feature pitch (Manifest only): 1 of 28 modules in use, sell the remaining 27
-- **Why now:** Enterprise + Key accounts account paying $1,500/mo; Manifest only; Manifest: 26,391 orders / $1,990,979 sales in Sep, 1/17 modules used; 27 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Abandoned Checkout Recovery Nudge; Manifest: Add to Cart Popup Nudge; Manifest: Removed from Cart Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Collection Page Welcome Nudge; Manifest: Search Results Nudge; Manifest: Browsing-History Recommendations; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: AI Agents; Manifest: Integrations; BIK product not adopted (all 11 modules)
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (26,391 orders in Sep gives it room to pay back) | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows | (Manifest-only account: BIK modules above are a cross-sell)
+### 1. Halo Ring (Manifest only, priority 78.3)
+- **Why now:** Enterprise/key account paying $1,500/mo; 26,391 orders and $1,990,979 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 1 of 17 features live. Lead with BIK WhatsApp messaging.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 26,391 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #2, AI Agents:** Handles order status, returns and FAQs end to end, so support only sees the hard cases.
+  - Evidence: 12,794 support conversations in Sep and no AI Agent set up. 46% of 100 comparable stores already use it.
+  - Open with: "What share of your support chats are order status or returns?"
+- **Lead with #3, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 26,391 orders in Sep at about $75 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Also on the table:** Add to Cart Popup Nudge, Collection Page Welcome Nudge, Home Page Welcome Nudge, Ask Me Anything Button
 
-### 2. Super Butcher (Manifest only, score 72.6)
-- **Play:** Feature pitch (Manifest only): 4 of 28 modules in use, sell the remaining 24
-- **Why now:** Enterprise + Key accounts account paying $650/mo; Manifest only; Manifest: 3,308 orders / $457,442 sales in Sep, 4/17 modules used; 24 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Abandoned Checkout Recovery Nudge; Manifest: Add to Cart Popup Nudge; Manifest: Removed from Cart Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Collection Page Welcome Nudge; Manifest: Search Results Nudge; Manifest: Browsing-History Recommendations; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: Integrations; BIK product not adopted (all 11 modules)
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (3,308 orders in Sep gives it room to pay back) | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows | (Manifest-only account: BIK modules above are a cross-sell)
+### 2. Super Butcher (Manifest only, priority 73.1)
+- **Why now:** Enterprise/key account paying $650/mo; 3,308 orders and $457,442 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 4 of 17 features live. Lead with BIK WhatsApp messaging.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 3,308 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #2, Integrations:** Connects the helpdesk, shipping and reviews tools so the assistant answers from live data.
+  - Evidence: AI Agents are live but nothing connects them to live order or helpdesk data. 44% of 100 comparable stores already use it.
+  - Open with: "Which tools does your team open to answer a 'where is my order' question?"
+- **Lead with #3, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 3,308 orders in Sep at about $138 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Also on the table:** Add to Cart Popup Nudge, Collection Page Welcome Nudge, Removed from Cart Nudge, AI Product Assistant
 
-### 3. The Suit Depot (Manifest only, score 71.2)
-- **Play:** Feature pitch (Manifest only): 3 of 28 modules in use, sell the remaining 25
-- **Why now:** MM account paying $498/mo; subscription rose $249 to $498, showing appetite to spend more; Manifest only; Manifest: 737 orders / $219,611 sales in Sep, 3/17 modules used; 25 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Abandoned Checkout Recovery Nudge; Manifest: Add to Cart Popup Nudge; Manifest: Removed from Cart Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Browsing-History Recommendations; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: AI Agents; Manifest: Lead Generation; BIK product not adopted (all 11 modules)
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (737 orders in Sep gives it room to pay back) | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows | (Manifest-only account: BIK modules above are a cross-sell)
+### 3. The Suit Depot (Manifest only, priority 69.3)
+- **Why now:** Mid-market account paying $498/mo; spend grew from $249 to $498, so there is appetite to buy more; 737 orders and $219,611 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 3 of 17 features live. Lead with BIK WhatsApp messaging.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 737 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #2, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 737 orders in Sep at about $298 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Lead with #3, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
+  - Evidence: 737 orders in Sep at about $298 each. 36% of 100 comparable stores already use it.
+  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
+- **Also on the table:** Removed from Cart Nudge, Product Page Welcome Nudge, AI Product Assistant, Browsing-History Recommendations
 
-### 4. Next Round (Manifest only, score 69.3)
-- **Play:** Feature pitch (Manifest only): 0 of 28 modules in use, sell the remaining 28
-- **Why now:** Enterprise + Key accounts account paying $500/mo; Manifest only; Manifest: 1,805 orders / $421,128 sales in Sep, 0/17 modules used; 28 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Abandoned Checkout Recovery Nudge; Manifest: Add to Cart Popup Nudge; Manifest: Removed from Cart Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Collection Page Welcome Nudge; Manifest: Search Results Nudge; Manifest: Browsing-History Recommendations; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: AI Agents; Manifest: Lead Generation; Manifest: Integrations; BIK product not adopted (all 11 modules)
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (1,805 orders in Sep gives it room to pay back) | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows | (Manifest-only account: BIK modules above are a cross-sell)
+### 4. Next Round (Manifest only, priority 67.4)
+- **Why now:** Enterprise/key account paying $500/mo; 1,805 orders and $421,128 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 0 of 17 features live. Lead with BIK WhatsApp messaging.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 1,805 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #2, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 1,805 orders in Sep at about $233 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Lead with #3, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
+  - Evidence: 1,805 orders in Sep at about $233 each. 36% of 100 comparable stores already use it.
+  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
+- **Also on the table:** Removed from Cart Nudge, Product Page Welcome Nudge, AI Product Assistant, Search Results Nudge
 
-### 5. Henna Sooq (Manifest only, score 66.1)
-- **Play:** Feature pitch (Manifest only): 3 of 28 modules in use, sell the remaining 25
-- **Why now:** MM account paying $400/mo; Manifest only; Manifest: 1,317 orders / $98,445 sales in Sep, 3/17 modules used; 25 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Abandoned Checkout Recovery Nudge; Manifest: Add to Cart Popup Nudge; Manifest: Removed from Cart Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Collection Page Welcome Nudge; Manifest: Search Results Nudge; Manifest: Browsing-History Recommendations; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; BIK product not adopted (all 11 modules)
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (1,317 orders in Sep gives it room to pay back) | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows | (Manifest-only account: BIK modules above are a cross-sell)
+### 5. HealthAid (Manifest only, priority 66.1)
+- **Why now:** Mid-market account paying $249/mo; 473 orders and $24,958 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 9 of 17 features live. Lead with AI Agents.
+- **Lead with #1, AI Agents:** Handles order status, returns and FAQs end to end, so support only sees the hard cases.
+  - Evidence: 109 support conversations in Sep and no AI Agent set up. 46% of 100 comparable stores already use it.
+  - Open with: "What share of your support chats are order status or returns?"
+- **Lead with #2, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 473 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #3, Home Page Welcome Nudge:** Greets first-time visitors on the landing page and steers them to what suits them.
+  - Evidence: 272 shopper chat messages in Sep. 8% of 100 comparable stores already use it.
+  - Open with: "How do new visitors find the right product when they land on your home page?"
+- **Also on the table:** Product Page Welcome Nudge, AI Product Assistant, Ask Me Anything Button, AI Floating Bar
 
-### 6. HealthAid (Manifest only, score 65.0)
-- **Play:** Feature pitch (Manifest only): 9 of 28 modules in use, sell the remaining 19
-- **Why now:** MM account paying $249/mo; Manifest only; Manifest: 473 orders / $24,958 sales in Sep, 9/17 modules used; 19 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: AI Agents; BIK product not adopted (all 11 modules)
-- **What to pitch:** AI Agents: automate support chats (order status, returns, FAQs) (473 orders in Sep gives it room to pay back) | Ask Me Anything Button: pre-purchase Q&A that cuts support load | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows | (Manifest-only account: BIK modules above are a cross-sell)
+### 6. Cinema Secrets (Manifest only, priority 65.9)
+- **Why now:** Mid-market account paying $249/mo; 257 orders and $33,074 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 10 of 17 features live. Lead with AI Agents.
+- **Lead with #1, AI Agents:** Handles order status, returns and FAQs end to end, so support only sees the hard cases.
+  - Evidence: 198 support conversations in Sep and no AI Agent set up. 46% of 100 comparable stores already use it.
+  - Open with: "What share of your support chats are order status or returns?"
+- **Lead with #2, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 257 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #3, Home Page Welcome Nudge:** Greets first-time visitors on the landing page and steers them to what suits them.
+  - Evidence: 332 shopper chat messages in Sep. 8% of 100 comparable stores already use it.
+  - Open with: "How do new visitors find the right product when they land on your home page?"
+- **Also on the table:** Product Page Welcome Nudge, AI Product Assistant, Ask AI Bar, Integrations
 
-### 7. Cinema Secrets (Manifest only, score 64.6)
-- **Play:** Feature pitch (Manifest only): 10 of 28 modules in use, sell the remaining 18
-- **Why now:** MM account paying $249/mo; Manifest only; Manifest: 257 orders / $33,074 sales in Sep, 10/17 modules used; 18 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Ask AI Bar; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: AI Agents; Manifest: Integrations; BIK product not adopted (all 11 modules)
-- **What to pitch:** AI Agents: automate support chats (order status, returns, FAQs) (257 orders in Sep gives it room to pay back) | AI Product Assistant: product-page expert that lifts conversion | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows | (Manifest-only account: BIK modules above are a cross-sell)
+### 7. Henna Sooq (Manifest only, priority 64.9)
+- **Why now:** Mid-market account paying $400/mo; 1,317 orders and $98,445 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 3 of 17 features live. Lead with BIK WhatsApp messaging.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 1,317 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #2, Collection Page Welcome Nudge:** Re-engages shoppers who are scrolling collections without clicking through.
+  - Evidence: 2,400 shopper chat messages in Sep. 52% of 100 comparable stores already use it.
+  - Open with: "Where do visitors drop off between your collection pages and product pages?"
+- **Lead with #3, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 1,317 orders in Sep at about $75 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Also on the table:** Add to Cart Popup Nudge, Home Page Welcome Nudge, Ask Me Anything Button, Removed from Cart Nudge
 
-### 8. SoundHealth (Manifest only, score 64.1)
-- **Play:** Feature pitch (Manifest only): 6 of 28 modules in use, sell the remaining 22
-- **Why now:** MM account paying $200/mo; Manifest only; Manifest: 1,029 orders / $322,536 sales in Sep, 6/17 modules used; 22 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Add to Cart Popup Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Search Results Nudge; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: Integrations; BIK product not adopted (all 11 modules)
-- **What to pitch:** Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart (1,029 orders in Sep gives it room to pay back) | Ask Me Anything Button: pre-purchase Q&A that cuts support load | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows | (Manifest-only account: BIK modules above are a cross-sell)
+### 8. SoundHealth (Manifest only, priority 64.9)
+- **Why now:** Mid-market account paying $200/mo; 1,029 orders and $322,536 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 6 of 17 features live. Lead with Integrations.
+- **Lead with #1, Integrations:** Connects the helpdesk, shipping and reviews tools so the assistant answers from live data.
+  - Evidence: AI Agents are live but nothing connects them to live order or helpdesk data. 44% of 100 comparable stores already use it.
+  - Open with: "Which tools does your team open to answer a 'where is my order' question?"
+- **Lead with #2, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 1,029 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #3, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
+  - Evidence: 1,029 orders in Sep at about $313 each. 36% of 100 comparable stores already use it.
+  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
+- **Also on the table:** Home Page Welcome Nudge, Ask Me Anything Button, Product Page Welcome Nudge, AI Product Assistant
 
-### 9. GoKarts USA® (Manifest only, score 63.6)
-- **Play:** Feature pitch (Manifest only): 8 of 28 modules in use, sell the remaining 20
-- **Why now:** MM account paying $224/mo; Manifest only; Manifest: 293 orders / $206,251 sales in Sep, 8/17 modules used; 20 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Add to Cart Popup Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Collection Page Welcome Nudge; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; BIK product not adopted (all 11 modules)
-- **What to pitch:** Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart (293 orders in Sep gives it room to pay back) | Collection Page Welcome Nudge: re-engage browsers stuck on collections | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows | (Manifest-only account: BIK modules above are a cross-sell)
+### 9. GoKarts USA® (Manifest only, priority 63.3)
+- **Why now:** Mid-market account paying $224/mo; 293 orders and $206,251 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 8 of 17 features live. Lead with BIK WhatsApp messaging.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 293 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #2, Collection Page Welcome Nudge:** Re-engages shoppers who are scrolling collections without clicking through.
+  - Evidence: 1,892 shopper chat messages in Sep. 52% of 100 comparable stores already use it.
+  - Open with: "Where do visitors drop off between your collection pages and product pages?"
+- **Lead with #3, Home Page Welcome Nudge:** Greets first-time visitors on the landing page and steers them to what suits them.
+  - Evidence: 1,892 shopper chat messages in Sep. 8% of 100 comparable stores already use it.
+  - Open with: "How do new visitors find the right product when they land on your home page?"
+- **Also on the table:** Add to Cart Popup Nudge, Ask Me Anything Button, AI Floating Bar, Product Page Welcome Nudge
 
-### 10. KiwiCo (Not in either dashboard, score 63.5)
-- **Play:** Feature pitch: no usage on record in either dashboard, introduce the core modules
-- **Why now:** Enterprise + Key accounts account paying $2,542/mo; subscription rose $208 to $2,542, showing appetite to spend more; not found in the Manifest or BIK dashboards for Sep, so feature gaps are unknown; no outreach by the CSM this month.
-- **Missing features:** unknown, no usage data
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (no usage on record, so confirm none of these are live first) | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows
+### 10. MTN Shop (Manifest only, priority 61.8)
+- **Why now:** SMB account paying $150/mo; 1,745 orders and $484,044 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 8 of 17 features live. Lead with BIK WhatsApp messaging.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 1,745 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #2, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 1,745 orders in Sep at about $277 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Lead with #3, Home Page Welcome Nudge:** Greets first-time visitors on the landing page and steers them to what suits them.
+  - Evidence: 1,938 shopper chat messages in Sep. 8% of 100 comparable stores already use it.
+  - Open with: "How do new visitors find the right product when they land on your home page?"
+- **Also on the table:** Ask Me Anything Button, Removed from Cart Nudge, Product Page Welcome Nudge, AI Product Assistant
 
 ## Prial Gupta
 
-### 1. The Burnt Soul (BIK only, score 70.6)
-- **Play:** Feature pitch (BIK only): 4 of 28 modules in use, sell the remaining 24
-- **Why now:** MM account paying $225/mo; subscription rose $120 to $225, showing appetite to spend more; BIK only; BIK: 19,558 messages sent in Sep, 4/11 modules used; 24 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: Lead/Offer Widgets; BIK: WhatsApp Calling
-- **What to pitch:** AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 1. The Burnt Soul (BIK only, priority 70.6)
+- **Why now:** Mid-market account paying $225/mo; spend grew from $120 to $225, so there is appetite to buy more; 19,558 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 4 of 11 features live. Lead with AI Agent on WhatsApp and Instagram.
+- **Lead with #1, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 215 customer messages answered by the team in the inbox in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 19,558 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #3, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
+  - Evidence: 19,558 messages sent in Sep. 52% of 104 comparable stores already use it.
+  - Open with: "How do website visitors become WhatsApp subscribers today?"
+- **Also on the table:** WhatsApp Calling, Instagram DM Automation, SMS, RCS Messaging
 
-### 2. Nakpro Nutrition (Manifest only, score 67.6)
-- **Play:** Feature pitch (Manifest only): 5 of 28 modules in use, sell the remaining 23
-- **Why now:** SMB account paying $133/mo; subscription rose $60 to $133, showing appetite to spend more; Manifest only; Manifest: 14,447 orders / $349,449 sales in Sep, 5/17 modules used; 23 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest: Abandoned Checkout Recovery Nudge; Manifest: Removed from Cart Nudge; Manifest: Post-Checkout Nudge; Manifest: Home Page Welcome Nudge; Manifest: Product Page Welcome Nudge; Manifest: Browsing-History Recommendations; Manifest: AI Floating Bar; Manifest: Ask AI Bar; Manifest: Ask Me Anything Button; Manifest: AI Product Assistant; Manifest: AI Shopping Page; Manifest: Integrations; BIK product not adopted (all 11 modules)
-- **What to pitch:** Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart (14,447 orders in Sep gives it room to pay back) | Ask Me Anything Button: pre-purchase Q&A that cuts support load | WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | WhatsApp Journeys: automated abandoned-cart, order-update and post-purchase flows | (Manifest-only account: BIK modules above are a cross-sell)
+### 2. Nakpro Nutrition (Manifest only, priority 69.1)
+- **Why now:** SMB account paying $133/mo; spend grew from $60 to $133, so there is appetite to buy more; 14,447 orders and $349,449 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 5 of 17 features live. Lead with BIK WhatsApp messaging.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 14,447 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #2, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 14,447 orders in Sep at about $24 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Lead with #3, Integrations:** Connects the helpdesk, shipping and reviews tools so the assistant answers from live data.
+  - Evidence: AI Agents are live but nothing connects them to live order or helpdesk data. 44% of 100 comparable stores already use it.
+  - Open with: "Which tools does your team open to answer a 'where is my order' question?"
+- **Also on the table:** Home Page Welcome Nudge, Ask Me Anything Button, Product Page Welcome Nudge, AI Product Assistant
 
-### 3. Neenu's Natural Retail (BIK only, score 65.5)
-- **Play:** Feature pitch (BIK only): 3 of 28 modules in use, sell the remaining 25
-- **Why now:** SMB account paying $139/mo; subscription rose $119 to $139, showing appetite to spend more; BIK only; BIK: 22,735 messages sent in Sep, 3/11 modules used; 25 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Email Campaigns/Journeys; BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: Lead/Offer Widgets; BIK: WhatsApp Calling
-- **What to pitch:** AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 3. Stoga (BIK only, priority 65.6)
+- **Why now:** Mid-market account paying $250/mo; 8,257 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 3 of 11 features live. Lead with WhatsApp Campaigns.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 79% of 104 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 8,257 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #3, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
+  - Evidence: 8,257 messages sent in Sep. 52% of 104 comparable stores already use it.
+  - Open with: "How do website visitors become WhatsApp subscribers today?"
+- **Also on the table:** WhatsApp Calling, AI Agent on WhatsApp and Instagram, Instagram DM Automation, SMS
 
-### 4. Stoga (BIK only, score 64.7)
-- **Play:** Feature pitch (BIK only): 3 of 28 modules in use, sell the remaining 25
-- **Why now:** MM account paying $250/mo; BIK only; BIK: 8,257 messages sent in Sep, 3/11 modules used; 25 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: WhatsApp Campaigns; BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: Lead/Offer Widgets; BIK: WhatsApp Calling
-- **What to pitch:** WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 4. blossominners (BIK only, priority 65.4)
+- **Why now:** Mid-market account paying $322/mo; 2,055 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 4 of 11 features live. Lead with WhatsApp Campaigns.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 79% of 104 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 2,055 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 104 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Also on the table:** AI Agent on WhatsApp and Instagram, Instagram DM Automation, SMS, RCS Messaging
 
-### 5. blossominners (BIK only, score 64.5)
-- **Play:** Feature pitch (BIK only): 4 of 28 modules in use, sell the remaining 24
-- **Why now:** MM account paying $322/mo; BIK only; BIK: 2,055 messages sent in Sep, 4/11 modules used; 24 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: WhatsApp Campaigns; BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: WhatsApp Calling
-- **What to pitch:** WhatsApp Campaigns: broadcast offers, restocks and festive sales to opted-in customers | AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 5. Neenu's Natural Retail (BIK only, priority 64.3)
+- **Why now:** SMB account paying $139/mo; spend grew from $119 to $139, so there is appetite to buy more; 22,735 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 3 of 11 features live. Lead with Manifest AI shopping assistant.
+- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 22,735 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #2, Email Campaigns and Journeys:** Runs the same flows on email, a lower-cost channel for customers who are not on WhatsApp.
+  - Evidence: 22,735 WhatsApp messages sent in Sep and no email at all. 66% of 104 comparable stores already use it.
+  - Open with: "Who do you reach by email today, and who do you reach only on WhatsApp?"
+- **Lead with #3, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 5 customer messages answered by the team in the inbox in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Also on the table:** On-site Widgets, WhatsApp Calling, Instagram DM Automation, SMS
 
-### 6. Lo! Foods (BIK only, score 63.9)
-- **Play:** Feature pitch (BIK only): 4 of 28 modules in use, sell the remaining 24
-- **Why now:** MM account paying $261/mo; BIK only; BIK: 2,532 messages sent in Sep, 4/11 modules used; 24 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Email Campaigns/Journeys; BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: Lead/Offer Widgets; BIK: WhatsApp Calling
-- **What to pitch:** Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Email Campaigns & Journeys: run the same flows on email for a cheaper channel | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 6. Atmosphere Kombucha (BIK only, priority 62.0)
+- **Why now:** SMB account paying $145/mo; 39,171 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 5 of 11 features live. Lead with Manifest AI shopping assistant.
+- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 39,171 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 69 customer messages answered by the team in the inbox in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 104 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Also on the table:** Instagram DM Automation, SMS, RCS Messaging, Web Push
 
-### 7. World of Asaya (BIK only, score 61.9)
-- **Play:** Feature pitch (BIK only): 5 of 28 modules in use, sell the remaining 23
-- **Why now:** SMB account paying $83/mo; BIK only; BIK: 281,821 messages sent in Sep, 5/11 modules used; 23 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: WhatsApp Calling
-- **What to pitch:** AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 7. Lo! Foods (BIK only, priority 61.7)
+- **Why now:** Mid-market account paying $261/mo; 2,532 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 4 of 11 features live. Lead with Manifest AI shopping assistant.
+- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 2,532 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #2, Email Campaigns and Journeys:** Runs the same flows on email, a lower-cost channel for customers who are not on WhatsApp.
+  - Evidence: 2,532 WhatsApp messages sent in Sep and no email at all. 66% of 104 comparable stores already use it.
+  - Open with: "Who do you reach by email today, and who do you reach only on WhatsApp?"
+- **Lead with #3, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
+  - Evidence: 2,532 messages sent in Sep. 52% of 104 comparable stores already use it.
+  - Open with: "How do website visitors become WhatsApp subscribers today?"
+- **Also on the table:** WhatsApp Calling, Instagram DM Automation, SMS, RCS Messaging
 
-### 8. Atmosphere Kombucha (BIK only, score 61.9)
-- **Play:** Feature pitch (BIK only): 5 of 28 modules in use, sell the remaining 23
-- **Why now:** SMB account paying $145/mo; BIK only; BIK: 39,171 messages sent in Sep, 5/11 modules used; 23 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: WhatsApp Calling
-- **What to pitch:** AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 8. World of Asaya (BIK only, priority 60.0)
+- **Why now:** SMB account paying $83/mo; 281,821 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 5 of 11 features live. Lead with Manifest AI shopping assistant.
+- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 281,821 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 281,821 messages sent in Sep. 59% of 104 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 104 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Also on the table:** Instagram DM Automation, RCS Messaging, SMS, Web Push
 
-### 9. Harissons (BIK only, score 61.2)
-- **Play:** Feature pitch (BIK only): 6 of 28 modules in use, sell the remaining 22
-- **Why now:** SMB account paying $104/mo; BIK only; BIK: 48,070 messages sent in Sep, 6/11 modules used; 22 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: Lead/Offer Widgets
-- **What to pitch:** Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | RCS Messaging: richer, branded messages on Android alongside WhatsApp | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 9. Harissons (BIK only, priority 59.6)
+- **Why now:** SMB account paying $104/mo; 48,070 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 6 of 11 features live. Lead with Manifest AI shopping assistant.
+- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 48,070 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #2, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
+  - Evidence: 48,070 messages sent in Sep. 52% of 104 comparable stores already use it.
+  - Open with: "How do website visitors become WhatsApp subscribers today?"
+- **Lead with #3, Instagram DM Automation:** Automates comment, story-reply and DM conversations, with AI replies, on Instagram.
+  - Evidence: 48,070 messages sent in Sep. 11% of 104 comparable stores already use it.
+  - Open with: "How much of your enquiry volume starts as an Instagram DM?"
+- **Also on the table:** SMS, RCS Messaging, Web Push
 
-### 10. Nutty Gritties (BIK only, score 60.8)
-- **Play:** Feature pitch (BIK only): 3 of 28 modules in use, sell the remaining 25
-- **Why now:** SMB account paying $180/mo; BIK only; BIK: 12,192 messages sent in Sep, 3/11 modules used; 25 modules still unsold; no outreach by the CSM this month.
-- **Missing features:** Manifest product not adopted (all 17 modules); BIK: Email Campaigns/Journeys; BIK: Instagram Automation; BIK: RCS Messaging; BIK: SMS; BIK: Web Push; BIK: BIK AI Agent; BIK: Lead/Offer Widgets; BIK: WhatsApp Calling
-- **What to pitch:** AI Agent on WhatsApp/Instagram: answers customer chats and hands off to humans | Instagram DM Automation: comment/story-reply flows and AI replies on Instagram | Abandoned Checkout Recovery Nudge: chat the shopper who leaves checkout and recover the cart | Add to Cart Popup Nudge: upsell/cross-sell right after add-to-cart | (BIK-only account: Manifest modules above are a cross-sell)
+### 10. Grow Billion Trees (BIK only, priority 59.3)
+- **Why now:** SMB account paying $150/mo; 1,863 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 4 of 11 features live. Lead with WhatsApp Campaigns.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 79% of 104 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 1,863 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #3, Email Campaigns and Journeys:** Runs the same flows on email, a lower-cost channel for customers who are not on WhatsApp.
+  - Evidence: 1,863 WhatsApp messages sent in Sep and no email at all. 66% of 104 comparable stores already use it.
+  - Open with: "Who do you reach by email today, and who do you reach only on WhatsApp?"
+- **Also on the table:** On-site Widgets, Instagram DM Automation, SMS, RCS Messaging
