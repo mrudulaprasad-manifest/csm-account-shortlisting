@@ -11,10 +11,12 @@ import re
 import sys
 from pathlib import Path
 
+from context import ContextBook
 from recommender import FeatureCatalog, PeerStats, Recommender
 
 CSMS = ("Luv Jain", "Nishant Kurivella", "Rahul Singh", "Prial Gupta")
 BUCKET_WEIGHT = {"Enterprise + Key accounts": 1.0, "MM": 0.7, "SMB": 0.4}
+RISK_PENALTY = 8
 BUCKET_LABEL = {"Enterprise + Key accounts": "Enterprise/key account", "MM": "Mid-market account", "SMB": "SMB account"}
 
 SIGNALS = {
@@ -165,8 +167,9 @@ class BikIndex(DashboardIndex):
 
 
 class Account:
-    def __init__(self, row, m_stores, b_stores, recommender):
+    def __init__(self, row, m_stores, b_stores, recommender, context=None):
         self.recommender = recommender
+        self.context = context
         self.brand = row["Brand name"].strip()
         self.csm = row["CSM"].strip()
         self.sub_jul = float(row["Subscription July"] or 0)
@@ -255,9 +258,10 @@ class Account:
     def score(self):
         size = min(1.0, math.log10(self.mrr + 1) / math.log10(2000))
         gap = self.missing_count() / TOTAL_SIGNALS if self.matched else 0.5
-        return round(100 * (0.30 * size + 0.25 * self.recommender.strength(self) + 0.10 * self.engagement()
-                            + 0.15 * self.brand_size() + 0.10 * BUCKET_WEIGHT.get(self.bucket, 0.4)
-                            + 0.05 * gap + 0.05 * self.momentum()), 1)
+        base = 100 * (0.30 * size + 0.25 * self.recommender.strength(self) + 0.10 * self.engagement()
+                      + 0.15 * self.brand_size() + 0.10 * BUCKET_WEIGHT.get(self.bucket, 0.4)
+                      + 0.05 * gap + 0.05 * self.momentum())
+        return round(base - (RISK_PENALTY if self.context and self.context.watch_flags else 0), 1)
 
     def picks(self):
         return self.recommender.pick(self)
@@ -289,12 +293,14 @@ class Account:
 
 
 class Shortlister:
-    def __init__(self, sheet, outreach, manifest, bik):
+    def __init__(self, sheet, outreach, manifest, bik, contexts=None):
         self.rows = list(csv.DictReader(open(sheet)))
         self.outreach = outreach
         self.manifest = manifest
         self.bik = bik
-        self.recommender = Recommender(FeatureCatalog(), PeerStats(FeatureCatalog(), manifest.stores, bik.stores))
+        self.contexts = contexts or ContextBook()
+        self.recommender = Recommender(FeatureCatalog(), PeerStats(FeatureCatalog(), manifest.stores, bik.stores),
+                                       self.contexts)
 
     def accounts(self):
         best = {}
@@ -304,12 +310,16 @@ class Shortlister:
             k = (r["CSM"].strip(), norm(r["Brand name"]))
             if k not in best or float(r["Subscription August"] or 0) > float(best[k]["Subscription August"] or 0):
                 best[k] = r
-        return [Account(r, self.manifest.match(r["Brand name"]), self.bik.match(r["Brand name"]), self.recommender)
+        return [Account(r, self.manifest.match(r["Brand name"]), self.bik.match(r["Brand name"]), self.recommender,
+                        self.contexts.get(r["Brand name"].strip()))
                 for r in best.values() if float(r["Subscription August"] or 0) > 0]
 
     def run(self, per_csm=10):
-        eligible, skipped = [], []
+        eligible, skipped, self.flagged = [], [], []
         for a in self.accounts():
+            if a.context and a.context.churning:
+                self.flagged.append(a)
+                continue
             hit = self.outreach.hit(a.brand, a.csm)
             (skipped if hit else eligible).append((a, hit))
         top = {}
@@ -324,18 +334,18 @@ class ReportWriter:
         self.week = week
         self.outdir = Path(outdir)
 
-    def write(self, top, skipped, news):
+    def write(self, top, skipped, news, flagged=()):
         self.outdir.mkdir(parents=True, exist_ok=True)
         self._write_csv(top, news)
-        self._write_excluded(skipped)
+        self._write_excluded(skipped, flagged)
         self._write_markdown(top, news)
 
     def _write_csv(self, top, news):
         header = ["csm", "rank", "account", "bucket", "score", "mrr_aug", "product_mix",
                   "manifest_modules_used_of_17", "bik_modules_used_of_11", "manifest_orders_sep26", "play", "reasoning"]
         for n in range(1, 4):
-            header += [f"rec{n}_feature", f"rec{n}_pitch", f"rec{n}_evidence", f"rec{n}_peers", f"rec{n}_ask"]
-        header += ["also_consider", "news"]
+            header += [f"rec{n}_feature", f"rec{n}_pitch", f"rec{n}_evidence", f"rec{n}_peers", f"rec{n}_heard", f"rec{n}_ask"]
+        header += ["also_consider", "heard_pains", "open_items", "risk_flags", "last_call", "news"]
         with open(self.outdir / "shortlist.csv", "w", newline="") as fh:
             w = csv.writer(fh)
             w.writerow(header)
@@ -347,17 +357,28 @@ class ReportWriter:
                     picks = a.picks()
                     for n in range(3):
                         rec = picks[n] if n < len(picks) else None
-                        row += ([rec.spec.name, rec.spec.benefit, rec.evidence, rec.peer_note, rec.spec.ask]
-                                if rec else [""] * 5)
-                    row += ["; ".join(a.also_consider()), news.get(a.brand, "")]
+                        row += ([rec.spec.name, rec.spec.benefit, rec.evidence, rec.peer_note,
+                                 rec.said.text if rec.said else "", rec.spec.ask] if rec else [""] * 6)
+                    ctx = a.context
+                    row += ["; ".join(a.also_consider()),
+                            "; ".join(p.text for p in ctx.pains) if ctx else "",
+                            "; ".join(o.text for o in ctx.open_items) if ctx else "",
+                            "; ".join(ctx.watch_flags) if ctx else "",
+                            ctx.last_meeting if ctx and ctx.meetings else "",
+                            news.get(a.brand, "")]
                     w.writerow(row)
 
-    def _write_excluded(self, skipped):
+    def _write_excluded(self, skipped, flagged):
         with open(self.outdir / "excluded_outreach_mtd.csv", "w", newline="") as fh:
             w = csv.writer(fh)
             w.writerow(["csm", "account", "mrr_aug", "touched_by", "channel"])
             for a, h in sorted(skipped, key=lambda x: (x[0].csm, -x[0].mrr)):
                 w.writerow([a.csm, a.brand, a.mrr, h["by"], h["channel"]])
+        with open(self.outdir / "excluded_churn_risk.csv", "w", newline="") as fh:
+            w = csv.writer(fh)
+            w.writerow(["csm", "account", "mrr_aug", "risk_flags", "last_meeting"])
+            for a in sorted(flagged, key=lambda x: (x.csm, -x.mrr)):
+                w.writerow([a.csm, a.brand, a.mrr, "; ".join(a.context.risk_flags), a.context.last_meeting])
 
     def _write_markdown(self, top, news):
         lines = [f"# CSM upsell shortlist, {self.week}", ""]
@@ -367,15 +388,33 @@ class ReportWriter:
                 lines += self._account_block(i, a, news.get(a.brand, ""))
         (self.outdir / "shortlist.md").write_text("\n".join(lines))
 
+    @staticmethod
+    def _heard_lines(a):
+        ctx = a.context
+        if not ctx or not ctx.meetings:
+            return ["- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only."]
+        lines = [f"- **Call history:** {len(ctx.meetings)} call(s), latest {ctx.last_meeting}"
+                 + (f". {ctx.business}" if ctx.business else "")]
+        if ctx.pains:
+            lines.append("- **Pain points they raised:** " + "; ".join(p.text for p in ctx.pains[:3]))
+        if ctx.open_items:
+            lines.append("- **Close first (open items):** " + "; ".join(o.text for o in ctx.open_items[:3]))
+        if ctx.watch_flags:
+            lines.append("- **Handle with care:** " + "; ".join(ctx.watch_flags))
+        return lines
+
     def _account_block(self, rank, a, news):
         lines = [f"### {rank}. {a.brand} ({a.mix}, priority {a.score()})",
                  f"- **Why now:** {a.reasoning(news)}",
                  f"- **Where they stand:** {a.play()}"]
+        lines += self._heard_lines(a)
         picks = a.picks()
         if not picks:
             lines.append("- **Lead with:** nothing measurable is missing; discuss plan upgrade and new channels.")
         for n, rec in enumerate(picks, 1):
             lines.append(f"- **Lead with #{n}, {rec.spec.name}:** {rec.spec.benefit}")
+            if rec.said:
+                lines.append(f"  - They told us ({rec.said.last_meeting or 'earlier call'}): {rec.said.text}")
             lines.append(f"  - Evidence: {rec.evidence}." + (f" {rec.peer_note.capitalize()}." if rec.peer_note else ""))
             lines.append(f"  - Open with: \"{rec.spec.ask}\"")
         if a.also_consider():
@@ -410,18 +449,20 @@ if __name__ == "__main__":
     ap.add_argument("--sheet", default=str(Path(__file__).resolve().parent / "assets" / "csm_accounts.csv"))
     ap.add_argument("--outreach", default="data/outreach_mtd.csv")
     ap.add_argument("--news", default="data/news.json")
+    ap.add_argument("--context", default="data/context_*.json", help="comma-separated call-context files or glob")
     ap.add_argument("--week", default="2026-W43")
     ap.add_argument("--out", default=None)
     ap.add_argument("--per-csm", type=int, default=10)
     args = ap.parse_args()
 
     chosen = CsmResolver.resolve(args.csm)
+    context_files = [str(f) for pat in args.context.split(",") for f in sorted(Path().glob(pat))]
     sl = Shortlister(args.sheet, OutreachLog(args.outreach), ManifestIndex(args.manifest.split(",")),
-                     BikIndex(args.bik.split(",")))
+                     BikIndex(args.bik.split(",")), ContextBook(context_files))
     news = json.load(open(args.news)) if Path(args.news).exists() else {}
     top, skipped, n = sl.run(args.per_csm)
     top = {c: v for c, v in top.items() if c in chosen}
     skipped = [(a, h) for a, h in skipped if a.csm in chosen]
     out = args.out or f"reports/{args.week}" + ("" if len(chosen) > 1 else "/" + chosen[0].split()[0].lower())
-    ReportWriter(args.week, out).write(top, skipped, news)
+    ReportWriter(args.week, out).write(top, skipped, news, [a for a in sl.flagged if a.csm in chosen])
     print(out, {c: len(v) for c, v in top.items()}, "excluded", len(skipped))

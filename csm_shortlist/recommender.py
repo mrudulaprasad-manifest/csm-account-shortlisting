@@ -4,6 +4,8 @@ For each account it scores every feature the account does not use yet and return
 raising in the next call. A feature's score blends four things:
 
   need       how strongly this account's own numbers call for the feature (0-1, rules in NeedModel)
+  context    how directly the customer's own words on past calls call for it (0-1, see context.py);
+             only used when the account has usable call context
   peer       share of comparable stores (upper half by volume, same dashboard) already using it
   readiness  1.0 when a prerequisite feature is live, 0.5 when the account would be starting cold
   ease       how quickly a CSM can get it live (static, per feature)
@@ -14,7 +16,9 @@ import math
 import statistics
 
 WEIGHTS = {"need": 0.50, "peer": 0.25, "readiness": 0.15, "ease": 0.10}
+WEIGHTS_WITH_CONTEXT = {"need": 0.30, "context": 0.30, "peer": 0.18, "readiness": 0.12, "ease": 0.10}
 MIN_NEED = 0.15
+CONTEXT_OVERRIDE = 0.5
 MAX_PICKS = 3
 MAX_PER_PRODUCT = 2
 
@@ -317,15 +321,22 @@ class NeedModel:
 
 
 class Recommendation:
-    def __init__(self, spec, need, evidence, peer, readiness, peer_count):
+    def __init__(self, spec, need, evidence, peer, readiness, peer_count, fit=0.0, said=None, has_context=False):
         self.spec = spec
         self.need = need
         self.evidence = evidence
         self.peer = peer
         self.readiness = readiness
         self.peer_count = peer_count
-        self.score = (WEIGHTS["need"] * need + WEIGHTS["peer"] * peer
-                      + WEIGHTS["readiness"] * readiness + WEIGHTS["ease"] * spec.ease)
+        self.fit = fit
+        self.said = said
+        if has_context:
+            w = WEIGHTS_WITH_CONTEXT
+            self.score = (w["need"] * need + w["context"] * fit + w["peer"] * peer
+                          + w["readiness"] * readiness + w["ease"] * spec.ease)
+        else:
+            w = WEIGHTS
+            self.score = (w["need"] * need + w["peer"] * peer + w["readiness"] * readiness + w["ease"] * spec.ease)
 
     @property
     def peer_note(self):
@@ -335,9 +346,10 @@ class Recommendation:
 
 
 class Recommender:
-    def __init__(self, catalog, peers):
+    def __init__(self, catalog, peers, contexts=None):
         self.catalog = catalog
         self.peers = peers
+        self.contexts = contexts
 
     def rank(self, account):
         """Every viable recommendation for the account, best first."""
@@ -345,12 +357,13 @@ class Recommender:
         if not (signals.has_manifest or signals.has_bik):
             return []
         model = NeedModel(signals)
+        context = self.contexts.get(account.brand) if self.contexts else None
         found = []
         for product, present in (("manifest", signals.has_manifest), ("bik", signals.has_bik)):
             if present:
-                found += self._for_product(product, signals, model)
+                found += self._for_product(product, signals, model, context)
         if signals.has_manifest != signals.has_bik:
-            found.append(self._cross_sell(signals))
+            found.append(self._cross_sell(signals, context))
         return sorted(found, key=lambda r: -r.score)
 
     def pick(self, account):
@@ -370,20 +383,22 @@ class Recommender:
         top = [r.score for r in self.pick(account)[:2]]
         return sum(top) / len(top) if top else 0.3
 
-    def _for_product(self, product, signals, model):
+    def _for_product(self, product, signals, model, context):
         out = []
         for spec in self.catalog.for_product(product):
             if spec.key in signals.live:
                 continue
             need, evidence = model.need(spec.key)
-            if need < MIN_NEED:
+            fit, said = context.fit(spec.key) if context else (0.0, None)
+            if need < MIN_NEED and fit < CONTEXT_OVERRIDE:
                 continue
             ready = 1.0 if not spec.prerequisites or signals.live & set(spec.prerequisites) else 0.5
             out.append(Recommendation(spec, need, evidence, self.peers.rate(spec.key), ready,
-                                      self.peers.peer_count.get(spec.key, 0)))
+                                      self.peers.peer_count.get(spec.key, 0), fit, said,
+                                      bool(context and context.usable)))
         return out
 
-    def _cross_sell(self, signals):
+    def _cross_sell(self, signals, context):
         missing = "bik" if signals.has_manifest else "manifest"
         spec = self.catalog.CROSS_SELL[missing]
         if missing == "bik":
@@ -392,4 +407,5 @@ class Recommender:
         else:
             need = 0.5 + 0.5 * Scale.log(signals.bik_messages, 1_000_000)
             evidence = f"{signals.bik_messages:,.0f} BIK messages sent in Sep and no on-site Manifest assistant"
-        return Recommendation(spec, need, evidence, 0.5, 1.0, 0)
+        fit, said = context.fit(spec.key) if context else (0.0, None)
+        return Recommendation(spec, need, evidence, 0.5, 1.0, 0, fit, said, bool(context and context.usable))
