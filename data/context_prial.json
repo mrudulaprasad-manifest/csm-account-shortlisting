@@ -1,0 +1,119 @@
+{
+  "The Burnt Soul": {"meetings": [], "business_context": "", "pain_points": [], "stated_goals": [], "open_items": [], "themes": [], "risk_flags": [], "competitors_mentioned": [], "last_meeting_date": null, "confidence": "low"},
+  "Nakpro Nutrition": {"meetings": [], "business_context": "", "pain_points": [], "stated_goals": [], "open_items": [], "themes": [], "risk_flags": [], "competitors_mentioned": [], "last_meeting_date": null, "confidence": "low"},
+  "Stoga": {"meetings": [], "business_context": "", "pain_points": [], "stated_goals": [], "open_items": [], "themes": [], "risk_flags": [], "competitors_mentioned": [], "last_meeting_date": null, "confidence": "low"},
+  "blossominners": {
+    "meetings": [
+      {"id": "01M16NVG2K3DRFK99ASEVDQ5SH", "date": "2026-08-31", "title": "Blossom Inners <> BIK - Dragon flow integration", "link": "https://app.fireflies.ai/view/01M16NVG2K3DRFK99ASEVDQ5SH"},
+      {"id": "01KZR7EGHP1S868TX8YVTW4R0Z", "date": "2026-08-12", "title": "Implementation & Onboarding - BIK  (Blossom Inners)", "link": "https://app.fireflies.ai/view/01KZR7EGHP1S868TX8YVTW4R0Z"},
+      {"id": "01KYMCQQJ9P47KW1GB693H55PH", "date": "2026-07-31", "title": "Implementation & Onboarding - BIK  (Blossom Inners)", "link": "https://app.fireflies.ai/view/01KYMCQQJ9P47KW1GB693H55PH"}
+    ],
+    "business_context": "Shopify store working with BIK on an abandoned-flow setup through the Shop Flow checkout integration (Dragon flow). Two earlier onboarding calls were silent with no summary.",
+    "pain_points": [
+      {"text": "Login to Shop Flow was delayed because OTP/authentication messages did not arrive.", "theme": "integrations"},
+      {"text": "An earlier integration attempt was reportedly blocked by a bug on BIK's side.", "theme": "integrations"}
+    ],
+    "stated_goals": [
+      {"text": "Get the abandoned-flow tracking live through the Shop Flow integration.", "theme": "cart_recovery"}
+    ],
+    "open_items": [
+      {"text": "Customer to complete Shop Flow login/OTP and approve the Shopify collaboration-access request BIK sends.", "theme": "integrations"},
+      {"text": "BIK to complete or validate the remaining integration work once access is approved.", "theme": "integrations"}
+    ],
+    "themes": ["integrations", "cart_recovery"],
+    "risk_flags": ["Earlier integration attempt reportedly blocked by a BIK-side bug; resolution status not confirmed in meetings"],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-08-31",
+    "confidence": "medium"
+  },
+  "Neenu's Natural Retail": {
+    "meetings": [
+      {"id": "01KXFDSYNP29B6ZCQP1PXXEPHV", "date": "2026-07-14", "title": "Neenu’s Natural <> BIK - Dragon flows integration", "link": "https://app.fireflies.ai/view/01KXFDSYNP29B6ZCQP1PXXEPHV"},
+      {"id": "01KW92WSS5DTA2VXQVX5RWGZ4Z", "date": "2026-06-29", "title": "Neenus Naturals <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01KW92WSS5DTA2VXQVX5RWGZ4Z"}
+    ],
+    "business_context": "Shopify brand using the Shop Flow checkout app alongside BIK; has an in-house tech lead and works with an agency. Abandoned-cart tracking of anonymous users is being set up via Dragon flows.",
+    "pain_points": [
+      {"text": "Team is unhappy with the Shop Flow backend: glitches and poor checkout performance.", "theme": "integrations"},
+      {"text": "Wants a smoother checkout experience and pushed for a two-month trial of Go Quick.", "theme": "on_site_engagement"},
+      {"text": "Concern about data-sharing compliance under upcoming DPDP rules.", "theme": "integrations"}
+    ],
+    "stated_goals": [
+      {"text": "Smoother checkout experience.", "theme": null},
+      {"text": "Track anonymous users for abandoned-cart recovery via the Dragon flows integration.", "theme": "cart_recovery"}
+    ],
+    "open_items": [
+      {"text": "Customer to install the Shop Flow app and Chrome extension and enable the webhook; BIK to verify tracking and update the WhatsApp group (14 Jul).", "theme": "integrations"},
+      {"text": "BIK to set up a technical follow-up with the customer's tech lead and agency on Shop Flow backend concerns (29 Jun); status unknown.", "theme": "integrations"},
+      {"text": "BIK to share technical comparison of Shop Flow vs Go Quick (iOS user identification, segmentation, data flow) (29 Jun); status unknown.", "theme": "integrations"}
+    ],
+    "themes": ["integrations", "cart_recovery"],
+    "risk_flags": ["Customer team showed strong resistance to Shop Flow and leaned toward switching to Go Quick (29 Jun)"],
+    "competitors_mentioned": ["Go Quick"],
+    "last_meeting_date": "2026-07-14",
+    "confidence": "medium"
+  },
+  "Atmosphere Kombucha": {"meetings": [], "business_context": "", "pain_points": [], "stated_goals": [], "open_items": [], "themes": [], "risk_flags": [], "competitors_mentioned": [], "last_meeting_date": null, "confidence": "low"},
+  "Lo! Foods": {
+    "meetings": [
+      {"id": "01M0S6XVNQPX3T5TEPTEWW2FSY", "date": "2026-08-24", "title": "Lo! Foods <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01M0S6XVNQPX3T5TEPTEWW2FSY"}
+    ],
+    "business_context": "Food brand using BIK for WhatsApp broadcasts, including B2B broadcasting; small ops team (attendee emails use a different company domain, bajofoods.com).",
+    "pain_points": [
+      {"text": "Rujuhitha was denied access when logging into the BIK dashboard.", "theme": null},
+      {"text": "Unclear responsibilities across the team for managing broadcasts.", "theme": null},
+      {"text": "Needs templates created before running broadcast campaigns.", "theme": "whatsapp_marketing"}
+    ],
+    "stated_goals": [
+      {"text": "Have a structured approach to broadcasting messages, owned by Rujuhitha.", "theme": "whatsapp_marketing"}
+    ],
+    "open_items": [
+      {"text": "Admin dashboard access for Praneeth.", "theme": null},
+      {"text": "Customer to create a template for B2B broadcasting.", "theme": "whatsapp_marketing"},
+      {"text": "Add Praneeth to the support group.", "theme": null}
+    ],
+    "themes": ["whatsapp_marketing"],
+    "risk_flags": [],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-08-24",
+    "confidence": "medium"
+  },
+  "World of Asaya": {"meetings": [], "business_context": "", "pain_points": [], "stated_goals": [], "open_items": [], "themes": [], "risk_flags": [], "competitors_mentioned": [], "last_meeting_date": null, "confidence": "low"},
+  "Harissons": {
+    "meetings": [
+      {"id": "01M4T2BMRPBA7VD380CKSBHTX4", "date": "2026-10-13", "title": "Harissons <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01M4T2BMRPBA7VD380CKSBHTX4"},
+      {"id": "01M3K4B2WCXP0385WY5XFETPZX", "date": "2026-09-28", "title": "Harissons <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01M3K4B2WCXP0385WY5XFETPZX"},
+      {"id": "01M27BRZCY3EPMN8X2T9EBTQXQ", "date": "2026-09-11", "title": "Harissons <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01M27BRZCY3EPMN8X2T9EBTQXQ"},
+      {"id": "01KXBK8NQWWJ8FV4S5NK5BRHEK", "date": "2026-07-13", "title": "Harissons <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01KXBK8NQWWJ8FV4S5NK5BRHEK"},
+      {"id": "01KWE0TWST3J2X2EEX1EP5P4TV", "date": "2026-07-01", "title": "Harissons <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01KWE0TWST3J2X2EEX1EP5P4TV"},
+      {"id": "01KW11FHE01F0PKH78GG6AJ1XT", "date": "2026-06-26", "title": "Harissonsbags <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01KW11FHE01F0PKH78GG6AJ1XT"},
+      {"id": "01KS2368YCK9EWR5CZRVP2PXKH", "date": "2026-05-20", "title": "Harissons <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01KS2368YCK9EWR5CZRVP2PXKH"}
+    ],
+    "business_context": "Bags brand on Shopify (Shop Flow checkout) using BIK WhatsApp and email campaigns, COD and abandoned-checkout flows, Razorpay for payments, and a retainer with BIK. Brand team handles templates and flows, with BIK support through a WhatsApp group.",
+    "pain_points": [
+      {"text": "Disconnected its number from BIK mainly because AI calling and chatbot pricing was too high, though satisfied with the platform and support.", "theme": "cost_pricing"},
+      {"text": "Prepaid payment confirmations blocked because the Razorpay webhook was not added.", "theme": "integrations"},
+      {"text": "Low campaign conversions and delivery limitations.", "theme": "deliverability_quality"},
+      {"text": "Abandoned-checkout messages not triggering or delayed due to Shop Flow integration issues; concern about upcoming charges for capturing anonymous users.", "theme": "cart_recovery"},
+      {"text": "Needed clarity on campaign cost (14.9 lakhs) vs attributed revenue (3.8 lakhs); reporting lacks message-delivery granularity.", "theme": "analytics_reporting"}
+    ],
+    "stated_goals": [
+      {"text": "Offer COD customers a 5% discount to pay prepaid inside WhatsApp.", "theme": "whatsapp_automation"},
+      {"text": "Get a bundled package of core platform, AI calling and website chat agent within the existing retainer.", "theme": "cost_pricing"},
+      {"text": "Use AI voice calling and chatbot to handle customer queries and abandoned carts (tested in June).", "theme": "voice_calling"},
+      {"text": "Refresh abandoned-checkout WhatsApp templates and flows.", "theme": "cart_recovery"}
+    ],
+    "open_items": [
+      {"text": "BIK to send a bundled pricing proposal (AI calling plus Manifest chatbot) within 1-2 days of 13 Oct; customer will then decide whether to stay or switch.", "theme": "cost_pricing"},
+      {"text": "Customer to share budget expectations for AI usage and calls.", "theme": "cost_pricing"},
+      {"text": "Sudarshan to verify feature differences and earlier client feedback comparing BIK and Convert Way.", "theme": null},
+      {"text": "Customer to add Razorpay webhook, create templates without cancel button and place test orders (28 Sep); status unknown.", "theme": "integrations"},
+      {"text": "BIK team to review the customer's C2P journey link (28 Sep); status unknown.", "theme": "whatsapp_automation"}
+    ],
+    "themes": ["cost_pricing", "voice_calling", "whatsapp_automation", "cart_recovery", "integrations", "analytics_reporting", "deliverability_quality"],
+    "risk_flags": ["Churn: customer disconnected its number from BIK on pricing grounds and is deciding between BIK and Convert Way (13 Oct)", "Open commercial negotiation pending BIK package proposal"],
+    "competitors_mentioned": ["Convert Way"],
+    "last_meeting_date": "2026-10-13",
+    "confidence": "high"
+  },
+  "Grow Billion Trees": {"meetings": [], "business_context": "", "pain_points": [], "stated_goals": [], "open_items": [], "themes": [], "risk_flags": [], "competitors_mentioned": [], "last_meeting_date": null, "confidence": "low"}
+}

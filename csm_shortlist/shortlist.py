@@ -16,7 +16,7 @@ from recommender import FeatureCatalog, PeerStats, Recommender
 
 CSMS = ("Luv Jain", "Nishant Kurivella", "Rahul Singh", "Prial Gupta")
 BUCKET_WEIGHT = {"Enterprise + Key accounts": 1.0, "MM": 0.7, "SMB": 0.4}
-RISK_PENALTY = 8
+RISK_PENALTY = 4
 BUCKET_LABEL = {"Enterprise + Key accounts": "Enterprise/key account", "MM": "Mid-market account", "SMB": "SMB account"}
 
 SIGNALS = {
@@ -374,7 +374,7 @@ class ReportWriter:
             w.writerow(["csm", "account", "mrr_aug", "touched_by", "channel"])
             for a, h in sorted(skipped, key=lambda x: (x[0].csm, -x[0].mrr)):
                 w.writerow([a.csm, a.brand, a.mrr, h["by"], h["channel"]])
-        with open(self.outdir / "excluded_churn_risk.csv", "w", newline="") as fh:
+        with open(self.outdir / "retention_first.csv", "w", newline="") as fh:
             w = csv.writer(fh)
             w.writerow(["csm", "account", "mrr_aug", "risk_flags", "last_meeting"])
             for a in sorted(flagged, key=lambda x: (x.csm, -x.mrr)):
@@ -450,6 +450,7 @@ if __name__ == "__main__":
     ap.add_argument("--outreach", default="data/outreach_mtd.csv")
     ap.add_argument("--news", default="data/news.json")
     ap.add_argument("--context", default="data/context_*.json", help="comma-separated call-context files or glob")
+    ap.add_argument("--risk-overrides", default="data/risk_overrides.json")
     ap.add_argument("--week", default="2026-W43")
     ap.add_argument("--out", default=None)
     ap.add_argument("--per-csm", type=int, default=10)
@@ -458,7 +459,7 @@ if __name__ == "__main__":
     chosen = CsmResolver.resolve(args.csm)
     context_files = [str(f) for pat in args.context.split(",") for f in sorted(Path().glob(pat))]
     sl = Shortlister(args.sheet, OutreachLog(args.outreach), ManifestIndex(args.manifest.split(",")),
-                     BikIndex(args.bik.split(",")), ContextBook(context_files))
+                     BikIndex(args.bik.split(",")), ContextBook(context_files, args.risk_overrides))
     news = json.load(open(args.news)) if Path(args.news).exists() else {}
     top, skipped, n = sl.run(args.per_csm)
     top = {c: v for c, v in top.items() if c in chosen}

@@ -19,6 +19,7 @@ WEIGHTS = {"need": 0.50, "peer": 0.25, "readiness": 0.15, "ease": 0.10}
 WEIGHTS_WITH_CONTEXT = {"need": 0.30, "context": 0.30, "peer": 0.18, "readiness": 0.12, "ease": 0.10}
 MIN_NEED = 0.15
 CONTEXT_OVERRIDE = 0.5
+QUOTE_MIN_FIT = 0.6
 MAX_PICKS = 3
 MAX_PER_PRODUCT = 2
 
@@ -286,7 +287,7 @@ class NeedModel:
 
     def _integrations(self):
         if "AGENTS" in self.s.live:
-            return 0.9, "AI Agents are live but nothing connects them to live order or helpdesk data"
+            return 0.9, "AI Agents are live and the Manifest dashboard shows no integrations connected"
         return 0.3 * Scale.log(self.s.orders, 20000), self._orders_text()
 
     def _campaigns(self):
@@ -329,7 +330,7 @@ class Recommendation:
         self.readiness = readiness
         self.peer_count = peer_count
         self.fit = fit
-        self.said = said
+        self.said = said if fit >= QUOTE_MIN_FIT else None
         if has_context:
             w = WEIGHTS_WITH_CONTEXT
             self.score = (w["need"] * need + w["context"] * fit + w["peer"] * peer

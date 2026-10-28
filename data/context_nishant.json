@@ -1,0 +1,363 @@
+{
+  "Healthfab": {
+    "meetings": [
+      {"id": "01M5XSC7TQXZQ4K31JP3K8G47G", "date": "2026-10-27", "title": "Healthfab <> Bik - Sync", "link": "https://app.fireflies.ai/view/01M5XSC7TQXZQ4K31JP3K8G47G"},
+      {"id": "01M5GX5E7GVWBT7R9NMCG1Q4M4", "date": "2026-10-22", "title": "Healthfab <> Bik - Discussion", "link": "https://app.fireflies.ai/view/01M5GX5E7GVWBT7R9NMCG1Q4M4"},
+      {"id": "01M20AK17P4637JGRENE2KNWVK", "date": "2026-09-09", "title": "Healthfab <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01M20AK17P4637JGRENE2KNWVK"},
+      {"id": "01M0R6ZCGSKKGNY9ETRD717MZX", "date": "2026-08-26", "title": "Healthfab <> Bik : Insta AI Walkthrough", "link": "https://app.fireflies.ai/view/01M0R6ZCGSKKGNY9ETRD717MZX"},
+      {"id": "01KZ5M8RB522YHX02GD7PX2ZYZ", "date": "2026-08-06", "title": "Healthfab <> Bik : Discussion", "link": "https://app.fireflies.ai/view/01KZ5M8RB522YHX02GD7PX2ZYZ"},
+      {"id": "01KST05MY6PW92WD23T671DCW9", "date": "2026-06-01", "title": "Healthfab < > BIK || Product discussion", "link": "https://app.fireflies.ai/view/01KST05MY6PW92WD23T671DCW9"},
+      {"id": "01KS7DK9SN1KN6TFR2547KA61H", "date": "2026-05-22", "title": "Healthfab < > Bik || Review", "link": "https://app.fireflies.ai/view/01KS7DK9SN1KN6TFR2547KA61H"},
+      {"id": "01KQW6036THENY4JH5K6PHMGB3", "date": "2026-05-05", "title": "Healthfab < > BIK", "link": "https://app.fireflies.ai/view/01KQW6036THENY4JH5K6PHMGB3"},
+      {"id": "01KQV6HNF5PZQEGVX6QQVACNCG", "date": "2026-05-05", "title": "Healthfab < > BIK", "link": "https://app.fireflies.ai/view/01KQV6HNF5PZQEGVX6QQVACNCG"}
+    ],
+    "business_context": "Shopify-based brand with a growing product range (period products, hair serum, supplements) that uses BIK for WhatsApp journeys, campaigns, AI agents and a helpdesk, and also runs MoEngage; the Healthfab contact for day-to-day work is Yamini Mullapudi, with Satyajit as the senior decision-maker.",
+    "pain_points": [
+      {"text": "BIK-attributed revenue fell about 61% from August to September (to Rs 15.4 lakh) because campaigns and journeys were paused; BIK and Shopify revenue and order counts differ and they want unified sent/delivered/revenue reporting", "theme": "analytics_reporting"},
+      {"text": "Frequent support topics are delivery delays, warehouse and stock issues, wrong contact details and missing OTPs; AI handovers to agents for routine delivery/pickup questions seem unnecessary", "theme": "order_tracking_returns"},
+      {"text": "AI bot gave repetitive answers that frustrated customers, and Instagram needs better handling of negative comments and urgent shipping queries", "theme": "instagram"},
+      {"text": "Pay-as-you-go pricing is unclear; they prefer a packaged model and want AI and messaging rates clarified", "theme": "cost_pricing"},
+      {"text": "Stability problems (Facebook automation, discount application at payment, slow segment and helpdesk loading) were said to be hurting adoption", "theme": "integrations"}
+    ],
+    "stated_goals": [
+      {"text": "Product-specific journeys and templates with tailored copy and images per category", "theme": "whatsapp_automation"},
+      {"text": "A more interactive cancellation flow that can offer product changes, discounts or agent help", "theme": "support_automation"},
+      {"text": "Strict AI guardrails for returns and exchanges on personal-hygiene products, and AI Assistant as the default WhatsApp journey", "theme": "support_automation"},
+      {"text": "Extend AI automation to Instagram comments and DMs to relieve human agents", "theme": "instagram"}
+    ],
+    "open_items": [
+      {"text": "BIK to check whether unfulfilled Shopify orders (size/colour variants) can be modified without creating a new order, and review the cancellation-flow options", "theme": "order_tracking_returns"},
+      {"text": "BIK to review the Healthfab Excel of journey names, content, conditions and templates once received, then build the product-specific templates and journeys", "theme": "whatsapp_automation"},
+      {"text": "BIK and Healthfab to explain the BIK versus Shopify revenue and order discrepancy, including attribution-window settings", "theme": "analytics_reporting"},
+      {"text": "Pricing breakdown and rate card for AI and messaging to be provided after Healthfab submits its inquiry; feedback on a consolidated ticket list passed to product", "theme": "cost_pricing"},
+      {"text": "Separate follow-up call on campaign restart, inactive abandoned-cart/browse journeys, Instagram automation and multichannel costs", "theme": "cart_recovery"}
+    ],
+    "themes": ["cart_recovery", "support_automation", "order_tracking_returns", "helpdesk_inbox", "instagram", "whatsapp_marketing", "whatsapp_automation", "rcs_sms", "analytics_reporting", "integrations", "cost_pricing"],
+    "risk_flags": [
+      "BIK-attributed revenue dropped about 61% in September as campaigns and journeys were paused while activity shifted to Engage/MoEngage",
+      "Stability issues (Facebook automation, discounts at payment, segment loading) raised on 2026-06-01 as blocking adoption",
+      "AI CSAT reported at 50% in the May review"
+    ],
+    "competitors_mentioned": ["MoEngage"],
+    "last_meeting_date": "2026-10-27",
+    "confidence": "high"
+  },
+  "Zwende": {
+    "meetings": [
+      {"id": "01M4SSA18RGRSEW4Z12QBXF9J7", "date": "2026-10-13", "title": "Zwende <> BIK", "link": "https://app.fireflies.ai/view/01M4SSA18RGRSEW4Z12QBXF9J7"},
+      {"id": "01M1GDXD6THP3Z9WDDQGDEJ14F", "date": "2026-09-02", "title": "Zwende <> Bik : Discussion", "link": "https://app.fireflies.ai/view/01M1GDXD6THP3Z9WDDQGDEJ14F"},
+      {"id": "01KY24WMZ06B8GVAAYHHX2KNBX", "date": "2026-07-22", "title": "Zwende <> Bik : Discussion", "link": "https://app.fireflies.ai/view/01KY24WMZ06B8GVAAYHHX2KNBX"},
+      {"id": "01KXQDE4PEACFW0EB2T4REV3T9", "date": "2026-07-17", "title": "Zwende <> Bik : Discussion", "link": "https://app.fireflies.ai/view/01KXQDE4PEACFW0EB2T4REV3T9"},
+      {"id": "01KWEPHHB3WM15FTWAGJG999KP", "date": "2026-07-01", "title": "Zwende <> Bik : Sales Agent Walkthrough", "link": "https://app.fireflies.ai/view/01KWEPHHB3WM15FTWAGJG999KP"},
+      {"id": "01KW8XXZ6YQY5JDG89K9T8M256", "date": "2026-06-30", "title": "Zwende : Journey Issue Discussion", "link": "https://app.fireflies.ai/view/01KW8XXZ6YQY5JDG89K9T8M256"},
+      {"id": "01KVSJ97JF942DWESZ4S29G5MG", "date": "2026-06-23", "title": "Bik <> Zwende : Flow Discussion", "link": "https://app.fireflies.ai/view/01KVSJ97JF942DWESZ4S29G5MG"},
+      {"id": "01KTZSZHC4DP1B493DT9WD4XCN", "date": "2026-06-13", "title": "Zwende x BIK", "link": "https://app.fireflies.ai/view/01KTZSZHC4DP1B493DT9WD4XCN"},
+      {"id": "01KTTM70HEBDJARZ21BZBWYTSS", "date": "2026-06-11", "title": "Sync - Zwende", "link": "https://app.fireflies.ai/view/01KTTM70HEBDJARZ21BZBWYTSS"}
+    ],
+    "business_context": "Shopify brand running email and WhatsApp journeys and campaigns on BIK (about 8,000 unique email recipients in August), with a BIK helpdesk and ticket assignment by working hours; Aashna Gandhi leads marketing day to day and the brand is preparing larger festive campaigns.",
+    "pain_points": [
+      {"text": "Account was suspended over the unpaid September invoice, blocking campaigns, email scheduling and journeys; Zwende questions the platform fee because WhatsApp and Instagram activity moved to another AI-first tool", "theme": "cost_pricing"},
+      {"text": "Google Postmaster connection is still incomplete so domain reputation cannot be seen", "theme": "deliverability_quality"},
+      {"text": "No automated A/B testing or control groups, and multi-layer drip campaigns must be set up sequentially by hand", "theme": "email_channel"},
+      {"text": "Revenue attribution (7-day, last-opened channel) and journey analytics such as zero trigger counts needed explanation", "theme": "analytics_reporting"},
+      {"text": "Abandoned-cart emails had low deliverability and needed domain warming before relaunch", "theme": "deliverability_quality"}
+    ],
+    "stated_goals": [
+      {"text": "Run abandoned cart, checkout and browse journeys on BIK (WhatsApp then emails) and eventually replace Shopify's own abandoned-cart emails", "theme": "cart_recovery"},
+      {"text": "Scale email volume, targeting roughly 75,000 additional monthly credits", "theme": "email_channel"},
+      {"text": "Execute the festive campaigns with fast support response from BIK", "theme": "festive_sale_planning"},
+      {"text": "Weekly tracking of journey open and read rates", "theme": "analytics_reporting"}
+    ],
+    "open_items": [
+      {"text": "Zwende to clear the outstanding invoice and share payment proof so BIK can unlock the account", "theme": "cost_pricing"},
+      {"text": "BIK to confirm recent plan changes and whether the platform fee can be reviewed; Zwende to check internally", "theme": "cost_pricing"},
+      {"text": "BIK to walk Zwende through the Agentic Builder after Diwali; AI agent trial feedback still pending from Zwende", "theme": "support_automation"},
+      {"text": "BIK to verify whether multiple drip-campaign layers can be prepared in advance", "theme": "email_channel"},
+      {"text": "Complete the Google Postmaster connection to see domain reputation", "theme": "deliverability_quality"}
+    ],
+    "themes": ["cart_recovery", "upsell_cross_sell", "support_automation", "order_tracking_returns", "helpdesk_inbox", "whatsapp_marketing", "whatsapp_automation", "email_channel", "instagram", "analytics_reporting", "integrations", "festive_sale_planning", "cost_pricing", "deliverability_quality"],
+    "risk_flags": [
+      "Account suspended on 2026-10-13 for an unpaid September invoice after reminders and the 15-day window",
+      "Platform-fee review requested because WhatsApp and Instagram moved to another AI-first tool; partial discontinuation risk",
+      "Email deliverability issues on abandoned-cart journeys (June) and domain reputation not yet visible"
+    ],
+    "competitors_mentioned": ["Unnamed AI-first tool now used for WhatsApp and Instagram"],
+    "last_meeting_date": "2026-10-13",
+    "confidence": "high"
+  },
+  "Underneat": {
+    "meetings": [
+      {"id": "01M1XC0751SQVMZM6XW2H25YVG", "date": "2026-09-07", "title": "Underneat <> Bik : GoKwik Integration", "link": "https://app.fireflies.ai/view/01M1XC0751SQVMZM6XW2H25YVG"},
+      {"id": "01M07B72STG6MM3Z7ETGERS7CD", "date": "2026-08-17", "title": "Underneat <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01M07B72STG6MM3Z7ETGERS7CD"},
+      {"id": "01KZ5RH01H49WBWFNM43FE1ZTR", "date": "2026-08-05", "title": "Underneat <> Bik : Quarterly Business Review", "link": "https://app.fireflies.ai/view/01KZ5RH01H49WBWFNM43FE1ZTR"},
+      {"id": "01KTBH2M0S55GGHN2VXR4ZTCB5", "date": "2026-06-05", "title": "Underneat <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01KTBH2M0S55GGHN2VXR4ZTCB5"},
+      {"id": "01KR2XVKKAHAZZCF1T8CZRB86T", "date": "2026-05-08", "title": "Underneat < > BIK || WA Performance Audit + Planner", "link": "https://app.fireflies.ai/view/01KR2XVKKAHAZZCF1T8CZRB86T"},
+      {"id": "01KQYH34D2RAWBHN0F3D0PNMPG", "date": "2026-05-06", "title": "Underneat < > BIK", "link": "https://app.fireflies.ai/view/01KQYH34D2RAWBHN0F3D0PNMPG"},
+      {"id": "01KQV6RGNW7Q8HDGRVPT5X7N0J", "date": "2026-05-05", "title": "Underneat < > BIK || Sync", "link": "https://app.fireflies.ai/view/01KQV6RGNW7Q8HDGRVPT5X7N0J"}
+    ],
+    "business_context": "Shopify D2C brand that sends WhatsApp campaigns and shipping updates through BIK, ships via Shiprocket with GoKwik being added as an aggregator, and runs a customer care team on the BIK helpdesk; the ecom team (Ansh Sinha) is the main contact.",
+    "pain_points": [
+      {"text": "Shopify gives only shipped and delivered statuses and Shiprocket few triggers, so shipment updates are thin; webhook and checkout API setup lacked clear documentation", "theme": "order_tracking_returns"},
+      {"text": "Performance misalignment is costing revenue and Underneat wants more support and POC availability from BIK", "theme": "analytics_reporting"},
+      {"text": "CSAT and first-response-time numbers in dashboards do not match raw ticket data, and CSAT counts depend on feedback-flow triggers", "theme": "helpdesk_inbox"},
+      {"text": "Management is pressing to justify platform cost and to show at least Rs 1 crore of WhatsApp-attributed sales in the month", "theme": "cost_pricing"}
+    ],
+    "stated_goals": [
+      {"text": "Log and grow WhatsApp-driven sales (about Rs 1 crore) to justify the platform", "theme": "whatsapp_marketing"},
+      {"text": "Post-purchase upsell with coupons, welcome series for new visitors and loyalty/VIP campaigns to 13,000+ users", "theme": "upsell_cross_sell"},
+      {"text": "Richer shipment updates (pickup, in transit, out for delivery, NDR) via GoKwik without duplicate messages", "theme": "order_tracking_returns"},
+      {"text": "Automated return and exchange journeys and seasonal-product journeys", "theme": "order_tracking_returns"}
+    ],
+    "open_items": [
+      {"text": "Vidushi to create the GoKwik webhook and GoKwik to share sample payloads and test; Shiprocket webhook to be removed once stable", "theme": "integrations"},
+      {"text": "Vidushi to help Ansh configure variables for the API/DB checkout webhook", "theme": "integrations"},
+      {"text": "Kaivan to implement and end-to-end test the top three or four high-impact customer journeys", "theme": "whatsapp_automation"},
+      {"text": "Follow-up meeting on performance metrics with Sonakshi and monthly in-person visits from Kaivan", "theme": "analytics_reporting"},
+      {"text": "BIK to reconcile CSAT and FRT reports against ticket data and review ticket assignment", "theme": "helpdesk_inbox"}
+    ],
+    "themes": ["upsell_cross_sell", "support_automation", "order_tracking_returns", "helpdesk_inbox", "whatsapp_marketing", "whatsapp_automation", "analytics_reporting", "integrations", "cost_pricing"],
+    "risk_flags": [
+      "Management pressure to justify platform cost (2026-05-06) and QBR on 2026-08-05 raised lost revenue and need for more BIK support",
+      "Open dashboard-versus-raw-data discrepancies on CSAT and FRT"
+    ],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-09-07",
+    "confidence": "high"
+  },
+  "Amydus": {
+    "meetings": [
+      {"id": "01M60DH8VH9P4VFC0YPGQ6YKEV", "date": "2026-10-28", "title": "Amydus <> Bik - Discussion", "link": "https://app.fireflies.ai/view/01M60DH8VH9P4VFC0YPGQ6YKEV"},
+      {"id": "01M1X9JVW1BYG2A0Z3CMDPCMSE", "date": "2026-09-07", "title": "Amydus <> Bik : Discussion", "link": "https://app.fireflies.ai/view/01M1X9JVW1BYG2A0Z3CMDPCMSE"},
+      {"id": "01M16NVG2SM9X1YMSDWH6QCZM0", "date": "2026-08-31", "title": "Amydus <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01M16NVG2SM9X1YMSDWH6QCZM0"},
+      {"id": "01KY1MT0AHDH2WC3G8TR3WM2E1", "date": "2026-07-28", "title": "Amydus <> Bik : Quarterly Business Review", "link": "https://app.fireflies.ai/view/01KY1MT0AHDH2WC3G8TR3WM2E1"},
+      {"id": "01KYHFSBTH0XDMEDY8B5BY353Z", "date": "2026-07-27", "title": "Amydus <> Bik : Discussion", "link": "https://app.fireflies.ai/view/01KYHFSBTH0XDMEDY8B5BY353Z"},
+      {"id": "01KY78S6RKW2B81JBRPD3711R1", "date": "2026-07-24", "title": "Amydus <> Bik : Shopflo Setup", "link": "https://app.fireflies.ai/view/01KY78S6RKW2B81JBRPD3711R1"},
+      {"id": "01KXYY7YYPB2ZX6JY92MV2SM9Y", "date": "2026-07-20", "title": "Bik <> Amydus : Dragonflow & General Purpose Agent Walkthrough", "link": "https://app.fireflies.ai/view/01KXYY7YYPB2ZX6JY92MV2SM9Y"},
+      {"id": "01KWKKC450DCEK5GG5TQPFXWA5", "date": "2026-07-03", "title": "Amydus <> Bik : Email Discussion", "link": "https://app.fireflies.ai/view/01KWKKC450DCEK5GG5TQPFXWA5"},
+      {"id": "01KVZF86WX4MBW0XZSHDSRGTTQ", "date": "2026-06-26", "title": "Amydus <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01KVZF86WX4MBW0XZSHDSRGTTQ"},
+      {"id": "01KVZHFNENJW0Q5HTRFAYG3JHW", "date": "2026-06-25", "title": "Amydus <> BIK - Implementation", "link": "https://app.fireflies.ai/view/01KVZHFNENJW0Q5HTRFAYG3JHW"}
+    ],
+    "business_context": "Shopify brand (apparel, with dresses mentioned) that did about Rs 3.8 crore in the quarter to July and uses BIK WhatsApp journeys, campaigns and, since July, email on three sending domains; it uses Shopflo checkout and Google Analytics, and works with agency contacts (Rockmysales, Digipals) alongside Kartik Sapra.",
+    "pain_points": [
+      {"text": "Journey revenue score is low despite the Dragon flow, and retention revenue is not trending up; cart-abandonment revenue reports need validating", "theme": "analytics_reporting"},
+      {"text": "Campaign duplication copies only the name and not content or templates, and the dashboard gives no clear warning when Meta pauses or disapproves a template", "theme": "whatsapp_marketing"},
+      {"text": "Audience sizes in Meta differ greatly from the BIK dashboard, and data sync with the Nitro and Shopflo tools confuses user identification", "theme": "integrations"},
+      {"text": "Revenue attribution between BIK and other sources (Google Analytics) does not reconcile", "theme": "analytics_reporting"},
+      {"text": "AI-generated marketing messages were limited and setup of supporting systems was delayed", "theme": "whatsapp_marketing"}
+    ],
+    "stated_goals": [
+      {"text": "Identify anonymous visitors (an estimated 20-30%) via Dragon Flows for retargeting and cart recovery", "theme": "cart_recovery"},
+      {"text": "Reactivate inactive customers and run cross-category nudges", "theme": "upsell_cross_sell"},
+      {"text": "Scale email in phases from about 100 to 10,000 recipients with good domain reputation", "theme": "email_channel"},
+      {"text": "Understand why browsers drop off (price versus size) through a survey journey", "theme": "product_discovery"}
+    ],
+    "open_items": [
+      {"text": "Dragon Flows integration waits on commercials (about Rs 10,000 per month); Kartik to confirm pricing with Ayush", "theme": "cost_pricing"},
+      {"text": "Kaivan to optimise the welcome journey and investigate revenue attribution discrepancies", "theme": "analytics_reporting"},
+      {"text": "BIK support to investigate campaign duplication and template-status warning bugs; Ankita to share screen recordings", "theme": "whatsapp_marketing"},
+      {"text": "Kaivan to confirm the Meta audience-size sync issue and Himanshu to raise a ticket with Meta", "theme": "integrations"},
+      {"text": "Configure the AI assistant prompt and connect it in the journey, and build the survey journey via Start Flow", "theme": "support_automation"}
+    ],
+    "themes": ["cart_recovery", "upsell_cross_sell", "support_automation", "whatsapp_marketing", "whatsapp_automation", "email_channel", "product_discovery", "analytics_reporting", "integrations", "cost_pricing", "deliverability_quality"],
+    "risk_flags": [
+      "Unresolved bugs: campaign duplication not copying content and no dashboard warning for paused or disapproved templates",
+      "Revenue attribution and audience-size discrepancies unresolved as of September"
+    ],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-10-28",
+    "confidence": "high"
+  },
+  "Merch Garage": {
+    "meetings": [
+      {"id": "01M3RWCT7DK102X6G3AHDRPT59", "date": "2026-10-01", "title": "MerchGarage <> Bik - Discussion", "link": "https://app.fireflies.ai/view/01M3RWCT7DK102X6G3AHDRPT59"}
+    ],
+    "business_context": "Operates about 10 brands (including Nayos and Karpai) with software managed in-house, but usage is concentrated on roughly three brands with custom websites and push notifications; some stores are not on Shopify.",
+    "pain_points": [
+      {"text": "Pricing of 1500 is too high to expand beyond three brands", "theme": "cost_pricing"},
+      {"text": "Usage on the other brands is too low or too costly to justify keeping them", "theme": "cost_pricing"}
+    ],
+    "stated_goals": [
+      {"text": "Renew for the three confirmed active brands", "theme": "cost_pricing"}
+    ],
+    "open_items": [
+      {"text": "Amit to start contract renewal for the three active brands as the current contract is nearly ending", "theme": "cost_pricing"},
+      {"text": "Luv to reach Amit's management about pricing and product updates, as no one at BIK has spoken to them", "theme": "cost_pricing"},
+      {"text": "Continue monitoring brand usage and engagement to decide on expansion or discontinuation", "theme": null}
+    ],
+    "themes": ["on_site_engagement", "integrations", "cost_pricing"],
+    "risk_flags": [
+      "Scope reduction from about 10 brands to 3 and contract nearing its end",
+      "Pricing named as the constraint on expansion",
+      "No BIK contact with the decision-makers above Amit"
+    ],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-10-01",
+    "confidence": "medium"
+  },
+  "The mom store": {
+    "meetings": [
+      {"id": "01M5HQC77K1ZR3B7DEJPMD4Y41", "date": "2026-10-23", "title": "The Mom Store <> Bik - Sync", "link": "https://app.fireflies.ai/view/01M5HQC77K1ZR3B7DEJPMD4Y41"},
+      {"id": "01M4CYAZQ63HKRSBY480A7VMWT", "date": "2026-10-15", "title": "The Mom Store <> Bik - Sync", "link": "https://app.fireflies.ai/view/01M4CYAZQ63HKRSBY480A7VMWT"},
+      {"id": "01M3TTVB05QSVGR73WJEBZ554Q", "date": "2026-10-08", "title": "The Mom Store <> Bik - Sync", "link": "https://app.fireflies.ai/view/01M3TTVB05QSVGR73WJEBZ554Q"},
+      {"id": "01M38XX9D9KMMWMM9G8RS1JK3J", "date": "2026-10-01", "title": "The Mom Store <> Bik - Sync", "link": "https://app.fireflies.ai/view/01M38XX9D9KMMWMM9G8RS1JK3J"},
+      {"id": "01M2Q76DC060PXCT4XA4EZBTWK", "date": "2026-09-24", "title": "The Mom Store <> Bik - Sync", "link": "https://app.fireflies.ai/view/01M2Q76DC060PXCT4XA4EZBTWK"},
+      {"id": "01M2531G4KGT5AJFH5S8E2RR90", "date": "2026-09-17", "title": "The Mom Store <> Bik - Sync", "link": "https://app.fireflies.ai/view/01M2531G4KGT5AJFH5S8E2RR90"},
+      {"id": "01M1143K96T86ZZ0QSWYSVNGN4", "date": "2026-09-03", "title": "The Mom Store <> Bik - Sync", "link": "https://app.fireflies.ai/view/01M1143K96T86ZZ0QSWYSVNGN4"},
+      {"id": "01M0EY6WWGSKC8RX25D6TRRR1P", "date": "2026-08-20", "title": "The Mom Store <> BIK - Discussion", "link": "https://app.fireflies.ai/view/01M0EY6WWGSKC8RX25D6TRRR1P"},
+      {"id": "01KSSCQSMRMK6MH7V4MZ6RXARJ", "date": "2026-05-29", "title": "The Mom Store < > BIK", "link": "https://app.fireflies.ai/view/01KSSCQSMRMK6MH7V4MZ6RXARJ"},
+      {"id": "01KRDAYK56D5DGK52NAAMMTXC9", "date": "2026-05-12", "title": "The Mom Store < > BIK || AI Calling Sync", "link": "https://app.fireflies.ai/view/01KRDAYK56D5DGK52NAAMMTXC9"}
+    ],
+    "business_context": "Shopify brand with a support-heavy operation on the BIK helpdesk and WhatsApp (including a Philippines segment); weekly syncs are held with Medha Ashok's team, and it also uses Unicommerce.",
+    "pain_points": [
+      {"text": "Cascading partner feature request had no update for over one and a half months", "theme": "helpdesk_inbox"},
+      {"text": "Error when enabling Voice of Shoppers; backend enablement needed", "theme": "analytics_reporting"},
+      {"text": "Some chats fail to auto-fetch order IDs from the customer's number and show placeholder values, hurting returns and exchanges", "theme": "order_tracking_returns"},
+      {"text": "WhatsApp closure messages sometimes fail to send, attributed to a Meta limitation", "theme": "whatsapp_automation"},
+      {"text": "Helpdesk needs to show customer order history and status accurately; Shopify order locking blocks adding a gift card at the Rs 8,000 milestone", "theme": "helpdesk_inbox"}
+    ],
+    "stated_goals": [
+      {"text": "Automate label addition with smart labels, though the team currently prefers manual labels", "theme": "helpdesk_inbox"},
+      {"text": "Automated closure, working-hours and holiday messages through the agent assignment journey", "theme": "whatsapp_automation"},
+      {"text": "Reward order milestones (about Rs 8,000) with gift cards or coupons", "theme": "upsell_cross_sell"},
+      {"text": "Use AI for order tracking and abandoned-cart calls", "theme": "voice_calling"}
+    ],
+    "open_items": [
+      {"text": "Nishant to follow up internally on the cascading feature request ticket and report status, even if denied", "theme": "helpdesk_inbox"},
+      {"text": "Nishant to get Voice of Shoppers enabled on the backend", "theme": "analytics_reporting"},
+      {"text": "Nishant to set up AI agents in test mode if the team asks; Medha to gather team feedback on AI labels and agents", "theme": "support_automation"},
+      {"text": "Mom Store to raise a support ticket with chat links and order IDs for the order ID auto-fetch issue", "theme": "order_tracking_returns"},
+      {"text": "Mom Store to maintain the holiday list and monitor template approval for the utility-category closure message", "theme": "whatsapp_automation"}
+    ],
+    "themes": ["support_automation", "helpdesk_inbox", "order_tracking_returns", "whatsapp_automation", "voice_calling", "upsell_cross_sell", "analytics_reporting"],
+    "risk_flags": [
+      "Feature request with no response for more than 1.5 months raised by the customer",
+      "Unresolved bugs: order ID auto-fetch showing placeholder values and Voice of Shoppers enablement error"
+    ],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-10-23",
+    "confidence": "high"
+  },
+  "The Formal Club": {
+    "meetings": [
+      {"id": "01M349H4GZP5QE9J0ZAJWN1TV6", "date": "2026-09-22", "title": "The Formal Club <> Manifest", "link": "https://app.fireflies.ai/view/01M349H4GZP5QE9J0ZAJWN1TV6"},
+      {"id": "01M3431GJ5E1FZ5QQQ1RAHRNGH", "date": "2026-09-22", "title": "The Formal Club <> Manifest", "link": "https://app.fireflies.ai/view/01M3431GJ5E1FZ5QQQ1RAHRNGH"},
+      {"id": "01KVQN8HVPTXR3QNJ6XS51NFGC", "date": "2026-06-23", "title": "The Formal Club | Manifest AI - Final Call", "link": "https://app.fireflies.ai/view/01KVQN8HVPTXR3QNJ6XS51NFGC"},
+      {"id": "01KTRJTZ7HBB9YZKNFXSRT6WJW", "date": "2026-06-10", "title": "The formal club", "link": "https://app.fireflies.ai/view/01KTRJTZ7HBB9YZKNFXSRT6WJW"},
+      {"id": "01KTBDGKHV8P66H9BX0RAJ3E15", "date": "2026-06-05", "title": "The Formal Club <> Manifest AI demo", "link": "https://app.fireflies.ai/view/01KTBDGKHV8P66H9BX0RAJ3E15"},
+      {"id": "01KT5YY825EAE4B78ES915H2AP", "date": "2026-06-03", "title": "The Formal Club <> Manifest - Sync", "link": "https://app.fireflies.ai/view/01KT5YY825EAE4B78ES915H2AP"},
+      {"id": "01KSKYPHQK2YH1XVPAQAK1NJKT", "date": "2026-05-28", "title": "The Formal Club <> Manifest - Demo", "link": "https://app.fireflies.ai/view/01KSKYPHQK2YH1XVPAQAK1NJKT"},
+      {"id": "01KSF7GZ2P51K5JMKDD758G9JG", "date": "2026-05-26", "title": "The Formal Club<> Manifest - Onboarding Day 2", "link": "https://app.fireflies.ai/view/01KSF7GZ2P51K5JMKDD758G9JG"},
+      {"id": "01KSEWKBWZ8140E42W95125M81", "date": "2026-05-25", "title": "The Formal Club <> Manifest - Onboarding", "link": "https://app.fireflies.ai/view/01KSEWKBWZ8140E42W95125M81"}
+    ],
+    "business_context": "Shopify fashion retailer that adopted the Manifest AI shopping assistant (about Rs 900 per quarter, billed offline) mainly for sizing guidance, with Ratnesh V as the business owner of the bot and an IT contact for Shopify access; about three months of use as of September.",
+    "pain_points": [
+      {"text": "No visible ROI from Manifest: few or no clicks, questionable revenue attribution and intrusive pop-ups", "theme": "analytics_reporting"},
+      {"text": "Sizing guidance, the main reason for adopting Manifest, is unimplemented or unverified, for example for a Louis Philippe size 44 query", "theme": "product_discovery"},
+      {"text": "261 responses are still marked unsatisfactory on the dashboard, and earlier replies felt mechanical", "theme": "support_automation"},
+      {"text": "Requests for a JavaScript-based on-demand trigger and a consolidated three-icon launcher remain unresolved", "theme": "on_site_engagement"}
+    ],
+    "stated_goals": [
+      {"text": "Accurate sizing recommendations from the shared size chart", "theme": "product_discovery"},
+      {"text": "Measurable ROI, with KPIs and A/B-test results as evidence", "theme": "analytics_reporting"},
+      {"text": "Show the bot only on demand instead of auto-popping, and more human-like replies", "theme": "on_site_engagement"},
+      {"text": "Product-page embeds for product questions, review summaries and sizing", "theme": "on_site_engagement"}
+    ],
+    "open_items": [
+      {"text": "Luv to retrieve the pre-implementation requirements document and audit what was delivered versus missed", "theme": "support_automation"},
+      {"text": "Test the bot on the live site for sizing queries and fix the size-chart recommendations", "theme": "product_discovery"},
+      {"text": "Kaivan and engineering to answer whether a JavaScript trigger can be built", "theme": "on_site_engagement"},
+      {"text": "Review the 261 unsatisfactory responses and report causes and fixes to Ratnesh", "theme": "support_automation"},
+      {"text": "Set up regular syncs and live embeds ahead of renewal", "theme": "on_site_engagement"}
+    ],
+    "themes": ["lead_capture", "support_automation", "product_discovery", "on_site_engagement", "analytics_reporting", "integrations"],
+    "risk_flags": [
+      "Renewal will stop unless sizing, trigger customisation, bot quality and measurable ROI improve (stated 2026-09-22)",
+      "Executive dissatisfaction voiced by Ratnesh V over ROI and implementation gaps; BIK acknowledged implementation and handover gaps",
+      "Unresolved requests and 261 unsatisfactory bot responses"
+    ],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-09-22",
+    "confidence": "high"
+  },
+  "Flexnest": {
+    "meetings": [
+      {"id": "01M4CYAZNRCEKSGB30FC738FRJ", "date": "2026-10-15", "title": "Flexnest <> Bik - Sync", "link": "https://app.fireflies.ai/view/01M4CYAZNRCEKSGB30FC738FRJ"},
+      {"id": "01M10TR1R9JYPDVG3S1C58NBMS", "date": "2026-09-03", "title": "Flexnest <> Bik - Sync", "link": "https://app.fireflies.ai/view/01M10TR1R9JYPDVG3S1C58NBMS"},
+      {"id": "01KZXXK4S894JD5VMVYFPKVYFB", "date": "2026-08-20", "title": "Flexnest <> Bik - Sync", "link": "https://app.fireflies.ai/view/01KZXXK4S894JD5VMVYFPKVYFB"},
+      {"id": "01KYRKQ0TNNJMEPA57D63D4TCP", "date": "2026-08-06", "title": "Flexnest <> Bik - Sync", "link": "https://app.fireflies.ai/view/01KYRKQ0TNNJMEPA57D63D4TCP"},
+      {"id": "01KY97VXVX5GJYVE9WHZT7SKYW", "date": "2026-07-24", "title": "Flexnest <> Bik - Sync", "link": "https://app.fireflies.ai/view/01KY97VXVX5GJYVE9WHZT7SKYW"}
+    ],
+    "business_context": "Brand whose marketing team runs email and WhatsApp journeys and campaigns on BIK, moving to a new email domain; WhatsApp has been the only channel performing well. Weekly-style syncs with Nishant; the last three are silent recordings with no summary.",
+    "pain_points": [
+      {"text": "Email campaigns underperform: one had 90% delivery with a 3.6% open rate and another only 52% delivery", "theme": "deliverability_quality"},
+      {"text": "Pending DNS and DMARC verification on the new email domain affects deliverability", "theme": "email_channel"},
+      {"text": "WhatsApp is the only effective channel so far", "theme": "whatsapp_marketing"},
+      {"text": "Cost and message credits for AI and messaging need to be understood", "theme": "cost_pricing"}
+    ],
+    "stated_goals": [
+      {"text": "Warm up the new email domain and use separate domains for journeys and campaigns", "theme": "deliverability_quality"},
+      {"text": "Target more engaged users and alternate email broadcasts over 15 days", "theme": "email_channel"},
+      {"text": "Evaluate an AI order tracking agent to automate customer queries", "theme": "order_tracking_returns"}
+    ],
+    "open_items": [
+      {"text": "Nishant to verify DNS settings and confirm email integration", "theme": "email_channel"},
+      {"text": "Flexnest to start warming up the new email domain", "theme": "deliverability_quality"},
+      {"text": "Nishant to share an audience-size document and two brand names using AI solutions", "theme": "support_automation"},
+      {"text": "Flexnest to train the team on changing roles to allow quick replies", "theme": "helpdesk_inbox"}
+    ],
+    "themes": ["support_automation", "order_tracking_returns", "whatsapp_marketing", "whatsapp_automation", "email_channel", "cost_pricing", "deliverability_quality"],
+    "risk_flags": [
+      "Email deliverability and open rates are weak and domain verification is incomplete as of the last substantive meeting (2026-08-06)"
+    ],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-10-15",
+    "confidence": "medium"
+  },
+  "BL Fabric": {
+    "meetings": [],
+    "business_context": "",
+    "pain_points": [],
+    "stated_goals": [],
+    "open_items": [],
+    "themes": [],
+    "risk_flags": [],
+    "competitors_mentioned": [],
+    "last_meeting_date": null,
+    "confidence": "low"
+  },
+  "MACKLY": {
+    "meetings": [
+      {"id": "01M59AGTFQX3327DDM6JTP29VR", "date": "2026-10-19", "title": "Mackly <> Bik - Discussion", "link": "https://app.fireflies.ai/view/01M59AGTFQX3327DDM6JTP29VR"},
+      {"id": "01M595C9RNDD4CGSP8AESHB7KN", "date": "2026-10-19", "title": "Mackly <> Bik - Discussion", "link": "https://app.fireflies.ai/view/01M595C9RNDD4CGSP8AESHB7KN"},
+      {"id": "01KRBCXEM6BNGC9K5353BWJREP", "date": "2026-05-11", "title": "Meet - Mackly < > BIK", "link": "https://app.fireflies.ai/view/01KRBCXEM6BNGC9K5353BWJREP"},
+      {"id": "01KRAVRZX3N8CA9VBQDDTRCTQK", "date": "2026-05-11", "title": "Mackly < > BIK", "link": "https://app.fireflies.ai/view/01KRAVRZX3N8CA9VBQDDTRCTQK"}
+    ],
+    "business_context": "Brand whose BIK account is run with an external retention agency (Ganesh Kamble at Retentionmax) alongside Karthik at Mackly; uses email on several subdomains, RCS, and Shopify, and domains managed at GoDaddy.",
+    "pain_points": [
+      {"text": "An abandoned-cart AI call was triggered that the team had not intentionally enabled, and the test call was unsatisfactory with little context about the account", "theme": "voice_calling"},
+      {"text": "Account continuity concerns after the earlier BIK contact (Rishabh Kapoor) handled it", "theme": null},
+      {"text": "Email open rates were low because of poor shared-IP reputation and three spam-flagged subdomains", "theme": "deliverability_quality"},
+      {"text": "Manual wallet recharges are a hassle; they want postpaid or unified billing, including for RCS (Rs 5,000 one-time bot charge, Rs 30,000 minimum recharge)", "theme": "cost_pricing"}
+    ],
+    "stated_goals": [
+      {"text": "Fix email deliverability and move to better-reputation IPs to regain client trust", "theme": "deliverability_quality"},
+      {"text": "Recover abandoned carts with AI voice calls", "theme": "cart_recovery"},
+      {"text": "Simplified payments through a postpaid plan", "theme": "cost_pricing"},
+      {"text": "Add RCS as a channel and later consider Manifest AI", "theme": "rcs_sms"}
+    ],
+    "open_items": [
+      {"text": "Ganesh to review the AI voice agent journey and test-mode settings, speak with the client and update BIK; no production rollout decided", "theme": "voice_calling"},
+      {"text": "BIK to confirm higher-reputation IPs and the new subdomains for email (promised in May, no later confirmation seen)", "theme": "deliverability_quality"},
+      {"text": "BIK to check whether a postpaid billing option is possible and share invoice details for the RCS bot", "theme": "cost_pricing"},
+      {"text": "Manifest commercial discussion to follow once email stability is confirmed", "theme": null}
+    ],
+    "themes": ["cart_recovery", "email_channel", "rcs_sms", "voice_calling", "cost_pricing", "deliverability_quality"],
+    "risk_flags": [
+      "Client dissatisfaction risk over email deliverability and need to regain client trust (May)",
+      "Unexpected AI call and unsatisfactory test call quality (October)"
+    ],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-10-19",
+    "confidence": "high"
+  }
+}

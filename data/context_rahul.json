@@ -1,0 +1,147 @@
+{
+  "Halo Ring": {
+    "meetings": [
+      {"id": "01KNQ4KF1Y4MY91WSEN5J1T40S", "date": "2026-04-13", "title": "Manifest | Halo", "link": "https://app.fireflies.ai/view/01KNQ4KF1Y4MY91WSEN5J1T40S"},
+      {"id": "01KN39C1S79CJS04JABM1DC1MA", "date": "2026-04-08", "title": "Manifest | Halo", "link": "https://app.fireflies.ai/view/01KN39C1S79CJS04JABM1DC1MA"},
+      {"id": "01KKYNT62QR54CM1QYP7C0DSC2", "date": "2026-03-25", "title": "Manifest Onboarding | Halo", "link": "https://app.fireflies.ai/view/01KKYNT62QR54CM1QYP7C0DSC2"},
+      {"id": "01KM65SFNGE6N23CB8KY59WRR9", "date": "2026-03-20", "title": "Manifest AI Quick sync", "link": "https://app.fireflies.ai/view/01KM65SFNGE6N23CB8KY59WRR9"},
+      {"id": "01KKJH3RJQEV83ZA2SS05D09AJ", "date": "2026-03-13", "title": "Manifest AI | kevin and Sonakshi", "link": "https://app.fireflies.ai/view/01KKJH3RJQEV83ZA2SS05D09AJ"}
+    ],
+    "business_context": "Shopify brand with strong organic traffic (over 1M monthly sessions, influencer-driven) that onboarded the Manifest AI assistant in March 2026 to handle tier-1 support (order tracking) while humans handle tier-2 (refunds, damaged items); uses Gorgias as helpdesk, handles about 600 Instagram messages a month and compared Manifest email with Klaviyo. Owner Kevin Rawle is the decision maker (attends from a personal address) with Abdul Manan as the technical contact.",
+    "pain_points": [
+      {"text": "Only 0.88% of about 500,000 visitors interacted with the assistant, so engagement is low", "theme": "on_site_engagement"},
+      {"text": "Outstanding change requests from Abdul (as of Apr 8) and custom development needed for the new website theme", "theme": "integrations"},
+      {"text": "Daily message spikes exceeded the 12,000 monthly credit allowance and the assistant was unpublished when credits ran out; spend rising from $1,100 to $1,500 on the unlimited plan", "theme": "cost_pricing"},
+      {"text": "Email queries were stacking up (since resolved) and the chat widget was not always visible on the store", "theme": "deliverability_quality"},
+      {"text": "Worry that negative customer feedback and social media negativity hurt brand reputation; chargeback prevention", "theme": "support_automation"}
+    ],
+    "stated_goals": [
+      {"text": "AI handles tier-1 support queries on its own, with human agents on tier-2 such as refunds and damaged items", "theme": "support_automation"},
+      {"text": "Order tracking automation with real-time Shopify and Gorgias data", "theme": "order_tracking_returns"},
+      {"text": "Cut human agent load as traffic grows (expected 70-80% of simple queries handled by AI)", "theme": "support_automation"}
+    ],
+    "open_items": [
+      {"text": "Abdul to give feedback on the Shopify app review via the shared link", "theme": null},
+      {"text": "Kevin and Abdul to review the Manifest marketing tool website and consider a trial; no immediate need for more Instagram automation", "theme": "email_channel"},
+      {"text": "Monthly follow-up calls planned; next one was due around mid-May and no later call is recorded", "theme": null},
+      {"text": "Chat widget visibility fix (Shopify dashboard approval) and Gorgias integration steps promised in March; closure not confirmed in later calls", "theme": "integrations"}
+    ],
+    "themes": ["support_automation", "order_tracking_returns", "helpdesk_inbox", "integrations", "cost_pricing", "analytics_reporting", "email_channel", "instagram", "on_site_engagement"],
+    "risk_flags": [],
+    "competitors_mentioned": ["Klaviyo", "Gorgias"],
+    "last_meeting_date": "2026-04-13",
+    "confidence": "high"
+  },
+  "Super Butcher": {
+    "meetings": [{"id": "01KST05MXW4VC178NX9YDJMXV6", "date": "2026-06-01", "title": "Manifest <> Super Butcher", "link": "https://app.fireflies.ai/view/01KST05MXW4VC178NX9YDJMXV6"}],
+    "business_context": "Australian meat retailer (delivers to specific areas, sells variants such as brisket and offers recipe recommendations) using the Manifest chatbot; managed day to day by a marketing support contact.",
+    "pain_points": [
+      {"text": "Chatbot recommends sold-out product variants (brisket case); cause traced to a misconfigured out-of-stock setting", "theme": "product_discovery"},
+      {"text": "Recipe recommendations give inconsistent, mixed responses; retraining suggested", "theme": "product_discovery"},
+      {"text": "Bot did not clearly state delivery-area limits (e.g. Sydney not covered), requiring manual corrections", "theme": "support_automation"}
+    ],
+    "stated_goals": [
+      {"text": "Add blanket delivery-coverage rules and standard rejection replies so fewer manual interventions are needed", "theme": "support_automation"},
+      {"text": "Keep the bot stable and customers satisfied, including through slower business weeks", "theme": "deliverability_quality"}
+    ],
+    "open_items": [
+      {"text": "BIK to investigate and fix sold-out variants being recommended, then notify the customer", "theme": "product_discovery"},
+      {"text": "BIK to update customization instructions with delivery-area rules and standard rejection responses", "theme": "support_automation"},
+      {"text": "Customer to share the problematic chat link, save the manually added Sydney response, test after updates and report back", "theme": "support_automation"},
+      {"text": "Customer to monitor whether the recipe recommendation issue recurs before asking for further help", "theme": "product_discovery"}
+    ],
+    "themes": ["support_automation", "product_discovery"],
+    "risk_flags": ["unresolved bugs (sold-out variants recommended; inconsistent recipe recommendations)"],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-06-01",
+    "confidence": "medium"
+  },
+  "The Suit Depot": {"meetings": [], "business_context": "", "pain_points": [], "stated_goals": [], "open_items": [], "themes": [], "risk_flags": [], "competitors_mentioned": [], "last_meeting_date": null, "confidence": "low"},
+  "Next Round": {"meetings": [], "business_context": "", "pain_points": [], "stated_goals": [], "open_items": [], "themes": [], "risk_flags": [], "competitors_mentioned": [], "last_meeting_date": null, "confidence": "low"},
+  "HealthAid": {
+    "meetings": [
+      {"id": "01KHK0DZ8GR48BZZDPYR48QFCF", "date": "2026-02-27", "title": "Healthaid <> Manifest AI - Review Call", "link": "https://app.fireflies.ai/view/01KHK0DZ8GR48BZZDPYR48QFCF"},
+      {"id": "01KF1BXJRBYD904MDYS1TDH06C", "date": "2026-01-22", "title": "Healthaid <> Manifest AI - Review Call", "link": "https://app.fireflies.ai/view/01KF1BXJRBYD904MDYS1TDH06C"},
+      {"id": "01KEHK1N8VHPP0G4ACE6KP3DB2", "date": "2026-01-15", "title": "Healthaid <> Manifest AI - Review Call", "link": "https://app.fireflies.ai/view/01KEHK1N8VHPP0G4ACE6KP3DB2"},
+      {"id": "01KBD9EZGF7VDQNW4G6CBT1FZY", "date": "2025-12-04", "title": "Healthaid <> Manifest AI - Review Call", "link": "https://app.fireflies.ai/view/01KBD9EZGF7VDQNW4G6CBT1FZY"},
+      {"id": "01KAVDSVXT8Y05TM2BSV3Z74GP", "date": "2025-12-01", "title": "Healthaid <> Manifest AI - Review Call", "link": "https://app.fireflies.ai/view/01KAVDSVXT8Y05TM2BSV3Z74GP"}
+    ],
+    "business_context": "UK health supplements brand (products such as pumpkin seed, liver care, magnesium) running the Manifest Shopify app; small team where Sophie is the main contact and the team juggles several work streams. Review calls have moved to as-needed.",
+    "pain_points": [
+      {"text": "A pending application update restricts access to new features and is still being chased", "theme": "integrations"},
+      {"text": "Quiz does not launch automatically when shoppers type keywords like 'quiz'; activation delays and feature put on hold", "theme": "product_discovery"},
+      {"text": "Team bandwidth across other work streams delays feature reviews and operational tasks", "theme": null}
+    ],
+    "stated_goals": [
+      {"text": "Personalized, brand-aligned nudges (homepage welcome) to lift engagement; CTA nudges to be reviewed for tone", "theme": "on_site_engagement"},
+      {"text": "Better product recommendations via search rules for keywords like 'immunity'", "theme": "product_discovery"},
+      {"text": "Track common shopper queries with the new analytics and conversation reports; train the assistant through bulk FAQ upload without developer help", "theme": "analytics_reporting"}
+    ],
+    "open_items": [
+      {"text": "Sophie to follow up internally so the application update proceeds (as of Feb 27)", "theme": "integrations"},
+      {"text": "BIK to send feature summaries by email instead of scheduling meetings", "theme": null},
+      {"text": "Quiz keyword trigger fix promised in Dec; still on hold as of Jan 15 with no confirmation of resolution", "theme": "product_discovery"},
+      {"text": "New analytics for common queries expected around early February; reviewed in the Feb 27 call (reports shown)", "theme": "analytics_reporting"}
+    ],
+    "themes": ["product_discovery", "on_site_engagement", "analytics_reporting", "support_automation", "integrations"],
+    "risk_flags": ["unresolved bugs (quiz trigger not launching on keyword)"],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-02-27",
+    "confidence": "high"
+  },
+  "Cinema Secrets": {"meetings": [], "business_context": "", "pain_points": [], "stated_goals": [], "open_items": [], "themes": [], "risk_flags": [], "competitors_mentioned": [], "last_meeting_date": null, "confidence": "low"},
+  "Henna Sooq": {"meetings": [], "business_context": "", "pain_points": [], "stated_goals": [], "open_items": [], "themes": [], "risk_flags": [], "competitors_mentioned": [], "last_meeting_date": null, "confidence": "low"},
+  "SoundHealth": {
+    "meetings": [
+      {"id": "01KJXCEVYPEWRM77JWV8AQ2W5S", "date": "2026-03-06", "title": "Soundhealth <> Manifest AI - Review Call", "link": "https://app.fireflies.ai/view/01KJXCEVYPEWRM77JWV8AQ2W5S"},
+      {"id": "01K9YXPQVA1VZE7CY5JBYQCTY8", "date": "2025-11-13", "title": "SoundHealth <> Manifest AI | Onboarding", "link": "https://app.fireflies.ai/view/01K9YXPQVA1VZE7CY5JBYQCTY8"}
+    ],
+    "business_context": "Sells FDA-regulated sleep medical devices through Shopify under two brands (Sono and Spatial Sleep) that are being merged onto soundhealth.life; planning Zoho One (CRM and Desk) rollout for CRM and help desk. Contact is Venkatesh.",
+    "pain_points": [
+      {"text": "Cookie and attribution tracking issue on the Sono site; investigation found no Manifest update as root cause, ADA plugin team still to respond", "theme": "analytics_reporting"},
+      {"text": "Answers must be accurate because the products are medical devices", "theme": "deliverability_quality"},
+      {"text": "Support ticket load they want to reduce", "theme": "support_automation"}
+    ],
+    "stated_goals": [
+      {"text": "Merge the Spatial Sleep and Sono Shopify stores and websites into one platform", "theme": "integrations"},
+      {"text": "Fuller FAQs and knowledge base from the revamped site feeding the assistant", "theme": "support_automation"},
+      {"text": "Deploy Zoho CRM and Desk in phases, at lower cost than competitors, while staying open to evaluating other platforms", "theme": "helpdesk_inbox"}
+    ],
+    "open_items": [
+      {"text": "Customer to tell Manifest when the combined website goes live for testing and alignment", "theme": "integrations"},
+      {"text": "BIK to share backend analysis on the attribution issue if available", "theme": "analytics_reporting"},
+      {"text": "BIK to convey the importance of comprehensive FAQs to the developers", "theme": "support_automation"}
+    ],
+    "themes": ["support_automation", "analytics_reporting", "integrations", "helpdesk_inbox"],
+    "risk_flags": ["unresolved attribution/cookie tracking issue under investigation as of 2026-03-06"],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-03-06",
+    "confidence": "medium"
+  },
+  "GoKarts USA®": {"meetings": [], "business_context": "", "pain_points": [], "stated_goals": [], "open_items": [], "themes": [], "risk_flags": [], "competitors_mentioned": [], "last_meeting_date": null, "confidence": "low"},
+  "MTN Shop": {
+    "meetings": [
+      {"id": "01M4XJVE82SFXT8CFRCWH486K6", "date": "2026-10-15", "title": "MTN_Shop X Manifest AI -Sync call -Arlet and Rahul", "link": "https://app.fireflies.ai/view/01M4XJVE82SFXT8CFRCWH486K6"},
+      {"id": "01M4AN2N56NQEDHEXDTZET2VA9", "date": "2026-10-14", "title": "MTN_Shop X Manifest AI -Sync call -Arlet and Rahul", "link": "https://app.fireflies.ai/view/01M4AN2N56NQEDHEXDTZET2VA9"},
+      {"id": "01KRFHYF1FJEJ2XAWBDMD6DZQM", "date": "2026-05-20", "title": "Shop MTN <> Manifest AI - Sanity Check", "link": "https://app.fireflies.ai/view/01KRFHYF1FJEJ2XAWBDMD6DZQM"}
+    ],
+    "business_context": "Operates multiple stores (EU domain) with a marketing team using the Manifest chatbot; customer success moved from Vivian Richard to Rahul Singh, and issues are tracked via Jira tickets.",
+    "pain_points": [
+      {"text": "Chatbot loading delay on the site (screen recording and cross-browser testing pending)", "theme": "deliverability_quality"},
+      {"text": "Wants the 'Powered by Manifest' watermark removed from stores and asked about cost across multiple stores", "theme": "cost_pricing"}
+    ],
+    "stated_goals": [
+      {"text": "Training/walkthrough sessions on new AI features for the marketing team", "theme": "on_site_engagement"}
+    ],
+    "open_items": [
+      {"text": "BIK to get watermark-removal cost details for multiple stores (customer to confirm preference internally); status unknown after May 20", "theme": "cost_pricing"},
+      {"text": "BIK to investigate chatbot loading delay after receiving customer's screen recording and browser results; status unknown after May 20", "theme": "deliverability_quality"},
+      {"text": "BIK to run AI-feature demo/training for the marketing team; status unknown after May 20", "theme": null}
+    ],
+    "themes": ["cost_pricing", "deliverability_quality"],
+    "risk_flags": ["unresolved bugs (chatbot loading delay, last discussed May 20)"],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-10-15",
+    "confidence": "medium"
+  }
+}

@@ -32,7 +32,13 @@ THEMES = {
     "analytics_reporting": {},
     "deliverability_quality": {},
 }
-CHURN_WORDS = ("churn", "discontinu", "cancel", "terminat")
+CHURN_WORDS = ("churn", "discontinu", "cancel", "terminat", "suspended", "renewal will stop", "contract nearing",
+               "scope reduction", "switching", "disconnected its number", "activity shifted", "moved to another",
+               "revenue dropped")
+# a complaint about something broken is a fix-first item, not a reason to sell a feature
+DEFECT_WORDS = ("bug", "error", "fail", "not working", "broken", "unresolved", "mismatch", "discrepanc", "delay",
+                "stability", "wrong", "missing", "not saving", "not launching")
+DEFECT_DISCOUNT = 0.3
 USABLE_CONFIDENCE = ("high", "medium")
 
 
@@ -73,18 +79,23 @@ class AccountContext:
         return [] if self.churning else self.risk_flags
 
     def fit(self, feature_key):
-        """How directly the customer's own words call for this feature, and the statement that says so."""
+        """How directly the customer's pains and goals call for this feature, and the statement that says so.
+
+        Open items are commitments we owe them, so they never count as a reason to sell something.
+        """
         if not self.usable:
             return 0.0, None
         best, said = 0.0, None
-        for s in self.pains + self.goals + self.open_items:
+        for s in self.pains + self.goals:
             strength = THEMES.get(s.theme, {}).get(feature_key, 0.0)
             if s.kind == "goal":
                 strength *= 0.9
+            if any(w in s.text.lower() for w in DEFECT_WORDS):
+                strength *= DEFECT_DISCOUNT
             if strength > best:
                 best, said = strength, s
         for theme in self.themes:
-            strength = 0.8 * THEMES.get(theme, {}).get(feature_key, 0.0)
+            strength = 0.6 * THEMES.get(theme, {}).get(feature_key, 0.0)
             if strength > best:
                 best, said = strength, None
         return best, said
@@ -93,11 +104,19 @@ class AccountContext:
 class ContextBook:
     """All accounts' context, loaded from one or more extraction files."""
 
-    def __init__(self, paths=()):
+    def __init__(self, paths=(), overrides_path=None):
         self.by_account = {}
         for path in paths:
             for account, raw in json.load(open(path)).items():
                 self.by_account[account] = AccountContext(raw)
+        if overrides_path and Path(overrides_path).exists():
+            self._apply_overrides(json.load(open(overrides_path)))
+
+    def _apply_overrides(self, overrides):
+        """Risk flags known from outside the calls (billing or support emails), merged onto any call context."""
+        for account, flags in overrides.items():
+            ctx = self.by_account.setdefault(account, AccountContext({}))
+            ctx.risk_flags = list(ctx.risk_flags) + flags
 
     @classmethod
     def from_glob(cls, folder, pattern):

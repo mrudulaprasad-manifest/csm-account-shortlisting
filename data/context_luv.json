@@ -1,0 +1,907 @@
+{
+  "I Destiny": {
+    "meetings": [
+      {
+        "id": "01M2544VPR7TVKTPNCEWMER4XE",
+        "date": "2026-09-11",
+        "title": "Idestiny <> BIK",
+        "link": "https://app.fireflies.ai/view/01M2544VPR7TVKTPNCEWMER4XE"
+      },
+      {
+        "id": "01KWXP2GXW81E0T21T8JE6327G",
+        "date": "2026-07-07",
+        "title": "iDestiny Marketing and Luv Jain",
+        "link": "https://app.fireflies.ai/view/01KWXP2GXW81E0T21T8JE6327G"
+      },
+      {
+        "id": "01KS78AGP030992JJ5XDRGFFTA",
+        "date": "2026-05-22",
+        "title": "Idestiny < > BIK",
+        "link": "https://app.fireflies.ai/view/01KS78AGP030992JJ5XDRGFFTA"
+      },
+      {
+        "id": "01KRZ9MAW2AZGQM1FCRMK09ZH0",
+        "date": "2026-05-19",
+        "title": "Idestiny < > BIK",
+        "link": "https://app.fireflies.ai/view/01KRZ9MAW2AZGQM1FCRMK09ZH0"
+      },
+      {
+        "id": "01KRDZQ2DEZ8DQZAF2WX8839E4",
+        "date": "2026-05-13",
+        "title": "Idestiny < > BIK",
+        "link": "https://app.fireflies.ai/view/01KRDZQ2DEZ8DQZAF2WX8839E4"
+      },
+      {
+        "id": "01KRANSFVN793H2VFCG88AWFZP",
+        "date": "2026-05-11",
+        "title": "Idestiny < > BIK",
+        "link": "https://app.fireflies.ai/view/01KRANSFVN793H2VFCG88AWFZP"
+      },
+      {
+        "id": "01KR9G1CHF5X2YGQKNCKTWFY1C",
+        "date": "2026-05-10",
+        "title": "Idestiny",
+        "link": "https://app.fireflies.ai/view/01KR9G1CHF5X2YGQKNCKTWFY1C"
+      },
+      {
+        "id": "01KR0J9Y62DYZQ42V0YJQHEN33",
+        "date": "2026-05-07",
+        "title": "Idestiny < > BIK || Sync",
+        "link": "https://app.fireflies.ai/view/01KR0J9Y62DYZQ42V0YJQHEN33"
+      },
+      {
+        "id": "01KQV6PV37ESNQG5XQP2FX1KEZ",
+        "date": "2026-05-05",
+        "title": "Idestiny < > BIK",
+        "link": "https://app.fireflies.ai/view/01KQV6PV37ESNQG5XQP2FX1KEZ"
+      }
+    ],
+    "business_context": "iDestiny (CS Group) is a multi-brand Apple-product retailer with physical stores and a non-Shopify (WooCommerce) website; it uses Tata Tele missed-call/IVR flows, a Google Sheet/Form for customer data, and the Manifest AI bot and BIK dashboard on web, Instagram and WhatsApp.",
+    "pain_points": [
+      {
+        "text": "Instagram chats are not converting into leads or sales",
+        "theme": "instagram"
+      },
+      {
+        "text": "Data download and reporting issues; IVR/missed-call data is hard to track",
+        "theme": "analytics_reporting"
+      },
+      {
+        "text": "Purchase tracking and sales attribution are limited",
+        "theme": "analytics_reporting"
+      },
+      {
+        "text": "Over 2,500 AI messages billed as wrong; confusion between wallet credits and AI credits, wallet recharge needed to keep journeys running",
+        "theme": "cost_pricing"
+      },
+      {
+        "text": "AI bot gave wrong or missing product answers (only phone cases shown, iPhone 17 mix-ups)",
+        "theme": "product_discovery"
+      }
+    ],
+    "stated_goals": [
+      {
+        "text": "Capture more customer information and leads from Instagram and IVR flows",
+        "theme": "lead_capture"
+      },
+      {
+        "text": "Move the abandoned-cart IVR journey to WhatsApp and set up WhatsApp calling to cut missed calls",
+        "theme": "whatsapp_automation"
+      },
+      {
+        "text": "Enable embeds and nudges on the non-Shopify website to raise engagement",
+        "theme": "on_site_engagement"
+      },
+      {
+        "text": "Show clear ROI from existing integrations and tools",
+        "theme": "analytics_reporting"
+      }
+    ],
+    "open_items": [
+      {
+        "text": "Luv Jain to check with tech why data downloads fail (Jul 7)",
+        "theme": "analytics_reporting"
+      },
+      {
+        "text": "Luv Jain to check whether embeds and nudges can be enabled on the non-Shopify store (Sep 11)",
+        "theme": "on_site_engagement"
+      },
+      {
+        "text": "iDestiny to notify BIK after uploading Watch Ultra 4 so the feed connection to the AI manifest can be verified (Sep 11)",
+        "theme": "product_discovery"
+      },
+      {
+        "text": "iDestiny to modify the Instagram flow for better lead capture (Jul 7)",
+        "theme": "instagram"
+      },
+      {
+        "text": "Credit reimbursement for wrong AI messages and billing start date were to be taken to management (May 22); outcome not seen in later meetings",
+        "theme": "cost_pricing"
+      }
+    ],
+    "themes": [
+      "lead_capture",
+      "instagram",
+      "whatsapp_automation",
+      "voice_calling",
+      "on_site_engagement",
+      "analytics_reporting",
+      "cost_pricing",
+      "product_discovery",
+      "integrations",
+      "cart_recovery",
+      "email_channel",
+      "helpdesk_inbox"
+    ],
+    "risk_flags": [
+      "billing dispute over about 2,500 AI messages and credit confusion (May); lack of Instagram conversions raised with concern (Jul)"
+    ],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-09-11",
+    "confidence": "high"
+  },
+  "Silverfied Bik": {
+    "meetings": [
+      {
+        "id": "01KT67D1J5K3JXMTJ1RFZV3XRP",
+        "date": "2026-06-03",
+        "title": "Silverfied <> BIK",
+        "link": "https://app.fireflies.ai/view/01KT67D1J5K3JXMTJ1RFZV3XRP"
+      }
+    ],
+    "business_context": "Silverfied wants AI to handle customer queries on Instagram and its website; only one short intro call exists and it names no other tools.",
+    "pain_points": [
+      {
+        "text": "Product-specific and visual queries on Instagram are hard for AI to handle",
+        "theme": "product_discovery"
+      },
+      {
+        "text": "Slow response times on basic customer queries",
+        "theme": "support_automation"
+      }
+    ],
+    "stated_goals": [
+      {
+        "text": "Use AI on Instagram for return/exchange policy, order tracking and FAQs and keep the website AI consistent",
+        "theme": "support_automation"
+      },
+      {
+        "text": "Test and give feedback on the AI before full deployment",
+        "theme": null
+      }
+    ],
+    "open_items": [
+      {
+        "text": "Rishabh Kapoor to share documentation of AI capabilities and Instagram use cases via the WhatsApp group (Jun 3)",
+        "theme": "instagram"
+      },
+      {
+        "text": "Silverfied contact to review the shared use-case list for brand fit (Jun 3)",
+        "theme": null
+      }
+    ],
+    "themes": [
+      "support_automation",
+      "instagram",
+      "order_tracking_returns",
+      "product_discovery"
+    ],
+    "risk_flags": [],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-06-03",
+    "confidence": "medium"
+  },
+  "FRENCH CROWN® Dom": {
+    "meetings": [],
+    "business_context": "",
+    "pain_points": [],
+    "stated_goals": [],
+    "open_items": [],
+    "themes": [],
+    "risk_flags": [],
+    "competitors_mentioned": [],
+    "last_meeting_date": null,
+    "confidence": "low"
+  },
+  "Love Depot": {
+    "meetings": [
+      {
+        "id": "01M0WC26MJ6CRZY91BZS9QA6BK",
+        "date": "2026-08-26",
+        "title": "Love Depot <> Bik : WA Number Onboarding",
+        "link": "https://app.fireflies.ai/view/01M0WC26MJ6CRZY91BZS9QA6BK"
+      },
+      {
+        "id": "01M0VN27BEN8P4VMBA4XDTMH9G",
+        "date": "2026-08-25",
+        "title": "Love Depot <> Bik : Discussion",
+        "link": "https://app.fireflies.ai/view/01M0VN27BEN8P4VMBA4XDTMH9G"
+      },
+      {
+        "id": "01KY9TDPTWDQMGH5N3YKZB3NVA",
+        "date": "2026-07-24",
+        "title": "Love Depot <> Bik : Quick Connect",
+        "link": "https://app.fireflies.ai/view/01KY9TDPTWDQMGH5N3YKZB3NVA"
+      },
+      {
+        "id": "01KY9BGQPX0356T1YARMEZYRMQ",
+        "date": "2026-07-24",
+        "title": "Love Depot <> Bik : Manifest Onboarding",
+        "link": "https://app.fireflies.ai/view/01KY9BGQPX0356T1YARMEZYRMQ"
+      },
+      {
+        "id": "01KY41HMX4TC0QZ4CYSNBCHQ7V",
+        "date": "2026-07-23",
+        "title": "Love Depot <> Bik : Manifest Onboarding",
+        "link": "https://app.fireflies.ai/view/01KY41HMX4TC0QZ4CYSNBCHQ7V"
+      },
+      {
+        "id": "01KY1FCSP2VF86QM6G4YSC5NN7",
+        "date": "2026-07-21",
+        "title": "Love Depot <> Bik : Manifest Onboarding",
+        "link": "https://app.fireflies.ai/view/01KY1FCSP2VF86QM6G4YSC5NN7"
+      },
+      {
+        "id": "01KY1JRXNPVNS6ZPG7NDNM2387",
+        "date": "2026-07-21",
+        "title": "Love Depot <> BIK - WABA Migration",
+        "link": "https://app.fireflies.ai/view/01KY1JRXNPVNS6ZPG7NDNM2387"
+      },
+      {
+        "id": "01KXTH58YGQM8P84BAA454DGZS",
+        "date": "2026-07-20",
+        "title": "Love Depot <> BIK - WABA Migration",
+        "link": "https://app.fireflies.ai/view/01KXTH58YGQM8P84BAA454DGZS"
+      },
+      {
+        "id": "01KXMX5J6M359KE7X0ABDBFB4R",
+        "date": "2026-07-16",
+        "title": "Love Depot <> Bik : Judgeme Flows Review & Manifest Pricing Discussion",
+        "link": "https://app.fireflies.ai/view/01KXMX5J6M359KE7X0ABDBFB4R"
+      },
+      {
+        "id": "01KXJ5D9246TRSGWPXSPFWVD6K",
+        "date": "2026-07-15",
+        "title": "Love Depot <> Bik : Popup Queries",
+        "link": "https://app.fireflies.ai/view/01KXJ5D9246TRSGWPXSPFWVD6K"
+      }
+    ],
+    "business_context": "Love Depot (TTK Healthcare) sells sexual-wellness products on Shopify; it migrated its WhatsApp support from Interact to the BIK helpdesk, uses Freshdesk and Judge.me, and runs a promotional WhatsApp number plus a separate number for the Score Condoms campaign.",
+    "pain_points": [
+      {
+        "text": "Worried the AI bot cannot recommend products accurately (for example by gender) and could hurt conversion, so it was not launched until trained",
+        "theme": "product_discovery"
+      },
+      {
+        "text": "BIK pricing is much higher than what they pay today",
+        "theme": "cost_pricing"
+      },
+      {
+        "text": "Mandatory fields make pop-up setup hard for WhatsApp and email capture",
+        "theme": "on_site_engagement"
+      },
+      {
+        "text": "Need timely notifications for low review ratings",
+        "theme": "integrations"
+      }
+    ],
+    "stated_goals": [
+      {
+        "text": "Keep the promotional WhatsApp number automated and one-way, not routed to customer care",
+        "theme": "whatsapp_automation"
+      },
+      {
+        "text": "Add a gender-selection quiz so the bot recommends correctly before going live",
+        "theme": "product_discovery"
+      },
+      {
+        "text": "Show pop-ups only to first-time visitors with a first-order discount",
+        "theme": "on_site_engagement"
+      },
+      {
+        "text": "Move WhatsApp support to the BIK dashboard without losing messages",
+        "theme": "helpdesk_inbox"
+      }
+    ],
+    "open_items": [
+      {
+        "text": "Kaivan Gala to send a revised quote based on 15,000 credits (Jul 16); a bundled offer of about $650/month with a trial was later noted (Jul 20)",
+        "theme": "cost_pricing"
+      },
+      {
+        "text": "Kaivan Gala to configure the gender quiz and work on bot accuracy (Jul 24)",
+        "theme": "product_discovery"
+      },
+      {
+        "text": "Mahima S to get the new WhatsApp number; Kaivan Gala to set up the care-team filter; Vidushi to build automated replies (Aug 26)",
+        "theme": "whatsapp_automation"
+      },
+      {
+        "text": "Mahima S to confirm Freshdesk integration details (Jul 16)",
+        "theme": "integrations"
+      },
+      {
+        "text": "Phase two marketing journeys content pending from the customer; Manifest trial extension to 30 days to be confirmed (Jul 21-24)",
+        "theme": "whatsapp_automation"
+      }
+    ],
+    "themes": [
+      "whatsapp_automation",
+      "helpdesk_inbox",
+      "product_discovery",
+      "on_site_engagement",
+      "cost_pricing",
+      "integrations",
+      "support_automation"
+    ],
+    "risk_flags": [],
+    "competitors_mentioned": [
+      "Interact (previous WhatsApp tool)",
+      "Freshdesk (existing helpdesk, integration discussed)"
+    ],
+    "last_meeting_date": "2026-08-26",
+    "confidence": "high"
+  },
+  "Duroflex": {
+    "meetings": [
+      {
+        "id": "01M38XX9E5P54BSSBDWTJM5NRS",
+        "date": "2026-10-01",
+        "title": "Duroflex <> Bik - Sync",
+        "link": "https://app.fireflies.ai/view/01M38XX9E5P54BSSBDWTJM5NRS"
+      },
+      {
+        "id": "01M2Q76DC95HR6MZ4PCMJXZWY9",
+        "date": "2026-09-24",
+        "title": "Duroflex <> Bik - Sync",
+        "link": "https://app.fireflies.ai/view/01M2Q76DC95HR6MZ4PCMJXZWY9"
+      },
+      {
+        "id": "01M2QJM11M9XCRCYXG02CGR0XV",
+        "date": "2026-09-18",
+        "title": "Duroflex <> BIK",
+        "link": "https://app.fireflies.ai/view/01M2QJM11M9XCRCYXG02CGR0XV"
+      },
+      {
+        "id": "01M2531G4A10E0EAZ3WGKQ2XX0",
+        "date": "2026-09-17",
+        "title": "Duroflex <> Bik - Sync",
+        "link": "https://app.fireflies.ai/view/01M2531G4A10E0EAZ3WGKQ2XX0"
+      },
+      {
+        "id": "01M1E8NDGAS65E3Z87N9B5TT2J",
+        "date": "2026-09-01",
+        "title": "Duroflex <> BIK",
+        "link": "https://app.fireflies.ai/view/01M1E8NDGAS65E3Z87N9B5TT2J"
+      },
+      {
+        "id": "01M0A17E1S93HHHDECA691D6FR",
+        "date": "2026-08-18",
+        "title": "Duroflex <> BIK",
+        "link": "https://app.fireflies.ai/view/01M0A17E1S93HHHDECA691D6FR"
+      },
+      {
+        "id": "01KZZS76M315PTGAJHGP9B3TS4",
+        "date": "2026-08-14",
+        "title": "Duroflex Meeting",
+        "link": "https://app.fireflies.ai/view/01KZZS76M315PTGAJHGP9B3TS4"
+      },
+      {
+        "id": "01KZARW648Y3NBPGB22H2PG7HR",
+        "date": "2026-08-13",
+        "title": "Duroflex <> Bik - Sync",
+        "link": "https://app.fireflies.ai/view/01KZARW648Y3NBPGB22H2PG7HR"
+      },
+      {
+        "id": "01KZRJ5BD94YSFMAHRV25HE8RV",
+        "date": "2026-08-12",
+        "title": "Duroflex <> BIK",
+        "link": "https://app.fireflies.ai/view/01KZRJ5BD94YSFMAHRV25HE8RV"
+      },
+      {
+        "id": "01KZANEYKEVV78WKSG1Z86H1EM",
+        "date": "2026-08-10",
+        "title": "Duroflex <> BIK",
+        "link": "https://app.fireflies.ai/view/01KZANEYKEVV78WKSG1Z86H1EM"
+      }
+    ],
+    "business_context": "Duroflex is a mattress and sleep brand on Shopify with sales and support teams on the BIK helpdesk; order status comes from the Beacon system, tracking via ClickPost, and it uses Unicommerce and MoEngage. Weekly sync calls run with a large Duroflex team.",
+    "pain_points": [
+      {
+        "text": "Helpdesk issues: RnR outbound-call tickets get assigned to agents after missed calls, AI smart labels fail to save, repeat feedback messages, store-locator tickets assigned before pin is shared",
+        "theme": "helpdesk_inbox"
+      },
+      {
+        "text": "Needs trend data and overall numbers for chats and agent performance instead of reviewing thousands of chats",
+        "theme": "analytics_reporting"
+      },
+      {
+        "text": "Wants to filter negative-sentiment chats and handle vulgar images or text automatically",
+        "theme": "deliverability_quality"
+      },
+      {
+        "text": "Unclear order statuses and no tracking URL from Shopify drive many 'where is my order' queries",
+        "theme": "order_tracking_returns"
+      },
+      {
+        "text": "API data mapping errors (customer name) and a button-click failure in a pre-dispatch flow",
+        "theme": "integrations"
+      }
+    ],
+    "stated_goals": [
+      {
+        "text": "Launch an AI order-tracking agent to cut manual support work",
+        "theme": "order_tracking_returns"
+      },
+      {
+        "text": "Campaign funnel and journey analytics for segmentation",
+        "theme": "analytics_reporting"
+      },
+      {
+        "text": "Capture ClickPost data for NDR campaigns and analytics",
+        "theme": "integrations"
+      },
+      {
+        "text": "Control message frequency so customers are not overwhelmed",
+        "theme": "whatsapp_marketing"
+      }
+    ],
+    "open_items": [
+      {
+        "text": "Luv Jain to investigate the AI label save bug, the repeated feedback messages (possibly ClickPost) and store-locator ticket assignment (Sep 1)",
+        "theme": "helpdesk_inbox"
+      },
+      {
+        "text": "Yasir Umar to share the RnR reply template and ticket numbers so a Quick Reply automation can be built (Sep 1)",
+        "theme": "helpdesk_inbox"
+      },
+      {
+        "text": "Luv Jain and Aman Deep to work on sentiment trend analysis, negative-chat filters and vulgar-text filtering, and to check Meta messaging charge changes (Sep 18)",
+        "theme": "analytics_reporting"
+      },
+      {
+        "text": "Order tracking issues must be closed before going live; Sandesh to build the order-tracking API and Vidushi to share the payload (Aug 10-12)",
+        "theme": "order_tracking_returns"
+      },
+      {
+        "text": "Fix for the pre-dispatch button-click failure was being monitored with the tech team (Aug 13)",
+        "theme": "integrations"
+      }
+    ],
+    "themes": [
+      "helpdesk_inbox",
+      "analytics_reporting",
+      "order_tracking_returns",
+      "integrations",
+      "support_automation",
+      "deliverability_quality",
+      "whatsapp_marketing"
+    ],
+    "risk_flags": [
+      "unresolved helpdesk and labeling bugs (Sep 1); executive-level asks for better analytics repeated across meetings"
+    ],
+    "competitors_mentioned": [
+      "MoEngage (existing tool mentioned)"
+    ],
+    "last_meeting_date": "2026-10-01",
+    "confidence": "high"
+  },
+  "Durex India": {
+    "meetings": [
+      {
+        "id": "01KRNNMBAYP7NSGJPRJ2AY5QP7",
+        "date": "2026-05-18",
+        "title": "Durex<>Bik - Review",
+        "link": "https://app.fireflies.ai/view/01KRNNMBAYP7NSGJPRJ2AY5QP7"
+      }
+    ],
+    "business_context": "Durex is reviewed by BIK staff in a Q1 performance call (title names the brand; no customer-domain attendee). BIK reported 9.6 crore revenue and 1.45 lakh orders via WhatsApp and SMS, driven by abandoned cart and omnichannel journeys.",
+    "pain_points": [
+      {
+        "text": "High support ticket volume with a low closure rate and slower agent response in Q1",
+        "theme": "helpdesk_inbox"
+      }
+    ],
+    "stated_goals": [
+      {
+        "text": "Recover more abandoned-checkout sales, with AI voice calling proposed for pilot",
+        "theme": "voice_calling"
+      },
+      {
+        "text": "Activate untapped journeys: welcome, repeat purchase, upsell, cross-sell, win-back, browse abandonment",
+        "theme": "upsell_cross_sell"
+      },
+      {
+        "text": "Tie campaign optimisation to seasonal events",
+        "theme": "festive_sale_planning"
+      }
+    ],
+    "open_items": [
+      {
+        "text": "Gauri Vats to enable AI voice calling from the backend for internal testing and share the performance deck (May 18)",
+        "theme": "voice_calling"
+      },
+      {
+        "text": "BIK to work on support ticket closure rates (May 18)",
+        "theme": "helpdesk_inbox"
+      }
+    ],
+    "themes": [
+      "cart_recovery",
+      "voice_calling",
+      "upsell_cross_sell",
+      "helpdesk_inbox",
+      "festive_sale_planning",
+      "whatsapp_marketing",
+      "analytics_reporting"
+    ],
+    "risk_flags": [],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-05-18",
+    "confidence": "low"
+  },
+  "Setu Nutrition": {
+    "meetings": [
+      {
+        "id": "01M5VXBQKGG6K7W6GK8MY93ZAX",
+        "date": "2026-10-27",
+        "title": "Setu Nutrition <> BIK",
+        "link": "https://app.fireflies.ai/view/01M5VXBQKGG6K7W6GK8MY93ZAX"
+      },
+      {
+        "id": "01M4Z6JNP3P6TRWEHATTSTT465",
+        "date": "2026-10-16",
+        "title": "Setu Nutrition <> BIK",
+        "link": "https://app.fireflies.ai/view/01M4Z6JNP3P6TRWEHATTSTT465"
+      },
+      {
+        "id": "01KZ5HW3EQ4YWS0P9PECZZYBHX",
+        "date": "2026-08-04",
+        "title": "Setu <> BIK",
+        "link": "https://app.fireflies.ai/view/01KZ5HW3EQ4YWS0P9PECZZYBHX"
+      }
+    ],
+    "business_context": "Setu Nutrition runs on Shopify, migrated email to Klaviyo about six months before Aug 2026, and wants conversational AI on WhatsApp, Instagram DMs and comments, and email, with human agents on Mon-Fri 10:00-18:00.",
+    "pain_points": [
+      {
+        "text": "AI agent failed to answer a product question and should hand unclear requests to humans",
+        "theme": "support_automation"
+      },
+      {
+        "text": "AI should not repeat duplicate product listings across channels and should use only the website product collection",
+        "theme": "product_discovery"
+      },
+      {
+        "text": "Out-of-office message limits AI to human support hours; wants AI 24x7",
+        "theme": "support_automation"
+      },
+      {
+        "text": "High SLA time on routine tickets",
+        "theme": "helpdesk_inbox"
+      },
+      {
+        "text": "Wants to track anonymous users and improve 'where is my order' messaging",
+        "theme": "order_tracking_returns"
+      }
+    ],
+    "stated_goals": [
+      {
+        "text": "Move from keyword rules to contextual AI conversations across WhatsApp, Instagram and email",
+        "theme": "whatsapp_automation"
+      },
+      {
+        "text": "Reduce SLA time by letting AI handle routine queries and escalate exceptions",
+        "theme": "support_automation"
+      },
+      {
+        "text": "Access and train the AI agents directly",
+        "theme": "support_automation"
+      },
+      {
+        "text": "Add an AI voice agent",
+        "theme": "voice_calling"
+      }
+    ],
+    "open_items": [
+      {
+        "text": "Luv Jain to work on requested AI changes: product-collection source, Setu-side training access, 24x7 AI availability (Oct 27)",
+        "theme": "support_automation"
+      },
+      {
+        "text": "Pallavi (Setu) to send a daily ticket-review report to Jugal and Luv, starting Oct 28 (Oct 27)",
+        "theme": "analytics_reporting"
+      },
+      {
+        "text": "Luv Jain to prepare the implementation plan for WhatsApp, Instagram and email automation (Oct 16)",
+        "theme": "whatsapp_automation"
+      },
+      {
+        "text": "Add AI voice-agent capability to the implementation scope (Oct 16)",
+        "theme": "voice_calling"
+      },
+      {
+        "text": "Confirm RCS engagement data and add more order-tracking sample messages (Aug 4)",
+        "theme": "rcs_sms"
+      }
+    ],
+    "themes": [
+      "support_automation",
+      "whatsapp_automation",
+      "instagram",
+      "email_channel",
+      "helpdesk_inbox",
+      "order_tracking_returns",
+      "product_discovery",
+      "voice_calling",
+      "rcs_sms",
+      "integrations"
+    ],
+    "risk_flags": [],
+    "competitors_mentioned": [
+      "Klaviyo (existing email tool)"
+    ],
+    "last_meeting_date": "2026-10-27",
+    "confidence": "high"
+  },
+  "Fixderma Skincare": {
+    "meetings": [
+      {
+        "id": "01M2ME7GNHTBV360Z5QKPSD69W",
+        "date": "2026-09-17",
+        "title": "Fixderma <> Manifest",
+        "link": "https://app.fireflies.ai/view/01M2ME7GNHTBV360Z5QKPSD69W"
+      },
+      {
+        "id": "01KXJWA5DH09TSQWVT1YP72XQW",
+        "date": "2026-07-17",
+        "title": "Fixderma <> Manifest",
+        "link": "https://app.fireflies.ai/view/01KXJWA5DH09TSQWVT1YP72XQW"
+      }
+    ],
+    "business_context": "Fixderma is a skincare brand on Shopify already using the Manifest bot; on Sep 17 a Manifest AI assistant and on-site features were demoed to its team.",
+    "pain_points": [
+      {
+        "text": "Overall sales are declining while the bot resolves queries well",
+        "theme": null
+      },
+      {
+        "text": "Default Shopify tracking link gives no real-time delivery updates and customers are confused about order tracking",
+        "theme": "order_tracking_returns"
+      },
+      {
+        "text": "Low bot interaction and engagement rates",
+        "theme": "on_site_engagement"
+      }
+    ],
+    "stated_goals": [
+      {
+        "text": "Raise bot interaction rates and customer satisfaction",
+        "theme": "on_site_engagement"
+      },
+      {
+        "text": "Skincare recommendations by customer concern using Shopify data and a Google Sheet",
+        "theme": "product_discovery"
+      },
+      {
+        "text": "Product-page embeds for Q&A, ingredients and review summaries, with direct product placement",
+        "theme": "product_discovery"
+      }
+    ],
+    "open_items": [
+      {
+        "text": "Luv Jain to share third-party delivery provider and API options for live order status (Sep 17)",
+        "theme": "order_tracking_returns"
+      },
+      {
+        "text": "Luv Jain to configure recommendations, product embeds and the add-to-cart nudge, then send a progress update (Sep 17)",
+        "theme": "on_site_engagement"
+      },
+      {
+        "text": "Divya Verma to enable Voice of Shoppers on the dashboard (Jul 17)",
+        "theme": "analytics_reporting"
+      }
+    ],
+    "themes": [
+      "product_discovery",
+      "order_tracking_returns",
+      "on_site_engagement",
+      "cart_recovery",
+      "lead_capture",
+      "analytics_reporting",
+      "integrations"
+    ],
+    "risk_flags": [],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-09-17",
+    "confidence": "medium"
+  },
+  "Jacked Nutrition": {
+    "meetings": [
+      {
+        "id": "01KV7C3SJQF8C8AGBZ7DGDS6J9",
+        "date": "2026-06-16",
+        "title": "Jacked Nutrition < > BIK",
+        "link": "https://app.fireflies.ai/view/01KV7C3SJQF8C8AGBZ7DGDS6J9"
+      },
+      {
+        "id": "01KT0VD78VH71X66XHS1XPE7XP",
+        "date": "2026-06-01",
+        "title": "Jacked Nutrition < > BIK",
+        "link": "https://app.fireflies.ai/view/01KT0VD78VH71X66XHS1XPE7XP"
+      },
+      {
+        "id": "01KQXVC361KQENHBSNMBZ8WBWQ",
+        "date": "2026-05-06",
+        "title": "Jacked Nutrition < > BIK || Sync",
+        "link": "https://app.fireflies.ai/view/01KQXVC361KQENHBSNMBZ8WBWQ"
+      }
+    ],
+    "business_context": "Jacked Nutrition uses the BIK helpdesk with call handling, an affiliate and influencer commission setup via webhooks and Shopify, and was setting up a WhatsApp Business account in June 2026.",
+    "pain_points": [
+      {
+        "text": "Wrong agent-availability settings cause ticket assignment delays",
+        "theme": "helpdesk_inbox"
+      },
+      {
+        "text": "Affiliate commission notifications and influencer webhooks are delayed",
+        "theme": "integrations"
+      },
+      {
+        "text": "Call-answer button and call permission bugs",
+        "theme": "voice_calling"
+      },
+      {
+        "text": "Payment processing and subscription history bugs",
+        "theme": null
+      }
+    ],
+    "stated_goals": [
+      {
+        "text": "Reduce human workload by about 20% with AI for routine tasks",
+        "theme": "support_automation"
+      },
+      {
+        "text": "Complete the WhatsApp Business account setup within a week",
+        "theme": "whatsapp_marketing"
+      }
+    ],
+    "open_items": [
+      {
+        "text": "Rishabh Kapoor to complete the WhatsApp Business account setup (Jun 16)",
+        "theme": "whatsapp_marketing"
+      },
+      {
+        "text": "Fix influencer webhook, commission API accuracy and subscription-history bug; outcomes not confirmed in later meetings (May 6)",
+        "theme": "integrations"
+      },
+      {
+        "text": "Agent availability toggles to be fixed and call permission bugs resolved (May 6)",
+        "theme": "helpdesk_inbox"
+      }
+    ],
+    "themes": [
+      "helpdesk_inbox",
+      "support_automation",
+      "integrations",
+      "voice_calling",
+      "whatsapp_marketing",
+      "upsell_cross_sell"
+    ],
+    "risk_flags": [
+      "unresolved bugs: availability toggles, call permissions, payment and subscription history, commission webhooks (May 6)"
+    ],
+    "competitors_mentioned": [],
+    "last_meeting_date": "2026-06-16",
+    "confidence": "medium"
+  },
+  "Recode Studios": {
+    "meetings": [
+      {
+        "id": "01M22JW0G969TDFDJEVRR11D49",
+        "date": "2026-09-10",
+        "title": "Recode <> BIK - Cross Sell AI Agent",
+        "link": "https://app.fireflies.ai/view/01M22JW0G969TDFDJEVRR11D49"
+      },
+      {
+        "id": "01M208P8FMVV346KM60E4ND790",
+        "date": "2026-09-09",
+        "title": "Recode <> BIK",
+        "link": "https://app.fireflies.ai/view/01M208P8FMVV346KM60E4ND790"
+      },
+      {
+        "id": "01M0WRV4SBT9DW80T7DPJ4140H",
+        "date": "2026-08-27",
+        "title": "Recode <> BIK",
+        "link": "https://app.fireflies.ai/view/01M0WRV4SBT9DW80T7DPJ4140H"
+      },
+      {
+        "id": "01KWE5BB7BEHSYAQQJZ1ZCD27G",
+        "date": "2026-07-01",
+        "title": "Recode <> BIK",
+        "link": "https://app.fireflies.ai/view/01KWE5BB7BEHSYAQQJZ1ZCD27G"
+      },
+      {
+        "id": "01KQY7BYFKMW98HZBBKF65P3RG",
+        "date": "2026-05-06",
+        "title": "Recode <> BIK",
+        "link": "https://app.fireflies.ai/view/01KQY7BYFKMW98HZBBKF65P3RG"
+      }
+    ],
+    "business_context": "Recode Studios is a skincare and makeup brand on Shopify (shop.recodestudios.com) managed with agency IncrementumX; it uses Shopflo for checkout, loyalty points, AI voice and messaging journeys for checkout abandoners, and email.",
+    "pain_points": [
+      {
+        "text": "AI voice costs far more (stated Rs 10 per minute) with uplift not proportionally higher than messaging",
+        "theme": "cost_pricing"
+      },
+      {
+        "text": "Attribution is unclear because orders can be credited to messaging by last click; wants before/after uplift, revenue and ROI figures",
+        "theme": "analytics_reporting"
+      },
+      {
+        "text": "Many inactive journeys clutter the account",
+        "theme": null
+      },
+      {
+        "text": "Loyalty-point data shows only 7 days in the dashboard",
+        "theme": "analytics_reporting"
+      },
+      {
+        "text": "Carousel and quick-reply character limits need testing",
+        "theme": "upsell_cross_sell"
+      }
+    ],
+    "stated_goals": [
+      {
+        "text": "Run personalized AI cross-sell journeys (days 3, 5, 7, 11, up to 5 products) with carousel or AI templates",
+        "theme": "upsell_cross_sell"
+      },
+      {
+        "text": "Set up loyalty-point expiry reminders",
+        "theme": "whatsapp_marketing"
+      },
+      {
+        "text": "Improve checkout-to-order conversion with fallbacks for abandoned carts",
+        "theme": "cart_recovery"
+      },
+      {
+        "text": "Warm up email with lightweight text campaigns",
+        "theme": "email_channel"
+      }
+    ],
+    "open_items": [
+      {
+        "text": "Luv Jain to share AI voice and Dragon Flow order-tag details, fix the journey report, and provide AI voice pricing and cost reduction plan (Sep 9)",
+        "theme": "cost_pricing"
+      },
+      {
+        "text": "Vidushi to run a sample personalized cross-sell flow, send the expiry journey details and add SNS fallbacks to abandoned-cart journeys (Sep 10)",
+        "theme": "upsell_cross_sell"
+      },
+      {
+        "text": "Delete inactive journeys (Sanchita) and enable the AI agent carousel (Vidushi) (Aug 27)",
+        "theme": null
+      },
+      {
+        "text": "Luv Jain to compare Shop Pass data with Engage360 data (Aug 27)",
+        "theme": "analytics_reporting"
+      }
+    ],
+    "themes": [
+      "upsell_cross_sell",
+      "cart_recovery",
+      "voice_calling",
+      "cost_pricing",
+      "analytics_reporting",
+      "email_channel",
+      "whatsapp_marketing",
+      "integrations",
+      "deliverability_quality"
+    ],
+    "risk_flags": [],
+    "competitors_mentioned": [
+      "Engage360 (data compared against Shop Pass)"
+    ],
+    "last_meeting_date": "2026-09-10",
+    "confidence": "high"
+  }
+}
