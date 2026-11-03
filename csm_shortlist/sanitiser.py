@@ -72,14 +72,16 @@ class AccountSanitiser:
         first = csm.split()[0]
         if brand in self.overrides:
             return Removal(self.overrides[brand], "Manual override")
-        for d in self._deals_for(brand, first):
-            if d.get("dealstage") in CHURN_STAGES:
-                return Removal(f"Service deal in '{CHURN_STAGES[d['dealstage']]}' stage", "HubSpot deal")
+        deals = self._deals_for(brand, first)
+        churned = [d for d in deals if d.get("dealstage") in CHURN_STAGES]
+        # a churned sub-brand deal must not remove a brand that still has live deals
+        if churned and len(churned) == len(deals):
+            return Removal(f"Service deal in '{CHURN_STAGES[churned[0]['dealstage']]}' stage", "HubSpot deal")
         companies = self._companies_for(brand, first)
         if companies and all(c.get("lifecyclestage") != LIFECYCLE_CUSTOMER for c in companies):
             stage = companies[0].get("lifecyclestage")
             return Removal(f"HubSpot lifecycle stage is {LIFECYCLE_LABELS.get(stage, stage)}", "HubSpot company")
-        for d in self._deals_for(brand, first):
+        for d in deals:
             if d.get("dealstage") in UPSELL_STAGES:
                 return Removal(f"Already in upsell motion ('{UPSELL_STAGES[d['dealstage']]}')", "HubSpot deal")
         return None
