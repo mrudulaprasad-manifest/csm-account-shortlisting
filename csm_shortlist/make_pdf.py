@@ -10,7 +10,7 @@ from openpyxl import load_workbook
 from workbook import BAND_FILLS, COLUMNS, SECTION_FILLS
 
 CSM_SHEETS = ("Luv", "Nishant", "Rahul", "Prial")
-HEADLINE = ("#", "Account", "Segment", "MRR (USD)", "Products", "Priority score")
+HEADLINE = ("#", "Account", "Segment", "MRR (USD)", "MRR source", "Products", "Priority score")
 
 
 class PdfReport:

@@ -54,6 +54,7 @@ COLUMNS = [
     Column("Account", "Account", 24),
     Column("Account", "Segment", 12),
     Column("Account", "MRR (USD)", 11, '"$"#,##0'),
+    Column("Account", "MRR source", 14),
     Column("Account", "Products", 14),
     Column("Account", "Priority score", 9, "0.0", center=True),
     Column("Product usage", "Manifest critical features live", 12, center=True),
@@ -225,7 +226,7 @@ class WorkbookWriter:
         picks = account.picks()
         lead = f"{picks[0].spec.name}\nOpen with: \"{picks[0].spec.ask}\"" if picks else "Nothing measurable is missing"
         others = "\n".join(f"{n}. {p.spec.name}" for n, p in enumerate(picks[1:3], 2))
-        return [rank, account.brand, account.bucket, account.mrr, account.mix, account.score(),
+        return [rank, account.brand, account.bucket, account.mrr, account.mrr_source, account.mix, account.score(),
                 *self._usage_cells(account),
                 metrics.bik_revenue_percent(), metrics.manifest_revenue_percent(), metrics.manifest_conversations(),
                 metrics.bik_ai_conversations(), metrics.bik_tickets(), metrics.bik_widgets(), metrics.bik_channels(),
@@ -332,8 +333,9 @@ class WorkbookWriter:
 
     def _notes_sheet(self, ws):
         lines = [
-            ("Sources", "MRR: CSM sheet (August column); HubSpot fills accounts with zero MRR. Deal amounts in HubSpot are not "
-                        "used to override the sheet because several are INR values labelled USD."),
+            ("MRR", "The CSM sheet (August column) is the standard. Where the sheet has zero, MRR is the closed-won deal amount in "
+                   "the India Commercial + Mid-market or US pipeline on the company linked to the Service deal, converted to USD "
+                   "(HubSpot 'amount in company currency'). The MRR source column says which was used."),
             ("Account list", "Only HubSpot companies at lifecycle stage Customer. Removed when the company is Churned / Closed Lost / "
                              "Lead, the Service deal is in Churned or Churn Notice, or the Service deal is already in an upsell stage "
                              "(Accounts for this week to Escalated). Each removal is listed on the Excluded sheet."),

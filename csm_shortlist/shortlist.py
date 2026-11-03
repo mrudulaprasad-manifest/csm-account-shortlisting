@@ -177,6 +177,7 @@ class Account:
         self.csm = row["CSM"].strip()
         self.sub_jul = float(row["Subscription July"] or 0)
         self.mrr = float(row["Subscription August"] or 0)
+        self.mrr_source = row.get("MRR source", "CSM sheet")
         self.bucket = row["Revenue Bucket (Based on MRR)"].strip()
         self.m_stores = m_stores
         self.b_stores = b_stores
@@ -296,8 +297,9 @@ class Account:
 
 
 class Shortlister:
-    def __init__(self, sheet, outreach, manifest, bik, contexts=None, sanitiser=None):
+    def __init__(self, sheet, outreach, manifest, bik, contexts=None, sanitiser=None, closed_won=None):
         self.rows = list(csv.DictReader(open(sheet)))
+        self.closed_won = closed_won or {}
         self.outreach = outreach
         self.sanitiser = sanitiser
         self.manifest = manifest
@@ -306,11 +308,19 @@ class Shortlister:
         self.recommender = Recommender(FeatureCatalog(), PeerStats(FeatureCatalog(), manifest.stores, bik.stores),
                                        self.contexts)
 
+    def _with_fallback_mrr(self, row):
+        """The sheet is the MRR standard; accounts it has at zero take their closed-won HubSpot deal amount."""
+        deal = self.closed_won.get(row["Brand name"].strip())
+        if float(row["Subscription August"] or 0) > 0 or not deal:
+            return row
+        return {**row, "Subscription August": deal["amount_usd"], "MRR source": "HubSpot closed-won deal"}
+
     def accounts(self):
         best = {}
         for r in self.rows:
             if r["CSM"].strip() not in CSMS:
                 continue
+            r = self._with_fallback_mrr(r)
             k = (r["CSM"].strip(), norm(r["Brand name"]))
             if k not in best or float(r["Subscription August"] or 0) > float(best[k]["Subscription August"] or 0):
                 best[k] = r
@@ -420,6 +430,7 @@ if __name__ == "__main__":
     ap.add_argument("--companies", default="data/hubspot_companies.json")
     ap.add_argument("--deals", default="data/hubspot_service_deals.json")
     ap.add_argument("--exclusions", default="data/exclusions.json")
+    ap.add_argument("--closed-won", default="data/closed_won_mrr.json")
     ap.add_argument("--calls", default="data/last_calls_*.json", help="comma-separated last-call files or glob")
     ap.add_argument("--as-of", default=date.today().isoformat())
     ap.add_argument("--week", default="2026-W43")
@@ -431,7 +442,8 @@ if __name__ == "__main__":
     context_files = [str(f) for pat in args.context.split(",") for f in sorted(Path().glob(pat))]
     sanitiser = AccountSanitiser(args.companies, args.deals, args.exclusions)
     sl = Shortlister(args.sheet, OutreachLog(args.outreach), ManifestIndex(args.manifest.split(",")),
-                     BikIndex(args.bik.split(",")), ContextBook(context_files, args.risk_overrides), sanitiser)
+                     BikIndex(args.bik.split(",")), ContextBook(context_files, args.risk_overrides), sanitiser,
+                     json.load(open(args.closed_won)) if Path(args.closed_won).exists() else {})
     news = json.load(open(args.news)) if Path(args.news).exists() else {}
     top, skipped, n = sl.run(args.per_csm)
     top = {c: v for c, v in top.items() if c in chosen}
