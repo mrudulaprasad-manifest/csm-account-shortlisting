@@ -85,7 +85,18 @@ class AccountSanitiser:
         return None
 
     def company(self, brand, csm):
-        """The HubSpot customer record for an account, used for renewal and last-touch dates."""
+        """The HubSpot record for an account, used for renewal and last-touch dates.
+
+        Brands often have duplicate company records, so prefer a customer record that carries a renewal date.
+        """
         matches = self._companies_for(brand, csm.split()[0])
         customers = [c for c in matches if c.get("lifecyclestage") == LIFECYCLE_CUSTOMER]
+
+        def dated(c):
+            return bool(c.get("renewal_date") or c.get("bik_renewal_date"))
+
+        for pool in (customers, matches):
+            with_dates = [c for c in pool if dated(c)]
+            if with_dates:
+                return max(with_dates, key=lambda c: c.get("renewal_date") or c.get("bik_renewal_date"))
         return (customers or matches or [None])[0]

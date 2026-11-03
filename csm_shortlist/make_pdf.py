@@ -88,7 +88,6 @@ th{background:#1F2937;color:#fff}"""
             rows = list(self.wb[name].iter_rows(min_row=3, values_only=True))
             out.append(f"<h2 class='{'first' if i == 0 else ''}'>{name}</h2>")
             out += [self._card(r) for r in rows if r[1]]
-        out.append(self._table("Removed or skipped accounts", "Excluded"))
         out.append(self._table("Retention first", "Retention first"))
         out.append(self._table("Notes", "Notes"))
         out.append("</body></html>")
