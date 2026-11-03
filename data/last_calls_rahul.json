@@ -1,0 +1,94 @@
+[
+ {
+  "account": "Halo Ring",
+  "last_call_date": null,
+  "meeting_title": null,
+  "summary": "No call found.",
+  "issues_raised": [],
+  "meeting_id": null
+ },
+ {
+  "account": "Metal Bird",
+  "last_call_date": "2026-10-28",
+  "meeting_title": "MetalBirds X Manifest AI- Sync call",
+  "summary": "No Fireflies summary available (recording had no processed summary).",
+  "issues_raised": [],
+  "meeting_id": "01M5DWB0B3H3VFHACKZA8QS9CD"
+ },
+ {
+  "account": "Icy Bear Dental",
+  "last_call_date": "2026-04-27",
+  "meeting_title": "Icy Bear Dental <> Manifest AI - Review Call",
+  "summary": "Review of staffing gaps and a new hire, AI assistant updates with fewer flagged issues and positive revenue impact, and agent handover and support-request email settings. Vivian to add the correct support email; further review call planned next month.",
+  "issues_raised": [
+   "Staffing gaps and support continuity after a team member changed roles",
+   "Support request email setting removed and needs to be reinstated or clarified"
+  ],
+  "meeting_id": "01KPZX5FJY9Y21S4S8M9GHDHH7"
+ },
+ {
+  "account": "The Suit Depot",
+  "last_call_date": "2025-10-08",
+  "meeting_title": "Suit Depot <> Manifest AI - Review Call {tentative}",
+  "summary": "No Fireflies summary available (recording had no processed summary).",
+  "issues_raised": [],
+  "meeting_id": "01K6K454ASF396B97A6PXQNTJ1"
+ },
+ {
+  "account": "Powerbody",
+  "last_call_date": "2026-03-05",
+  "meeting_title": "Powerbody <> Manifest AI - Review Call",
+  "summary": "Discussed replacing SKUs with product IDs in the product feed, feed link access problems, and custom rules meant to prioritise private-label products that are not working. Vivian to check with the product team; follow-up meeting set for next week.",
+  "issues_raised": [
+   "Product feed link not accessible",
+   "Private-label recommendation rule not suggesting intended products"
+  ],
+  "meeting_id": "01KJDJHGXJHRWRWB6JWN1J38XH"
+ },
+ {
+  "account": "Next Round",
+  "last_call_date": null,
+  "meeting_title": null,
+  "summary": "No call found.",
+  "issues_raised": [],
+  "meeting_id": null
+ },
+ {
+  "account": "Super Butcher",
+  "last_call_date": "2026-06-01",
+  "meeting_title": "Manifest <> Super Butcher",
+  "summary": "Chatbot recommended a sold-out brisket variant, recipe recommendations were inconsistent, and a Sydney delivery-area answer was corrected. Luv Jain to investigate the variant issue and add delivery-area instructions; Jaden to monitor and test.",
+  "issues_raised": [
+   "Chatbot recommends sold-out product variants",
+   "Inconsistent recipe recommendations",
+   "Chatbot wrongly implied delivery to Sydney"
+  ],
+  "meeting_id": "01KST05MXW4VC178NX9YDJMXV6"
+ },
+ {
+  "account": "Cinema Secrets",
+  "last_call_date": "2024-10-07",
+  "meeting_title": "Cinema Secrets <> Manifest AI - Platform Overview",
+  "summary": "Platform overview and AI testing: Rob raised concerns about response accuracy and wording, thumbs up/down feedback was explained, and tonality options were discussed. Rob and Marlee to test over the next days; follow-up call set for Wednesday.",
+  "issues_raised": [
+   "Concerns about AI response accuracy and clearer wording on the site"
+  ],
+  "meeting_id": "fy5iyYyeRydefqNX"
+ },
+ {
+  "account": "Henna Sooq",
+  "last_call_date": "2025-03-25",
+  "meeting_title": "Re: Henna Sooq <> Manifest AI | Review call",
+  "summary": "Reviewed Feb-Mar results: about $25,995 attributed sales, 390 orders, 1.48% conversion, 86% satisfaction. Khadija to finish the Shopify review and explore interactive content features; follow-up call set for April 8.",
+  "issues_raised": [],
+  "meeting_id": "01JPN1VAMV03N1M036CVDW19BB"
+ },
+ {
+  "account": "Door Supplies Online",
+  "last_call_date": "2026-02-06",
+  "meeting_title": "Door Supplies Online <> Manifest AI - Review Call",
+  "summary": "No Fireflies summary available (recording had no processed summary).",
+  "issues_raised": [],
+  "meeting_id": "01KG7NPTTCQ419PRQYZWFSMYPQ"
+ }
+]
