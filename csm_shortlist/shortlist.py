@@ -177,7 +177,7 @@ class Account:
         self.csm = row["CSM"].strip()
         self.sub_jul = float(row["Subscription July"] or 0)
         self.mrr = float(row["Subscription August"] or 0)
-        self.mrr_source = row.get("MRR source", "CSM sheet")
+        self.mrr_source = row.get("MRR source", "CSM sheet") if self.mrr > 0 else "Unknown"
         self.bucket = row["Revenue Bucket (Based on MRR)"].strip()
         self.m_stores = m_stores
         self.b_stores = b_stores
@@ -260,7 +260,7 @@ class Account:
         return 0.4
 
     def score(self):
-        size = min(1.0, math.log10(self.mrr + 1) / math.log10(2000))
+        size = min(1.0, math.log10(self.mrr + 1) / math.log10(2000)) if self.mrr > 0 else self.brand_size()
         gap = self.missing_count() / TOTAL_SIGNALS if self.matched else 0.5
         base = 100 * (0.30 * size + 0.25 * self.recommender.strength(self) + 0.10 * self.engagement()
                       + 0.15 * self.brand_size() + 0.10 * BUCKET_WEIGHT.get(self.bucket, 0.4)
@@ -282,7 +282,9 @@ class Account:
             if self.picks() else f"{self.mix}: every measurable feature is live. Discuss plan upgrade and new channels."
 
     def reasoning(self, news=""):
-        parts = [f"{BUCKET_LABEL.get(self.bucket, self.bucket)} paying ${self.mrr:,.0f}/mo"]
+        label = BUCKET_LABEL.get(self.bucket, self.bucket)
+        parts = [f"{label} paying ${self.mrr:,.0f}/mo" if self.mrr > 0
+                 else "MRR unknown, so confirm what they pay before pitching"]
         if self.mrr > self.sub_jul * 1.1 > 0:
             parts.append(f"spend grew from ${self.sub_jul:,.0f} to ${self.mrr:,.0f}, so there is appetite to buy more")
         if self.m_stores:
@@ -326,7 +328,7 @@ class Shortlister:
                 best[k] = r
         return [Account(r, self.manifest.match(r["Brand name"]), self.bik.match(r["Brand name"]), self.recommender,
                         self.contexts.get(r["Brand name"].strip()))
-                for r in best.values() if float(r["Subscription August"] or 0) > 0]
+                for r in best.values()]
 
     def run(self, per_csm=10):
         eligible, skipped, self.flagged, self.removed = [], [], [], []
