@@ -1,0 +1,112 @@
+[
+  {
+    "account": "Green Soul Ergonomics",
+    "last_call_date": "2026-10-06",
+    "meeting_title": "Green Soul <> Bik - Discussion",
+    "summary": "Green Soul wants to pause or discontinue Bik AI, preferring Yellow AI for faster support. They asked to cancel the latest invoice and pay only through December. Luv Jain was introduced as new CSM and will demo AI updates; Nishant to handle billing.",
+    "issues_raised": [
+      "AI features insufficiently enhanced and not well optimized",
+      "Bik AI response timelines slow compared with Yellow AI",
+      "Customer satisfaction and success metrics not shared during trial",
+      "Cannot run two platforms for same use case",
+      "Invoice raised after services stopped in September"
+    ],
+    "meeting_id": "01M47Q1T4B22FFR187CST6XN2V"
+  },
+  {
+    "account": "No Nasties",
+    "last_call_date": "2026-10-16",
+    "meeting_title": "No Nasties <> Bik - Discussion",
+    "summary": "Account reset after team changes. Priority is retention journeys (welcome, win-back, first-order, returning customer) on email and WhatsApp. Nishant to review setup and share plan next week; Luv to seek approval for a six-month October-March contract. No final renewal decision.",
+    "issues_raised": [
+      "Previously promised work left incomplete after team changes",
+      "Confusion around automatic segments",
+      "Dashboard usability and training gaps",
+      "Limits on exporting partner-sourced customer data",
+      "Evaluating other tools; board pressure, only six-month commitment"
+    ],
+    "meeting_id": "01M4ZK2343KF5RZ4WYZM023RPA"
+  },
+  {
+    "account": "VAHDAM USA",
+    "last_call_date": "2026-10-14",
+    "meeting_title": "Vahdam <> Bik - Discussion",
+    "summary": "Nishant and Rupendra reviewed Vahdam India help desk gaps: SLA targets not configurable, agent report inaccuracies, no lunch-break exclusion. Feature requests and tickets to be raised; CSAT journey (1-10 scale) to be set up; website manifest remains paused. Title names Vahdam, not USA specifically.",
+    "issues_raised": [
+      "Cannot configure 15-business-hour resolution target or 98% per-agent SLA tracking",
+      "Agent-wise conversation report inaccurate (bot shown as receiver, message links)",
+      "No native lunch-break exclusion",
+      "CC'd or internal email replies get automated customer responses",
+      "Website manifest paused while website team evaluates other chatbot tools"
+    ],
+    "meeting_id": "01M4TN1KE1GA9CNFKAN8MBWK4E"
+  },
+  {
+    "account": "BL Fabric",
+    "last_call_date": "2026-04-06",
+    "meeting_title": "BL Fabric <> BIK - WABA Onboarding",
+    "summary": "Onboarding call: added admin access in Facebook Business Manager, connected a new WhatsApp number for live customer communication, clarified old connection deletion, and explained support workflows including round-robin ticket assignment. Follow-up on message journeys and ticket routing agreed.",
+    "issues_raised": [],
+    "meeting_id": "01KNBZMR5C1795TYVCZ6KM0C37"
+  },
+  {
+    "account": "Society Tea",
+    "last_call_date": "2026-08-31",
+    "meeting_title": "Society Tea <> Bik - AI Agent Flows",
+    "summary": "Discussed AI agent as an information-collection tool. Agreed to merge AI Welcome Journey with existing welcome journey, and to build a live address-confirmation journey for COD orders. Next: test merged journey, coordinate with Shiprocket, update return/refund prompts.",
+    "issues_raised": [],
+    "meeting_id": "01M163KAQXP8DZRVFJ7KXNZYMF"
+  },
+  {
+    "account": "Charmacy Milano",
+    "last_call_date": "2026-04-14",
+    "meeting_title": "Charmacy Milano < > BIK",
+    "summary": "Set up business configuration and value proposition, abandoned-cart strategy with shorter wait for 8-10% recovery, discount codes, and COD/prepaid payment workflows. API integration expected done in three weeks; analytics tool introduced; voice agent integration to be delivered.",
+    "issues_raised": [
+      "API and webhook authentication issues needing resolution"
+    ],
+    "meeting_id": "01KP3E6HKD97KK3JDBH9R45EWZ"
+  },
+  {
+    "account": "HYPD Sports",
+    "last_call_date": "2026-08-14",
+    "meeting_title": "HYPD <> Bik : Discussion",
+    "summary": "Gaurav raised concern over unexpected credit deductions from AI in order tracking and AI responses falling short. Kaivan explained AI intent; will share AI performance metrics. Gaurav to consult his product team and hold a follow-up next week.",
+    "issues_raised": [
+      "Unexpected credit deductions related to AI order tracking",
+      "AI responses not meeting expectations",
+      "Need for effective agent assignment, especially at peak times"
+    ],
+    "meeting_id": "01KZXM4YGHDG4W1NZSQN5P7ZBF"
+  },
+  {
+    "account": "Urban Plant",
+    "last_call_date": "2026-09-25",
+    "meeting_title": "Urban Plant <> Bik - Discussion",
+    "summary": "Urban Plant decided to pause and move away from Bik AI to another platform, citing pricing and cash flow. Luv acknowledged feedback and asked for a chance to address it. Nishant will coordinate technical offboarding; customer open to reconsidering later.",
+    "issues_raised": [
+      "Pricing and rising expenses",
+      "Recurring communication mismatches",
+      "Slower post-sales support",
+      "Failed upgrade: promised support module and AI chatbot not configured or onboarded",
+      "Cannot pay for two platforms"
+    ],
+    "meeting_id": "01M3BFH2CH185TA51MZZ1XEEH8"
+  },
+  {
+    "account": "Juice Beauty",
+    "last_call_date": "2026-10-30",
+    "meeting_title": "Sonakshi - Barbara - Cait | Manifest AI - Juice Beauty",
+    "summary": "Fireflies has no summary for this call (skipped). Latest summarized call, 2026-10-08 sync: customer service emails not creating tickets in BIC or Gorgias; tickets to run in parallel during migration; weekly Wednesday status calls set.",
+    "issues_raised": [],
+    "meeting_id": "01M679SPZC7PJ3KTXBJZKVEDK3"
+  },
+  {
+    "account": "Glutone",
+    "last_call_date": "2026-09-22",
+    "meeting_title": "Glutone <> Bik : Discussion",
+    "summary": "Fireflies has no summary for this call (skipped). Latest summarized call, 2026-08-06: invoicing clarified; no new agreements, monthly invoices continue plus one quarterly invoice for Dragon Flows; Kaivan to follow up with finance.",
+    "issues_raised": [],
+    "meeting_id": "01M33WJCQTVMDCQC1Y9VG8XZA4"
+  }
+]

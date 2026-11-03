@@ -2,119 +2,7 @@
 
 ## Luv Jain
 
-### 1. ITOKRI (BIK only, priority 83.3)
-- **Why now:** Enterprise/key account paying $525/mo; spend grew from $477 to $525, so there is appetite to buy more; 1,443,880 BIK messages sent in Sep.
-- **Where they stand:** BIK only: 4 of 11 features live. Lead with AI Agent on WhatsApp and Instagram.
-- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
-- **Lead with #1, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
-  - Evidence: 20,390 customer messages answered by the team in the inbox in Sep. 59% of 100 comparable stores already use it.
-  - Open with: "How many customer chats does your team answer by hand each day?"
-- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
-  - Evidence: 1,443,880 BIK messages sent in Sep and no on-site Manifest assistant.
-  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
-- **Lead with #3, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
-  - Evidence: 1,443,880 messages sent in Sep. 53% of 100 comparable stores already use it.
-  - Open with: "How do website visitors become WhatsApp subscribers today?"
-- **Also on the table:** WhatsApp Calling, Instagram DM Automation, RCS Messaging, SMS
-
-### 2. FRENCH CROWN® Dom (BIK only, priority 78.1)
-- **Why now:** Enterprise/key account paying $522/mo; 1,176,295 BIK messages sent in Sep.
-- **Where they stand:** BIK only: 3 of 11 features live. Lead with WhatsApp Journeys.
-- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
-- **Lead with #1, WhatsApp Journeys:** Automates abandoned-cart, order-update and post-purchase flows that run without a campaign each time.
-  - Evidence: WhatsApp campaigns already run; journeys would automate the repeat moments. 99% of 100 comparable stores already use it.
-  - Open with: "Which customer moments are you still messaging by hand?"
-- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
-  - Evidence: 1,176,295 BIK messages sent in Sep and no on-site Manifest assistant.
-  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
-- **Lead with #3, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
-  - Evidence: 612 customer messages answered by the team in the inbox in Sep. 59% of 100 comparable stores already use it.
-  - Open with: "How many customer chats does your team answer by hand each day?"
-- **Also on the table:** On-site Widgets, WhatsApp Calling, Instagram DM Automation, RCS Messaging
-
-### 3. Silverfied Bik (BIK + Manifest, priority 77.6)
-- **Why now:** Mid-market account paying $485/mo; spend grew from $410 to $485, so there is appetite to buy more; 5,784 orders and $115,234 in sales through Manifest in Sep; 58,701 BIK messages sent in Sep.
-- **Where they stand:** BIK + Manifest: 8 of 28 features live. Lead with AI Agent on WhatsApp and Instagram.
-- **Call history:** 1 call(s), latest 2026-06-03. Silverfied wants AI to handle customer queries on Instagram and its website; only one short intro call exists and it names no other tools.
-- **Pain points they raised:** Product-specific and visual queries on Instagram are hard for AI to handle; Slow response times on basic customer queries
-- **Close first (open items):** Rishabh Kapoor to share documentation of AI capabilities and Instagram use cases via the WhatsApp group (Jun 3); Silverfied contact to review the shared use-case list for brand fit (Jun 3)
-- **Lead with #1, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
-  - They told us (2026-06-03): Slow response times on basic customer queries
-  - Evidence: 1,379 customer messages answered by the team in the inbox in Sep. 59% of 100 comparable stores already use it.
-  - Open with: "How many customer chats does your team answer by hand each day?"
-- **Lead with #2, AI Product Assistant:** A product expert on the product page that helps shoppers choose and lifts conversion.
-  - They told us (2026-06-03): Product-specific and visual queries on Instagram are hard for AI to handle
-  - Evidence: 5,784 orders in Sep at about $20 each. 11% of 100 comparable stores already use it.
-  - Open with: "Where do shoppers hesitate between two products?"
-- **Lead with #3, Integrations:** Connects the helpdesk, shipping and reviews tools so the assistant answers from live data.
-  - Evidence: AI Agents are live and the Manifest dashboard shows no integrations connected. 44% of 100 comparable stores already use it.
-  - Open with: "Which tools does your team open to answer a 'where is my order' question?"
-- **Also on the table:** Product Page Welcome Nudge, Ask Me Anything Button, WhatsApp Campaigns, Ask AI Bar
-
-### 4. Durex India (BIK + Manifest, priority 77.0)
-- **Why now:** Enterprise/key account paying $939/mo; 13,307 orders and $87,419 in sales through Manifest in Sep; 333,099 BIK messages sent in Sep.
-- **Where they stand:** BIK + Manifest: 5 of 28 features live. Lead with Abandoned Checkout Recovery Nudge.
-- **Call history:** 1 call(s), latest 2026-05-18. Durex is reviewed by BIK staff in a Q1 performance call (title names the brand; no customer-domain attendee). BIK reported 9.6 crore revenue and 1.45 lakh orders via WhatsApp and SMS, driven by abandoned cart and omnichannel journeys.
-- **Pain points they raised:** High support ticket volume with a low closure rate and slower agent response in Q1
-- **Close first (open items):** Gauri Vats to enable AI voice calling from the backend for internal testing and share the performance deck (May 18); BIK to work on support ticket closure rates (May 18)
-- **Lead with #1, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
-  - Evidence: 13,307 orders in Sep at about $7 each. 25% of 100 comparable stores already use it.
-  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
-- **Lead with #2, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
-  - Evidence: 13,307 orders in Sep at about $7 each. 36% of 100 comparable stores already use it.
-  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
-- **Lead with #3, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
-  - Evidence: 333,099 messages sent in Sep. 53% of 100 comparable stores already use it.
-  - Open with: "How do website visitors become WhatsApp subscribers today?"
-- **Also on the table:** Product Page Welcome Nudge, AI Product Assistant, Removed from Cart Nudge, Search Results Nudge
-
-### 5. MARS Cosmetics (BIK only, priority 75.9)
-- **Why now:** Mid-market account paying $331/mo; spend grew from $236 to $331, so there is appetite to buy more; 845,423 BIK messages sent in Sep.
-- **Where they stand:** BIK only: 5 of 11 features live. Lead with Manifest AI shopping assistant.
-- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
-- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
-  - Evidence: 845,423 BIK messages sent in Sep and no on-site Manifest assistant.
-  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
-- **Lead with #2, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
-  - Evidence: 845,423 messages sent in Sep. 53% of 100 comparable stores already use it.
-  - Open with: "How do website visitors become WhatsApp subscribers today?"
-- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
-  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 100 comparable stores already use it.
-  - Open with: "Which conversations would close faster on a call?"
-- **Also on the table:** Instagram DM Automation, RCS Messaging, SMS, Web Push
-
-### 6. Kushal's Fashion Jewellery (BIK only, priority 73.4)
-- **Why now:** Enterprise/key account paying $574/mo; 23,855 BIK messages sent in Sep; Opened four Hyderabad stores on 28 Jan 2026 and targets 300 stores in three years after a Rs 284 crore Series B in 2024.
-- **Where they stand:** BIK only: 2 of 11 features live. Lead with WhatsApp Campaigns.
-- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
-- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
-  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 80% of 100 comparable stores already use it.
-  - Open with: "What is your next sale or launch, and how will customers hear about it?"
-- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
-  - Evidence: 1,787 customer messages answered by the team in the inbox in Sep. 59% of 100 comparable stores already use it.
-  - Open with: "How many customer chats does your team answer by hand each day?"
-- **Lead with #3, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
-  - Evidence: 23,855 BIK messages sent in Sep and no on-site Manifest assistant.
-  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
-- **Also on the table:** Email Campaigns and Journeys, On-site Widgets, WhatsApp Calling, Instagram DM Automation
-- **News:** Opened four Hyderabad stores on 28 Jan 2026 and targets 300 stores in three years after a Rs 284 crore Series B in 2024 (indianretailer.com, inc42.com)
-
-### 7. Pop Club (BIK only, priority 72.8)
-- **Why now:** Mid-market account paying $339/mo; 14,570,429 BIK messages sent in Sep.
-- **Where they stand:** BIK only: 4 of 11 features live. Lead with Manifest AI shopping assistant.
-- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
-- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
-  - Evidence: 14,570,429 BIK messages sent in Sep and no on-site Manifest assistant.
-  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
-- **Lead with #2, Email Campaigns and Journeys:** Runs the same flows on email, a lower-cost channel for customers who are not on WhatsApp.
-  - Evidence: 14,570,429 WhatsApp messages sent in Sep and no email at all. 69% of 100 comparable stores already use it.
-  - Open with: "Who do you reach by email today, and who do you reach only on WhatsApp?"
-- **Lead with #3, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
-  - Evidence: 14,570,429 messages sent in Sep. 53% of 100 comparable stores already use it.
-  - Open with: "How do website visitors become WhatsApp subscribers today?"
-- **Also on the table:** WhatsApp Calling, Instagram DM Automation, RCS Messaging, SMS
-
-### 8. I Destiny (BIK + Manifest, priority 72.6)
+### 1. I Destiny (BIK + Manifest, priority 72.6)
 - **Why now:** Enterprise/key account paying $600/mo; spend grew from $480 to $600, so there is appetite to buy more; 159 orders and $74,481 in sales through Manifest in Sep; 70,859 BIK messages sent in Sep.
 - **Where they stand:** BIK + Manifest: 14 of 28 features live. Lead with Home Page Welcome Nudge.
 - **Call history:** 9 call(s), latest 2026-09-11. iDestiny (CS Group) is a multi-brand Apple-product retailer with physical stores and a non-Shopify (WooCommerce) website; it uses Tata Tele missed-call/IVR flows, a Google Sheet/Form for customer data, and the Manifest AI bot and BIK dashboard on web, Instagram and WhatsApp.
@@ -134,7 +22,7 @@
   - Open with: "How much of your enquiry volume starts as an Instagram DM?"
 - **Also on the table:** WhatsApp Campaigns, WhatsApp Calling, AI Agents, AI Product Assistant
 
-### 9. Healeo Nutrition (BIK + Manifest, priority 72.2)
+### 2. Healeo Nutrition (BIK + Manifest, priority 72.2)
 - **Why now:** Mid-market account paying $299/mo; 10,822 orders and $162,784 in sales through Manifest in Sep; 310,749 BIK messages sent in Sep.
 - **Where they stand:** BIK + Manifest: 10 of 28 features live. Lead with Abandoned Checkout Recovery Nudge.
 - **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
@@ -149,44 +37,138 @@
   - Open with: "How much of your enquiry volume starts as an Instagram DM?"
 - **Also on the table:** AI Agents, Product Page Welcome Nudge, Removed from Cart Nudge, Search Results Nudge
 
-### 10. Fuaark (BIK only, priority 72.1)
-- **Why now:** Mid-market account paying $313/mo; 428,121 BIK messages sent in Sep.
-- **Where they stand:** BIK only: 4 of 11 features live. Lead with AI Agent on WhatsApp and Instagram.
+### 3. Fixderma Skincare (Manifest only, priority 71.7)
+- **Why now:** Mid-market account paying $250/mo; 33,506 orders and $157,746 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 10 of 17 features live. Lead with Integrations.
+- **Call history:** 2 call(s), latest 2026-09-17. Fixderma is a skincare brand on Shopify already using the Manifest bot; on Sep 17 a Manifest AI assistant and on-site features were demoed to its team.
+- **Pain points they raised:** Overall sales are declining while the bot resolves queries well; Default Shopify tracking link gives no real-time delivery updates and customers are confused about order tracking; Low bot interaction and engagement rates
+- **Close first (open items):** Luv Jain to share third-party delivery provider and API options for live order status (Sep 17); Luv Jain to configure recommendations, product embeds and the add-to-cart nudge, then send a progress update (Sep 17); Divya Verma to enable Voice of Shoppers on the dashboard (Jul 17)
+- **Lead with #1, Integrations:** Connects the helpdesk, shipping and reviews tools so the assistant answers from live data.
+  - They told us (2026-09-17): Default Shopify tracking link gives no real-time delivery updates and customers are confused about order tracking
+  - Evidence: AI Agents are live and the Manifest dashboard shows no integrations connected. 44% of 100 comparable stores already use it.
+  - Open with: "Which tools does your team open to answer a 'where is my order' question?"
+- **Lead with #2, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 33,506 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #3, Product Page Welcome Nudge:** Answers product doubts at the exact page where the buying decision is made.
+  - They told us (2026-09-17): Skincare recommendations by customer concern using Shopify data and a Google Sheet
+  - Evidence: 33,506 orders in Sep at about $5 each. 8% of 100 comparable stores already use it.
+  - Open with: "Which product questions do shoppers ask most before they buy?"
+- **Also on the table:** AI Floating Bar, Ask AI Bar, AI Shopping Page, Ask Me Anything Button
+
+### 4. Orionz Jewellery (BIK only, priority 71.6)
+- **Why now:** Mid-market account paying $448/mo; 30,011 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 6 of 11 features live. Lead with WhatsApp Campaigns.
+- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 80% of 100 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 30,011 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 100 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Also on the table:** Instagram DM Automation, RCS Messaging, Web Push
+
+### 5. Bio Basics (BIK only, priority 70.7)
+- **Why now:** Mid-market account paying $296/mo; spend grew from $249 to $296, so there is appetite to buy more; 38,304 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 6 of 11 features live. Lead with Manifest AI shopping assistant.
+- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
+- **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 38,304 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Lead with #2, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 100 comparable stores already use it.
+  - Open with: "Which conversations would close faster on a call?"
+- **Lead with #3, Instagram DM Automation:** Automates comment, story-reply and DM conversations, with AI replies, on Instagram.
+  - Evidence: 38,304 messages sent in Sep. 11% of 100 comparable stores already use it.
+  - Open with: "How much of your enquiry volume starts as an Instagram DM?"
+- **Also on the table:** SMS, RCS Messaging, Web Push
+
+### 6. Adore By Priyanka (BIK only, priority 70.6)
+- **Why now:** Mid-market account paying $316/mo; 99,312 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 3 of 11 features live. Lead with WhatsApp Campaigns.
+- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 80% of 100 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 15,347 customer messages answered by the team in the inbox in Sep. 59% of 100 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #3, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 99,312 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Also on the table:** On-site Widgets, WhatsApp Calling, Instagram DM Automation, SMS
+
+### 7. Jacked Nutrition (BIK + Manifest, priority 70.0)
+- **Why now:** Mid-market account paying $299/mo; 4,591 orders and $139,016 in sales through Manifest in Sep; 46,440 BIK messages sent in Sep.
+- **Where they stand:** BIK + Manifest: 11 of 28 features live. Lead with WhatsApp Campaigns.
+- **Call history:** 3 call(s), latest 2026-06-16. Jacked Nutrition uses the BIK helpdesk with call handling, an affiliate and influencer commission setup via webhooks and Shopify, and was setting up a WhatsApp Business account in June 2026.
+- **Pain points they raised:** Wrong agent-availability settings cause ticket assignment delays; Affiliate commission notifications and influencer webhooks are delayed; Call-answer button and call permission bugs
+- **Close first (open items):** Rishabh Kapoor to complete the WhatsApp Business account setup (Jun 16); Fix influencer webhook, commission API accuracy and subscription-history bug; outcomes not confirmed in later meetings (May 6); Agent availability toggles to be fixed and call permission bugs resolved (May 6)
+- **Handle with care:** unresolved bugs: availability toggles, call permissions, payment and subscription history, commission webhooks (May 6)
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - They told us (2026-06-16): Complete the WhatsApp Business account setup within a week
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 80% of 100 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, AI Agents:** Handles order status, returns and FAQs end to end, so support only sees the hard cases.
+  - They told us (2026-06-16): Reduce human workload by about 20% with AI for routine tasks
+  - Evidence: 3,173 support conversations in Sep and no AI Agent set up. 46% of 100 comparable stores already use it.
+  - Open with: "What share of your support chats are order status or returns?"
+- **Lead with #3, AI Product Assistant:** A product expert on the product page that helps shoppers choose and lifts conversion.
+  - Evidence: 4,591 orders in Sep at about $30 each. 11% of 100 comparable stores already use it.
+  - Open with: "Where do shoppers hesitate between two products?"
+- **Also on the table:** Abandoned Checkout Recovery Nudge, Email Campaigns and Journeys, Home Page Welcome Nudge, Post-Checkout Nudge
+
+### 8. chic le frique (BIK only, priority 69.5)
+- **Why now:** Mid-market account paying $450/mo; 40,420 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 2 of 11 features live. Lead with WhatsApp Campaigns.
+- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 80% of 100 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 493 customer messages answered by the team in the inbox in Sep. 59% of 100 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #3, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 40,420 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Also on the table:** Email Campaigns and Journeys, On-site Widgets, WhatsApp Calling, Instagram DM Automation
+
+### 9. House of Beauty India (BIK only, priority 69.4)
+- **Why now:** Mid-market account paying $271/mo; 45,717 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 6 of 11 features live. Lead with AI Agent on WhatsApp and Instagram.
 - **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
 - **Lead with #1, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
-  - Evidence: 12,173 customer messages answered by the team in the inbox in Sep. 59% of 100 comparable stores already use it.
+  - Evidence: 1,265 customer messages answered by the team in the inbox in Sep. 59% of 100 comparable stores already use it.
   - Open with: "How many customer chats does your team answer by hand each day?"
 - **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
-  - Evidence: 428,121 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Evidence: 45,717 BIK messages sent in Sep and no on-site Manifest assistant.
   - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
-- **Lead with #3, Email Campaigns and Journeys:** Runs the same flows on email, a lower-cost channel for customers who are not on WhatsApp.
-  - Evidence: 338,876 WhatsApp messages sent in Sep and no email at all. 69% of 100 comparable stores already use it.
-  - Open with: "Who do you reach by email today, and who do you reach only on WhatsApp?"
-- **Also on the table:** On-site Widgets, WhatsApp Calling, Instagram DM Automation, RCS Messaging
+- **Lead with #3, Instagram DM Automation:** Automates comment, story-reply and DM conversations, with AI replies, on Instagram.
+  - Evidence: 45,717 messages sent in Sep. 11% of 100 comparable stores already use it.
+  - Open with: "How much of your enquiry volume starts as an Instagram DM?"
+- **Also on the table:** SMS, RCS Messaging, Web Push
+
+### 10. AMYRA (BIK only, priority 69.4)
+- **Why now:** Mid-market account paying $320/mo; 12,707 BIK messages sent in Sep.
+- **Where they stand:** BIK only: 5 of 11 features live. Lead with WhatsApp Campaigns.
+- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
+- **Lead with #1, WhatsApp Campaigns:** Broadcasts offers, restocks and festive sales to opted-in customers.
+  - Evidence: WhatsApp journeys already run; campaigns are the other half of the channel. 80% of 100 comparable stores already use it.
+  - Open with: "What is your next sale or launch, and how will customers hear about it?"
+- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
+  - Evidence: 1,996 customer messages answered by the team in the inbox in Sep. 59% of 100 comparable stores already use it.
+  - Open with: "How many customer chats does your team answer by hand each day?"
+- **Lead with #3, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
+  - Evidence: 12,707 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
+- **Also on the table:** WhatsApp Calling, Instagram DM Automation, RCS Messaging, Web Push
 
 ## Nishant Kurivella
 
-### 1. Amydus (BIK + Manifest, priority 74.9)
-- **Why now:** Mid-market account paying $437/mo; spend grew from $350 to $437, so there is appetite to buy more; 3,542 orders and $134,673 in sales through Manifest in Sep; 489,369 BIK messages sent in Sep.
-- **Where they stand:** BIK + Manifest: 15 of 28 features live. Lead with Integrations.
-- **Call history:** 10 call(s), latest 2026-10-28. Shopify brand (apparel, with dresses mentioned) that did about Rs 3.8 crore in the quarter to July and uses BIK WhatsApp journeys, campaigns and, since July, email on three sending domains; it uses Shopflo checkout and Google Analytics, and works with agency contacts (Rockmysales, Digipals) alongside Kartik Sapra.
-- **Pain points they raised:** Journey revenue score is low despite the Dragon flow, and retention revenue is not trending up; cart-abandonment revenue reports need validating; Campaign duplication copies only the name and not content or templates, and the dashboard gives no clear warning when Meta pauses or disapproves a template; Audience sizes in Meta differ greatly from the BIK dashboard, and data sync with the Nitro and Shopflo tools confuses user identification
-- **Close first (open items):** Dragon Flows integration waits on commercials (about Rs 10,000 per month); Kartik to confirm pricing with Ayush; Kaivan to optimise the welcome journey and investigate revenue attribution discrepancies; BIK support to investigate campaign duplication and template-status warning bugs; Ankita to share screen recordings
-- **Handle with care:** Unresolved bugs: campaign duplication not copying content and no dashboard warning for paused or disapproved templates; Revenue attribution and audience-size discrepancies unresolved as of September
-- **Lead with #1, Integrations:** Connects the helpdesk, shipping and reviews tools so the assistant answers from live data.
-  - They told us (2026-10-28): Audience sizes in Meta differ greatly from the BIK dashboard, and data sync with the Nitro and Shopflo tools confuses user identification
-  - Evidence: AI Agents are live and the Manifest dashboard shows no integrations connected. 44% of 100 comparable stores already use it.
-  - Open with: "Which tools does your team open to answer a 'where is my order' question?"
-- **Lead with #2, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
-  - They told us (2026-10-28): Reactivate inactive customers and run cross-category nudges
-  - Evidence: 3,542 orders in Sep at about $38 each. 36% of 100 comparable stores already use it.
-  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
-- **Lead with #3, RCS Messaging:** Branded, richer messages on Android alongside WhatsApp.
-  - Evidence: 489,369 messages sent in Sep. 6% of 100 comparable stores already use it.
-  - Open with: "Would richer branded messages help on your Android audience?"
-- **Also on the table:** AI Product Assistant, Product Page Welcome Nudge, Search Results Nudge, Ask AI Bar
-
-### 2. Green Soul Ergonomics[Manifest] (Manifest only, priority 74.5)
+### 1. Green Soul Ergonomics[Manifest] (Manifest only, priority 74.5)
 - **Why now:** Mid-market account paying $475/mo; 4,457 orders and $372,447 in sales through Manifest in Sep.
 - **Where they stand:** Manifest only: 11 of 17 features live. Lead with AI Agents.
 - **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
@@ -201,7 +183,7 @@
   - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
 - **Also on the table:** Ask Me Anything Button, AI Product Assistant, AI Floating Bar, AI Shopping Page
 
-### 3. No Nasties (BIK only, priority 74.1)
+### 2. No Nasties (BIK only, priority 74.1)
 - **Why now:** Mid-market account paying $235/mo; spend grew from $150 to $235, so there is appetite to buy more; 135,396 BIK messages sent in Sep.
 - **Where they stand:** BIK only: 5 of 11 features live. Lead with Manifest AI shopping assistant.
 - **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
@@ -216,27 +198,7 @@
   - Open with: "How do website visitors become WhatsApp subscribers today?"
 - **Also on the table:** Instagram DM Automation, RCS Messaging, SMS, Web Push
 
-### 4. Underneat (BIK + Manifest, priority 73.7)
-- **Why now:** Mid-market account paying $417/mo; 188,320 orders and $3,922,564 in sales through Manifest in Sep; 6,554,058 BIK messages sent in Sep.
-- **Where they stand:** BIK + Manifest: 11 of 28 features live. Lead with Add to Cart Popup Nudge.
-- **Call history:** 7 call(s), latest 2026-09-07. Shopify D2C brand that sends WhatsApp campaigns and shipping updates through BIK, ships via Shiprocket with GoKwik being added as an aggregator, and runs a customer care team on the BIK helpdesk; the ecom team (Ansh Sinha) is the main contact.
-- **Pain points they raised:** Shopify gives only shipped and delivered statuses and Shiprocket few triggers, so shipment updates are thin; webhook and checkout API setup lacked clear documentation; Performance misalignment is costing revenue and Underneat wants more support and POC availability from BIK; CSAT and first-response-time numbers in dashboards do not match raw ticket data, and CSAT counts depend on feedback-flow triggers
-- **Close first (open items):** Vidushi to create the GoKwik webhook and GoKwik to share sample payloads and test; Shiprocket webhook to be removed once stable; Vidushi to help Ansh configure variables for the API/DB checkout webhook; Kaivan to implement and end-to-end test the top three or four high-impact customer journeys
-- **Handle with care:** Management pressure to justify platform cost (2026-05-06) and QBR on 2026-08-05 raised lost revenue and need for more BIK support; Open dashboard-versus-raw-data discrepancies on CSAT and FRT
-- **Lead with #1, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
-  - They told us (2026-09-07): Post-purchase upsell with coupons, welcome series for new visitors and loyalty/VIP campaigns to 13,000+ users
-  - Evidence: 188,320 orders in Sep at about $21 each. 36% of 100 comparable stores already use it.
-  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
-- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
-  - They told us (2026-09-07): Shopify gives only shipped and delivered statuses and Shiprocket few triggers, so shipment updates are thin; webhook and checkout API setup lacked clear documentation
-  - Evidence: 113,101 customer messages answered by the team in the inbox in Sep. 59% of 100 comparable stores already use it.
-  - Open with: "How many customer chats does your team answer by hand each day?"
-- **Lead with #3, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
-  - Evidence: 188,320 orders in Sep at about $21 each. 25% of 100 comparable stores already use it.
-  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
-- **Also on the table:** Browsing-History Recommendations, Home Page Welcome Nudge, WhatsApp Calling, Removed from Cart Nudge
-
-### 5. VAHDAM® USA Manifest (Manifest only, priority 72.0)
+### 3. VAHDAM® USA Manifest (Manifest only, priority 72.0)
 - **Why now:** Enterprise/key account paying $600/mo; 1,319 orders and $64,065 in sales through Manifest in Sep.
 - **Where they stand:** Manifest only: 5 of 17 features live. Lead with Integrations.
 - **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
@@ -251,7 +213,7 @@
   - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
 - **Also on the table:** Home Page Welcome Nudge, Removed from Cart Nudge, Ask Me Anything Button, Product Page Welcome Nudge
 
-### 6. BL Fabric (BIK only, priority 71.3)
+### 4. BL Fabric (BIK only, priority 71.3)
 - **Why now:** Mid-market account paying $333/mo; 96,436 BIK messages sent in Sep.
 - **Where they stand:** BIK only: 5 of 11 features live. Lead with WhatsApp Campaigns.
 - **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
@@ -266,7 +228,7 @@
   - Open with: "Which conversations would close faster on a call?"
 - **Also on the table:** Instagram DM Automation, SMS, RCS Messaging, Web Push
 
-### 7. Society Tea (BIK only, priority 71.0)
+### 5. Society Tea (BIK only, priority 71.0)
 - **Why now:** Mid-market account paying $250/mo; 453,506 BIK messages sent in Sep.
 - **Where they stand:** BIK only: 5 of 11 features live. Lead with Manifest AI shopping assistant.
 - **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
@@ -281,7 +243,7 @@
   - Open with: "Which conversations would close faster on a call?"
 - **Also on the table:** Instagram DM Automation, RCS Messaging, SMS, Web Push
 
-### 8. Charmacy Milano (BIK + Manifest, priority 70.7)
+### 6. Charmacy Milano (BIK + Manifest, priority 70.7)
 - **Why now:** Mid-market account paying $282/mo; 4,103 orders and $53,438 in sales through Manifest in Sep; 261,794 BIK messages sent in Sep.
 - **Where they stand:** BIK + Manifest: 16 of 28 features live. Lead with Integrations.
 - **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
@@ -296,38 +258,65 @@
   - Open with: "How do website visitors become WhatsApp subscribers today?"
 - **Also on the table:** Home Page Welcome Nudge, Product Page Welcome Nudge, AI Product Assistant, Ask Me Anything Button
 
-### 9. Amalfa (BIK only, priority 69.5)
-- **Why now:** Mid-market account paying $250/mo; 94,232 BIK messages sent in Sep.
+### 7. HYPD Sports (BIK + Manifest, priority 69.1)
+- **Why now:** Mid-market account paying $493/mo; 1,836 orders and $27,960 in sales through Manifest in Sep; 189,644 BIK messages sent in Sep.
+- **Where they stand:** BIK + Manifest: 9 of 28 features live. Lead with Abandoned Checkout Recovery Nudge.
+- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
+- **Lead with #1, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 1,836 orders in Sep at about $15 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Lead with #2, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
+  - Evidence: 1,836 orders in Sep at about $15 each. 36% of 100 comparable stores already use it.
+  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
+- **Lead with #3, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
+  - Evidence: 189,644 messages sent in Sep. 53% of 100 comparable stores already use it.
+  - Open with: "How do website visitors become WhatsApp subscribers today?"
+- **Also on the table:** Home Page Welcome Nudge, Ask Me Anything Button, Removed from Cart Nudge, Product Page Welcome Nudge
+
+### 8. Urban Plant (BIK only, priority 68.7)
+- **Why now:** Mid-market account paying $368/mo; 210,773 BIK messages sent in Sep.
 - **Where they stand:** BIK only: 6 of 11 features live. Lead with Manifest AI shopping assistant.
 - **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
 - **Lead with #1, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
-  - Evidence: 94,232 BIK messages sent in Sep and no on-site Manifest assistant.
+  - Evidence: 210,773 BIK messages sent in Sep and no on-site Manifest assistant.
   - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
-- **Lead with #2, AI Agent on WhatsApp and Instagram:** Answers customer chats on WhatsApp and Instagram and hands off to a human when needed.
-  - Evidence: 284 customer messages answered by the team in the inbox in Sep. 59% of 100 comparable stores already use it.
-  - Open with: "How many customer chats does your team answer by hand each day?"
-- **Lead with #3, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
+- **Lead with #2, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
   - Evidence: The inbox is already live, so calling needs no new setup. 15% of 100 comparable stores already use it.
   - Open with: "Which conversations would close faster on a call?"
-- **Also on the table:** Instagram DM Automation, RCS Messaging, Web Push
+- **Lead with #3, Instagram DM Automation:** Automates comment, story-reply and DM conversations, with AI replies, on Instagram.
+  - Evidence: 210,773 messages sent in Sep. 11% of 100 comparable stores already use it.
+  - Open with: "How much of your enquiry volume starts as an Instagram DM?"
+- **Also on the table:** RCS Messaging, SMS, Web Push
 
-### 10. The mom store (BIK only, priority 69.3)
-- **Why now:** Enterprise/key account paying $530/mo; 164,055 BIK messages sent in Sep.
-- **Where they stand:** BIK only: 9 of 11 features live. Lead with WhatsApp Calling.
-- **Call history:** 10 call(s), latest 2026-10-23. Shopify brand with a support-heavy operation on the BIK helpdesk and WhatsApp (including a Philippines segment); weekly syncs are held with Medha Ashok's team, and it also uses Unicommerce.
-- **Pain points they raised:** Cascading partner feature request had no update for over one and a half months; Error when enabling Voice of Shoppers; backend enablement needed; Some chats fail to auto-fetch order IDs from the customer's number and show placeholder values, hurting returns and exchanges
-- **Close first (open items):** Nishant to follow up internally on the cascading feature request ticket and report status, even if denied; Nishant to get Voice of Shoppers enabled on the backend; Nishant to set up AI agents in test mode if the team asks; Medha to gather team feedback on AI labels and agents
-- **Handle with care:** Feature request with no response for more than 1.5 months raised by the customer; Unresolved bugs: order ID auto-fetch showing placeholder values and Voice of Shoppers enablement error
-- **Lead with #1, WhatsApp Calling:** Voice calls from the same inbox, for conversations that are faster to talk through.
-  - They told us (2026-10-23): Use AI for order tracking and abandoned-cart calls
-  - Evidence: The inbox is already live, so calling needs no new setup. 15% of 100 comparable stores already use it.
-  - Open with: "Which conversations would close faster on a call?"
-- **Lead with #2, Manifest AI shopping assistant:** Brings the AI assistant to the store so on-site shoppers get answers and convert.
-  - Evidence: 164,055 BIK messages sent in Sep and no on-site Manifest assistant.
-  - Open with: "Your BIK messaging is strong; how do you help shoppers while they are on the site?"
-- **Lead with #3, Web Push:** Re-engages site visitors without needing their phone number.
-  - Evidence: 164,055 messages sent in Sep. 3% of 100 comparable stores already use it.
-  - Open with: "How do you bring back visitors who never shared a number?"
+### 9. Juice Beauty (Manifest only, priority 68.7)
+- **Why now:** Mid-market account paying $292/mo; 4,208 orders and $335,998 in sales through Manifest in Sep.
+- **Where they stand:** Manifest only: 7 of 17 features live. Lead with BIK WhatsApp messaging.
+- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 4,208 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #2, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 4,208 orders in Sep at about $80 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Lead with #3, Home Page Welcome Nudge:** Greets first-time visitors on the landing page and steers them to what suits them.
+  - Evidence: 3,436 shopper chat messages in Sep. 8% of 100 comparable stores already use it.
+  - Open with: "How do new visitors find the right product when they land on your home page?"
+- **Also on the table:** Removed from Cart Nudge, Product Page Welcome Nudge, Ask Me Anything Button, Browsing-History Recommendations
+
+### 10. Glutone (BIK + Manifest, priority 68.5)
+- **Why now:** Mid-market account paying $464/mo; 2,702 orders and $120,226 in sales through Manifest in Sep; 433,884 BIK messages sent in Sep.
+- **Where they stand:** BIK + Manifest: 7 of 28 features live. Lead with Abandoned Checkout Recovery Nudge.
+- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
+- **Lead with #1, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 2,702 orders in Sep at about $44 each. 25% of 100 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Lead with #2, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
+  - Evidence: 2,702 orders in Sep at about $44 each. 36% of 100 comparable stores already use it.
+  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
+- **Lead with #3, On-site Widgets:** Captures leads on the site and routes them straight into WhatsApp.
+  - Evidence: 433,884 messages sent in Sep. 53% of 100 comparable stores already use it.
+  - Open with: "How do website visitors become WhatsApp subscribers today?"
+- **Also on the table:** Removed from Cart Nudge, Product Page Welcome Nudge, AI Product Assistant, Search Results Nudge
 
 ## Rahul Singh
 
