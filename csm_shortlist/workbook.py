@@ -157,7 +157,6 @@ class WorkbookWriter:
         self._summary_sheet(wb.active, top, removed, skipped, flagged)
         for csm, accounts in top.items():
             self._csm_sheet(wb.create_sheet(csm.split()[0]), accounts, news)
-        self._excluded_sheet(wb.create_sheet("Excluded"), removed, skipped)
         self._retention_sheet(wb.create_sheet("Retention first"), flagged)
         self._notes_sheet(wb.create_sheet("Notes"))
         Path(path).parent.mkdir(parents=True, exist_ok=True)
@@ -306,12 +305,6 @@ class WorkbookWriter:
                     cell.number_format = '"$"#,##0'
         ws.freeze_panes = ws.cell(start_row + 1, 1)
 
-    def _excluded_sheet(self, ws, removed, skipped):
-        rows = [[a.csm, a.brand, a.mrr, r.reason, r.source] for a, r in sorted(removed, key=lambda x: (x[0].csm, -x[0].mrr))]
-        rows += [[a.csm, a.brand, a.mrr, f"Already touched this month by {h['by']} ({h['channel']})", "HubSpot activity"]
-                 for a, h in sorted(skipped, key=lambda x: (x[0].csm, -x[0].mrr))]
-        self._table(ws, ["CSM", "Account", "MRR (USD)", "Why it is not on the list", "Source"], rows, [20, 30, 12, 56, 18])
-
     def _retention_sheet(self, ws, flagged):
         rows = [[a.csm, a.brand, a.mrr, "\n".join(f"- {f}" for f in a.context.risk_flags), a.context.last_meeting]
                 for a in sorted(flagged, key=lambda x: (x.csm, -x.mrr))]
@@ -338,7 +331,7 @@ class WorkbookWriter:
                    "(HubSpot 'amount in company currency'). The MRR source column says which was used."),
             ("Account list", "Only HubSpot companies at lifecycle stage Customer. Removed when the company is Churned / Closed Lost / "
                              "Lead, the Service deal is in Churned or Churn Notice, or the Service deal is already in an upsell stage "
-                             "(Accounts for this week to Escalated). Each removal is listed on the Excluded sheet."),
+                             "(Accounts for this week to Escalated)."),
             ("Critical features - Manifest", "AI Agents, AI Product Assistant, Abandoned Checkout Recovery Nudge, Add to Cart Popup Nudge, "
                                               "Lead Generation, Integrations. 'Live' means sessions, agents, leads or integrations in September."),
             ("Critical features - BIK", "WhatsApp Campaigns, WhatsApp Journeys, BIK AI Agent, Lead/Offer Widgets, CRM / Helpdesk Inbox, "
