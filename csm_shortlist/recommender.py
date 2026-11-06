@@ -15,6 +15,8 @@ Evidence strings only quote numbers that exist in the dashboards; nothing is pro
 import math
 import statistics
 
+DATA_MONTH = "Oct"  # month label for the GSM data behind the evidence text; bump with each monthly refresh
+
 WEIGHTS = {"need": 0.50, "peer": 0.25, "readiness": 0.15, "ease": 0.10}
 WEIGHTS_WITH_CONTEXT = {"need": 0.30, "context": 0.30, "peer": 0.18, "readiness": 0.12, "ease": 0.10}
 MIN_NEED = 0.15
@@ -263,7 +265,7 @@ class NeedModel:
         return self.rules[key]()
 
     def _orders_text(self):
-        text = f"{self.s.orders:,} orders in Sep"
+        text = f"{self.s.orders:,} orders in {DATA_MONTH}"
         if self.s.avg_order_value:
             text += f" at about ${self.s.avg_order_value:,.0f} each"
         return text
@@ -273,17 +275,17 @@ class NeedModel:
 
     def _chat_rule(self, weight):
         return lambda: (weight * Scale.log(self.s.chat_messages, 20000),
-                        f"{self.s.chat_messages:,} shopper chat messages in Sep")
+                        f"{self.s.chat_messages:,} shopper chat messages in {DATA_MONTH}")
 
     def _bik_volume_rule(self, weight):
         return lambda: (weight * Scale.log(self.s.bik_messages, 1_000_000),
-                        f"{self.s.bik_messages:,.0f} messages sent in Sep")
+                        f"{self.s.bik_messages:,.0f} messages sent in {DATA_MONTH}")
 
     def _agents(self):
         if self.s.support_sessions:
             return (0.6 + 0.4 * Scale.log(self.s.support_sessions, 2000),
-                    f"{self.s.support_sessions:,} support conversations in Sep and no AI Agent set up")
-        return 0.35 * Scale.log(self.s.chat_messages, 20000), f"{self.s.chat_messages:,} shopper chat messages in Sep"
+                    f"{self.s.support_sessions:,} support conversations in {DATA_MONTH} and no AI Agent set up")
+        return 0.35 * Scale.log(self.s.chat_messages, 20000), f"{self.s.chat_messages:,} shopper chat messages in {DATA_MONTH}"
 
     def _integrations(self):
         if "AGENTS" in self.s.live:
@@ -293,27 +295,27 @@ class NeedModel:
     def _campaigns(self):
         if "WA_JOURNEYS" in self.s.live:
             return 0.85, "WhatsApp journeys already run; campaigns are the other half of the channel"
-        return 0.6 * Scale.log(self.s.bik_messages, 1_000_000), f"{self.s.bik_messages:,.0f} messages sent in Sep"
+        return 0.6 * Scale.log(self.s.bik_messages, 1_000_000), f"{self.s.bik_messages:,.0f} messages sent in {DATA_MONTH}"
 
     def _journeys(self):
         if "WA_CAMPAIGNS" in self.s.live:
             return 0.85, "WhatsApp campaigns already run; journeys would automate the repeat moments"
-        return 0.6 * Scale.log(self.s.bik_messages, 1_000_000), f"{self.s.bik_messages:,.0f} messages sent in Sep"
+        return 0.6 * Scale.log(self.s.bik_messages, 1_000_000), f"{self.s.bik_messages:,.0f} messages sent in {DATA_MONTH}"
 
     def _email(self):
         return (0.8 * Scale.log(self.s.whatsapp_messages, 1_000_000),
-                f"{self.s.whatsapp_messages:,.0f} WhatsApp messages sent in Sep and no email at all")
+                f"{self.s.whatsapp_messages:,.0f} WhatsApp messages sent in {DATA_MONTH} and no email at all")
 
     def _bik_agent(self):
         if self.s.inbox_messages:
             return (0.5 + 0.5 * Scale.log(self.s.inbox_messages, 5000),
-                    f"{self.s.inbox_messages:,} customer messages answered by the team in the inbox in Sep")
-        return 0.4 * Scale.log(self.s.bik_messages, 1_000_000), f"{self.s.bik_messages:,.0f} messages sent in Sep"
+                    f"{self.s.inbox_messages:,} customer messages answered by the team in the inbox in {DATA_MONTH}")
+        return 0.4 * Scale.log(self.s.bik_messages, 1_000_000), f"{self.s.bik_messages:,.0f} messages sent in {DATA_MONTH}"
 
     def _crm(self):
         if "BIK_AI_AGENT" in self.s.live:
             return 0.7, "An AI agent is live but the team has no shared inbox to take over handoffs"
-        return 0.4 * Scale.log(self.s.bik_messages, 1_000_000), f"{self.s.bik_messages:,.0f} messages sent in Sep"
+        return 0.4 * Scale.log(self.s.bik_messages, 1_000_000), f"{self.s.bik_messages:,.0f} messages sent in {DATA_MONTH}"
 
     def _calling(self):
         if "CRM" in self.s.live:
@@ -404,9 +406,9 @@ class Recommender:
         spec = self.catalog.CROSS_SELL[missing]
         if missing == "bik":
             need = 0.5 + 0.5 * Scale.log(signals.orders, 20000)
-            evidence = f"{signals.orders:,} Manifest orders in Sep and no WhatsApp follow-up on BIK"
+            evidence = f"{signals.orders:,} Manifest orders in {DATA_MONTH} and no WhatsApp follow-up on BIK"
         else:
             need = 0.5 + 0.5 * Scale.log(signals.bik_messages, 1_000_000)
-            evidence = f"{signals.bik_messages:,.0f} BIK messages sent in Sep and no on-site Manifest assistant"
+            evidence = f"{signals.bik_messages:,.0f} BIK messages sent in {DATA_MONTH} and no on-site Manifest assistant"
         fit, said = context.fit(spec.key) if context else (0.0, None)
         return Recommendation(spec, need, evidence, 0.5, 1.0, 0, fit, said, bool(context and context.usable))

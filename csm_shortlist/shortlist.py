@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 from context import ContextBook
-from recommender import FeatureCatalog, PeerStats, Recommender
+from recommender import DATA_MONTH, FeatureCatalog, PeerStats, Recommender
 
 CSMS = ("Luv Jain", "Nishant Kurivella", "Rahul Singh", "Prial Gupta")
 BUCKET_WEIGHT = {"Enterprise + Key accounts": 1.0, "MM": 0.7, "SMB": 0.4}
@@ -282,11 +282,11 @@ class Account:
         if self.mrr > self.sub_jul * 1.1 > 0:
             parts.append(f"spend grew from ${self.sub_jul:,.0f} to ${self.mrr:,.0f}, so there is appetite to buy more")
         if self.m_stores:
-            parts.append(f"{self.orders:,} orders and ${self.gmv:,.0f} in sales through Manifest in Sep")
+            parts.append(f"{self.orders:,} orders and ${self.gmv:,.0f} in sales through Manifest in {DATA_MONTH}")
         if self.b_stores:
-            parts.append(f"{self.messages:,.0f} BIK messages sent in Sep")
+            parts.append(f"{self.messages:,.0f} BIK messages sent in {DATA_MONTH}")
         if not self.matched:
-            parts.append("not found in the Manifest or BIK dashboards for Sep, so feature gaps are unknown")
+            parts.append(f"not found in the Manifest or BIK dashboards for {DATA_MONTH}, so feature gaps are unknown")
         if news:
             parts.append(news.split(" (")[0].rstrip("."))
         return "; ".join(parts) + "."
@@ -342,7 +342,7 @@ class ReportWriter:
 
     def _write_csv(self, top, news):
         header = ["csm", "rank", "account", "bucket", "score", "mrr_aug", "product_mix",
-                  "manifest_modules_used_of_17", "bik_modules_used_of_11", "manifest_orders_sep26", "play", "reasoning"]
+                  "manifest_modules_used_of_17", "bik_modules_used_of_11", f"manifest_orders_{DATA_MONTH.lower()}26", "play", "reasoning"]
         for n in range(1, 4):
             header += [f"rec{n}_feature", f"rec{n}_pitch", f"rec{n}_evidence", f"rec{n}_peers", f"rec{n}_heard", f"rec{n}_ask"]
         header += ["also_consider", "heard_pains", "open_items", "risk_flags", "last_call", "news"]
