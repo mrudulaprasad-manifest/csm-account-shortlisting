@@ -173,10 +173,19 @@ class Account:
         self.brand = row["Brand name"].strip()
         self.csm = row["CSM"].strip()
         self.sub_jul = float(row["Subscription July"] or 0)
-        self.mrr = float(row["Subscription August"] or 0)
+        raw_mrr = row["Subscription August"].strip()
+        self.mrr = float(raw_mrr) if raw_mrr else None
         self.bucket = row["Revenue Bucket (Based on MRR)"].strip()
         self.m_stores = m_stores
         self.b_stores = b_stores
+
+    @property
+    def mrr_value(self):
+        return self.mrr or 0.0
+
+    @property
+    def mrr_cell(self):
+        return "" if self.mrr is None else self.mrr
 
     @property
     def matched(self):
@@ -243,7 +252,7 @@ class Account:
         return out
 
     def momentum(self):
-        return 1.0 if self.mrr > self.sub_jul * 1.1 > 0 else 0.0
+        return 1.0 if self.mrr_value > self.sub_jul * 1.1 > 0 else 0.0
 
     def engagement(self):
         return min(1.0, self.used_count() / 12) if self.matched else 0.0
@@ -256,11 +265,15 @@ class Account:
         return 0.4
 
     def score(self):
-        size = min(1.0, math.log10(self.mrr + 1) / math.log10(2000))
         gap = self.missing_count() / TOTAL_SIGNALS if self.matched else 0.5
-        base = 100 * (0.30 * size + 0.25 * self.recommender.strength(self) + 0.10 * self.engagement()
-                      + 0.15 * self.brand_size() + 0.10 * BUCKET_WEIGHT.get(self.bucket, 0.4)
-                      + 0.05 * gap + 0.05 * self.momentum())
+        usage = (0.25 * self.recommender.strength(self) + 0.10 * self.engagement() + 0.15 * self.brand_size()
+                 + 0.05 * gap + 0.05 * self.momentum())
+        if self.mrr is None:
+            # Without MRR, size and bucket (40% of the weight) are left out and the rest is rescaled to 100.
+            base = 100 * usage / 0.60
+        else:
+            size = min(1.0, math.log10(self.mrr_value + 1) / math.log10(2000))
+            base = 100 * (usage + 0.30 * size + 0.10 * BUCKET_WEIGHT.get(self.bucket, 0.4))
         return round(base - (RISK_PENALTY if self.context and self.context.watch_flags else 0), 1)
 
     def picks(self):
@@ -278,8 +291,9 @@ class Account:
             if self.picks() else f"{self.mix}: every measurable feature is live. Discuss plan upgrade and new channels."
 
     def reasoning(self, news=""):
-        parts = [f"{BUCKET_LABEL.get(self.bucket, self.bucket)} paying ${self.mrr:,.0f}/mo"]
-        if self.mrr > self.sub_jul * 1.1 > 0:
+        parts = [f"{BUCKET_LABEL.get(self.bucket, self.bucket)} paying ${self.mrr:,.0f}/mo" if self.mrr is not None
+                 else "MRR not on record in HubSpot, so ranked on usage and feature fit only"]
+        if self.mrr_value > self.sub_jul * 1.1 > 0:
             parts.append(f"spend grew from ${self.sub_jul:,.0f} to ${self.mrr:,.0f}, so there is appetite to buy more")
         if self.m_stores:
             parts.append(f"{self.orders:,} orders and ${self.gmv:,.0f} in sales through Manifest in Oct")
@@ -312,7 +326,7 @@ class Shortlister:
                 best[k] = r
         return [Account(r, self.manifest.match(r["Brand name"]), self.bik.match(r["Brand name"]), self.recommender,
                         self.contexts.get(r["Brand name"].strip()))
-                for r in best.values() if float(r["Subscription August"] or 0) > 0]
+                for r in best.values()]
 
     def run(self, per_csm=10):
         eligible, skipped, self.flagged = [], [], []
@@ -351,7 +365,7 @@ class ReportWriter:
             w.writerow(header)
             for csm, accts in top.items():
                 for i, a in enumerate(accts, 1):
-                    row = [csm, i, a.brand, a.bucket, a.score(), a.mrr, a.mix,
+                    row = [csm, i, a.brand, a.bucket, a.score(), a.mrr_cell, a.mix,
                            len(a.used_m()) if a.m_stores else "n/a", len(a.used_b()) if a.b_stores else "n/a",
                            a.orders or "", a.play(), a.reasoning(news.get(a.brand, ""))]
                     picks = a.picks()
@@ -372,13 +386,13 @@ class ReportWriter:
         with open(self.outdir / "excluded_outreach_mtd.csv", "w", newline="") as fh:
             w = csv.writer(fh)
             w.writerow(["csm", "account", "mrr", "touched_by", "channel"])
-            for a, h in sorted(skipped, key=lambda x: (x[0].csm, -x[0].mrr)):
-                w.writerow([a.csm, a.brand, a.mrr, h["by"], h["channel"]])
+            for a, h in sorted(skipped, key=lambda x: (x[0].csm, -x[0].mrr_value)):
+                w.writerow([a.csm, a.brand, a.mrr_cell, h["by"], h["channel"]])
         with open(self.outdir / "retention_first.csv", "w", newline="") as fh:
             w = csv.writer(fh)
             w.writerow(["csm", "account", "mrr", "risk_flags", "last_meeting"])
-            for a in sorted(flagged, key=lambda x: (x.csm, -x.mrr)):
-                w.writerow([a.csm, a.brand, a.mrr, "; ".join(a.context.risk_flags), a.context.last_meeting])
+            for a in sorted(flagged, key=lambda x: (x.csm, -x.mrr_value)):
+                w.writerow([a.csm, a.brand, a.mrr_cell, "; ".join(a.context.risk_flags), a.context.last_meeting])
 
     def _write_markdown(self, top, news):
         lines = [f"# CSM upsell shortlist, {self.week}", ""]

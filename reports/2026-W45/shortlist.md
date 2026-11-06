@@ -446,39 +446,35 @@
   - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
 - **Also on the table:** Product Page Welcome Nudge, Home Page Welcome Nudge, AI Shopping Page, Ask AI Bar
 
-### 9. Poofy Organics (Manifest only, priority 56.0)
-- **Why now:** SMB account paying $100/mo; 262 orders and $25,053 in sales through Manifest in Oct.
-- **Where they stand:** Manifest only: 5 of 17 features live. Lead with AI Agents.
+### 9. Tumbleweed Plants (Manifest only, priority 58.4)
+- **Why now:** MRR not on record in HubSpot, so ranked on usage and feature fit only; 347 orders and $51,593 in sales through Manifest in Oct.
+- **Where they stand:** Manifest only: 9 of 17 features live. Lead with BIK WhatsApp messaging.
 - **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
-- **Lead with #1, AI Agents:** Handles order status, returns and FAQs end to end, so support only sees the hard cases.
-  - Evidence: 90 support conversations in Sep and no AI Agent set up. 51% of 93 comparable stores already use it.
-  - Open with: "What share of your support chats are order status or returns?"
-- **Lead with #2, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
-  - Evidence: 262 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 347 Manifest orders in Sep and no WhatsApp follow-up on BIK.
   - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
-- **Lead with #3, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
-  - Evidence: 262 orders in Sep at about $96 each. 25% of 93 comparable stores already use it.
-  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
-- **Also on the table:** Removed from Cart Nudge, Product Page Welcome Nudge, AI Product Assistant, Browsing-History Recommendations
-
-### 10. SoundHealth (Manifest only, priority 53.4)
-- **Why now:** SMB account paying $125/mo; 946 orders and $282,023 in sales through Manifest in Oct.
-- **Where they stand:** Manifest only: 6 of 17 features live. Lead with Integrations.
-- **Call history:** 2 call(s), latest 2026-03-06. Sells FDA-regulated sleep medical devices through Shopify under two brands (Sono and Spatial Sleep) that are being merged onto soundhealth.life; planning Zoho One (CRM and Desk) rollout for CRM and help desk. Contact is Venkatesh.
-- **Pain points they raised:** Cookie and attribution tracking issue on the Sono site; investigation found no Manifest update as root cause, ADA plugin team still to respond; Answers must be accurate because the products are medical devices; Support ticket load they want to reduce
-- **Close first (open items):** Customer to tell Manifest when the combined website goes live for testing and alignment; BIK to share backend analysis on the attribution issue if available; BIK to convey the importance of comprehensive FAQs to the developers
-- **Handle with care:** unresolved attribution/cookie tracking issue under investigation as of 2026-03-06
-- **Lead with #1, Integrations:** Connects the helpdesk, shipping and reviews tools so the assistant answers from live data.
-  - They told us (2026-03-06): Merge the Spatial Sleep and Sono Shopify stores and websites into one platform
-  - Evidence: AI Agents are live and the Manifest dashboard shows no integrations connected. 44% of 93 comparable stores already use it.
-  - Open with: "Which tools does your team open to answer a 'where is my order' question?"
-- **Lead with #2, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
-  - Evidence: 946 Manifest orders in Sep and no WhatsApp follow-up on BIK.
-  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
-- **Lead with #3, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
-  - Evidence: 946 orders in Sep at about $298 each. 38% of 93 comparable stores already use it.
+- **Lead with #2, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
+  - Evidence: 347 orders in Sep at about $149 each. 38% of 93 comparable stores already use it.
   - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
-- **Also on the table:** Ask Me Anything Button, Product Page Welcome Nudge, Search Results Nudge, AI Product Assistant
+- **Lead with #3, Product Page Welcome Nudge:** Answers product doubts at the exact page where the buying decision is made.
+  - Evidence: 347 orders in Sep at about $149 each. 10% of 93 comparable stores already use it.
+  - Open with: "Which product questions do shoppers ask most before they buy?"
+- **Also on the table:** AI Product Assistant, AI Shopping Page
+
+### 10. Henna Sooq (Manifest only, priority 56.7)
+- **Why now:** MRR not on record in HubSpot, so ranked on usage and feature fit only; 1,280 orders and $74,058 in sales through Manifest in Oct.
+- **Where they stand:** Manifest only: 3 of 17 features live. Lead with BIK WhatsApp messaging.
+- **Call history:** no customer calls found in Fireflies, so recommendations rest on usage data only.
+- **Lead with #1, BIK WhatsApp messaging:** Follows up with shoppers after they leave the site, through WhatsApp campaigns and journeys.
+  - Evidence: 1,280 Manifest orders in Sep and no WhatsApp follow-up on BIK.
+  - Open with: "Manifest handles on-site chats; what follows up with shoppers after they leave?"
+- **Lead with #2, Abandoned Checkout Recovery Nudge:** Starts a chat with shoppers who leave checkout and answers what stopped them, so more carts convert.
+  - Evidence: 1,280 orders in Sep at about $58 each. 25% of 93 comparable stores already use it.
+  - Open with: "What do you think is stopping shoppers at checkout today, and who follows up with them?"
+- **Lead with #3, Add to Cart Popup Nudge:** Suggests a complementary product the moment something is added to the cart, lifting order value.
+  - Evidence: 1,280 orders in Sep at about $58 each. 38% of 93 comparable stores already use it.
+  - Open with: "Do you push cross-sells anywhere between add-to-cart and checkout?"
+- **Also on the table:** Removed from Cart Nudge, Product Page Welcome Nudge, AI Product Assistant, Search Results Nudge
 
 ## Prial Gupta
 

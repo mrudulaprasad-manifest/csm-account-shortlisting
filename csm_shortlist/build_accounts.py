@@ -1,7 +1,7 @@
 """Build the weekly CSM account list from HubSpot deal exports.
 
 Accounts are companies on a non-churned Service BIK / Service Manifest deal owned by one of the CSMs.
-MRR is the "amount in company currency" (USD) of the company's most recent closed-won deal in the
+MRR is optional: an account with no won deal stays in the list with a blank MRR. Otherwise MRR is the "amount in company currency" (USD) of the company's most recent closed-won deal in the
 India Commercial + Midmarket or US pipeline. Only the latest won deal counts: older won deals are
 earlier plans or renewals of the same subscription, so summing them would overstate MRR.
 """
@@ -68,6 +68,7 @@ def build(service_path, won_path, out_path):
             mrr = won.mrr(company_id)
             if mrr <= 0:
                 missing.append((csm, name))
+                w.writerow([name, csm, "", "", "Unknown"])
                 continue
             w.writerow([name, csm, "", round(mrr, 2), bucket(mrr)])
     return len(accounts.rows), missing
@@ -80,6 +81,6 @@ if __name__ == "__main__":
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
     total, missing = build(a.service, a.won, a.out)
-    print(f"{total} active service accounts, {total - len(missing)} with a won-deal MRR, {len(missing)} without")
+    print(f"{total} active service accounts, {total - len(missing)} with a won-deal MRR, {len(missing)} kept with blank MRR")
     Path(a.out).with_suffix(".missing_mrr.csv").write_text(
         "csm,account\n" + "\n".join(f'{c},"{n}"' for c, n in missing))

@@ -54,7 +54,7 @@ RETENTION_COLUMNS = [
 SCORING_ROWS = [
     ("Account scope", "Companies on a non-churned Service BIK or Service Manifest deal owned by the CSM.", ""),
     ("MRR source", "Amount in company currency (USD) of the company's most recent closed-won deal in the India "
-                   "Commercial + Midmarket or US pipeline.", "Only the latest won deal counts; older ones are earlier plans."),
+                   "Commercial + Midmarket or US pipeline.", "Only the latest won deal counts; older ones are earlier plans. Optional: blank when no won deal exists."),
     ("Usage source", "Oct 2026 GSM dashboards (Manifest and BIK). A feature is in use when its sessions or volume are above 0.", ""),
     ("Size weight", 0.30, "log of MRR, capped at $2,000."),
     ("Feature fit weight", 0.25, "How strongly the best-fit unused feature matches peers and what the customer said."),
@@ -66,7 +66,8 @@ SCORING_ROWS = [
     ("Risk penalty", 4, "Points removed when call notes carry a watch flag."),
     ("Held back", "Accounts with churn, discontinuation or suspension signals go to Retention first, not the upsell list.", ""),
     ("Already contacted", "Accounts the owning CSM already called, met, noted or emailed this month, or has an open upsell deal on.", "See excluded_outreach_mtd.csv."),
-    ("Missing MRR", "Accounts with no closed-won deal in those two pipelines cannot be ranked.", "See accounts_missing_mrr.csv."),
+    ("MRR is optional", "Accounts with no closed-won deal in those two pipelines stay in the list with a blank MRR.",
+     "Size and bucket (40% of the weight) are left out and the other factors are rescaled to 100. See accounts_missing_mrr.csv."),
 ]
 
 
