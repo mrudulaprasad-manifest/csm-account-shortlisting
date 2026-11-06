@@ -5,6 +5,7 @@ customer has said: pain points, goals, open items and risk flags, each tagged wi
 THEMES. Nothing here reads call text directly; it only reads that distilled file.
 """
 import json
+import re
 from pathlib import Path
 
 # theme -> {feature key: how directly the feature answers that theme (0-1)}
@@ -122,5 +123,17 @@ class ContextBook:
     def from_glob(cls, folder, pattern):
         return cls(sorted(Path(folder).glob(pattern)))
 
+    @staticmethod
+    def _norm(name):
+        return re.sub(r"[^a-z0-9]", "", name.lower())
+
     def get(self, account):
-        return self.by_account.get(account)
+        """HubSpot company names drift from the names used in call notes, so fall back to a normalized match."""
+        if account in self.by_account:
+            return self.by_account[account]
+        key = self._norm(account)
+        for name, ctx in self.by_account.items():
+            other = self._norm(name)
+            if other == key or (min(len(key), len(other)) >= 5 and (key.startswith(other) or other.startswith(key))):
+                return ctx
+        return None

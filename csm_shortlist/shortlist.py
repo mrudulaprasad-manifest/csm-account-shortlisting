@@ -282,11 +282,11 @@ class Account:
         if self.mrr > self.sub_jul * 1.1 > 0:
             parts.append(f"spend grew from ${self.sub_jul:,.0f} to ${self.mrr:,.0f}, so there is appetite to buy more")
         if self.m_stores:
-            parts.append(f"{self.orders:,} orders and ${self.gmv:,.0f} in sales through Manifest in Sep")
+            parts.append(f"{self.orders:,} orders and ${self.gmv:,.0f} in sales through Manifest in Oct")
         if self.b_stores:
-            parts.append(f"{self.messages:,.0f} BIK messages sent in Sep")
+            parts.append(f"{self.messages:,.0f} BIK messages sent in Oct")
         if not self.matched:
-            parts.append("not found in the Manifest or BIK dashboards for Sep, so feature gaps are unknown")
+            parts.append("not found in the Manifest or BIK dashboards for Oct, so feature gaps are unknown")
         if news:
             parts.append(news.split(" (")[0].rstrip("."))
         return "; ".join(parts) + "."
@@ -341,8 +341,8 @@ class ReportWriter:
         self._write_markdown(top, news)
 
     def _write_csv(self, top, news):
-        header = ["csm", "rank", "account", "bucket", "score", "mrr_aug", "product_mix",
-                  "manifest_modules_used_of_17", "bik_modules_used_of_11", "manifest_orders_sep26", "play", "reasoning"]
+        header = ["csm", "rank", "account", "bucket", "score", "mrr", "product_mix",
+                  "manifest_modules_used_of_17", "bik_modules_used_of_11", "manifest_orders_oct26", "play", "reasoning"]
         for n in range(1, 4):
             header += [f"rec{n}_feature", f"rec{n}_pitch", f"rec{n}_evidence", f"rec{n}_peers", f"rec{n}_heard", f"rec{n}_ask"]
         header += ["also_consider", "heard_pains", "open_items", "risk_flags", "last_call", "news"]
@@ -371,12 +371,12 @@ class ReportWriter:
     def _write_excluded(self, skipped, flagged):
         with open(self.outdir / "excluded_outreach_mtd.csv", "w", newline="") as fh:
             w = csv.writer(fh)
-            w.writerow(["csm", "account", "mrr_aug", "touched_by", "channel"])
+            w.writerow(["csm", "account", "mrr", "touched_by", "channel"])
             for a, h in sorted(skipped, key=lambda x: (x[0].csm, -x[0].mrr)):
                 w.writerow([a.csm, a.brand, a.mrr, h["by"], h["channel"]])
         with open(self.outdir / "retention_first.csv", "w", newline="") as fh:
             w = csv.writer(fh)
-            w.writerow(["csm", "account", "mrr_aug", "risk_flags", "last_meeting"])
+            w.writerow(["csm", "account", "mrr", "risk_flags", "last_meeting"])
             for a in sorted(flagged, key=lambda x: (x.csm, -x.mrr)):
                 w.writerow([a.csm, a.brand, a.mrr, "; ".join(a.context.risk_flags), a.context.last_meeting])
 
